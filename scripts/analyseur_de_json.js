@@ -1,26 +1,16 @@
 const JSON_VERBS_PATH = "../données/verbes.json"
 
 const MOST_COMMON_VERBS = [
-    "être", "avoir", "pouvoir", "faire", "mettre",
-    "dire", "devoir", "prendre", "donner", "aller",
-    "vouloir", "savoir", "falloir", "voir", "demander",
-    "trouver", "rendre", "venir", "passer", "comprendre",
-    "rester", "tenir", "porter", "parler", "montrer",
-    "continuer", "penser", "suivre", "connaître", "croire",
-    "commencer", "compter", "entendre", "attendre", "remettre",
-    "appeler", "permettre", "occuper", "devenir", "partir",
-    "décider", "arriver", "servir", "sembler", "revenir",
-    "laisser", "recevoir", "répondre", "vivre", "rappeler",
-    "présenter", "accepter", "agir", "poser", "jouer",
-    "reconnaître", "choisir", "toucher", "aimer", "retrouver",
-    "perdre", "expliquer", "considérer", "ouvrir", "gagner",
-    "exister", "refuser", "lire", "réussir", "changer",
-    "travailler", "représenter", "assurer", "essayer", "empêcher",
-    "sortir", "reprendre", "mener", "appartenir", "risquer",
-    "concerner", "apprendre", "rencontrer", "créer", "obtenir",
-    "chercher", "entrer", "proposer", "apporter", "utiliser",
-    "atteindre", "tenter", "importer", "ajouter", "produire",
-    "préparer", "relever", "écrire", "défendre", "tirer",
+"accepter", "acheter", "aller", "annuler", "apporter",
+"apprendre", "avoir", "boire", "casser", "changer",
+"compter", "conduire", "contenir", "couper", "croire",
+"danser", "demander", "dessiner", "devenir", "devoir",
+"donner", "écouter", "emmener", "être", "expliquer",
+"faire","falloir", "jeter", "laver", "manger",
+"mettre", "oublier", "parler", "partir",  "passer", 
+"peigner", "pouvoir", "prendre", "prêter", "remplir",
+"réparer", "savoir", "sortir", "terminer", "tomber",
+"trouver", "venir", "voir", "voler", "vouloir",
 ]
 
 
