@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Créer Donnée de Verbe</title>
+    <link rel="stylesheet" href="../css/basic.css"> 
+    <script src="../scripts/créer_donnée_de_verbe.js"></script>
+  </head>
+  <body onload="init_page()">
+    <h1>Créer Donnée de Verbe</h1>
+    <div class="row">
+      <div class="half_column">
+        <input type="checkbox" id="standard" checked>
+        <t>Is standard</t>
+        <br>
+        <input type="checkbox" id="impersonal">
+        <t>Is impersonal (third person only)</t>
+        <br>
+        <br>
+        <input id="anglais" placeholder="En Anglais" autocomplete="off">
+        <br>
+        <br>
+        <textarea id="verbix_input" placeholder="Conjugaisons des 'verbix.com'" autocomplete="off"></textarea>
+        <br>
+        <button id="generate_button" onclick="try_create_json()">Créer la Donnée</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button onclick="location.href='../index.html'">Retourner</button>
+      </div>
+      <div class="half_column">
+        <h2>JSON Output:</h2>
+        <p id="json_output"></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(10, 10, 10, 1);
+    color: rgba(175, 175, 200, 1);
+  }
+
+.half_column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+button {
+    background-color: rgba(200, 200, 220, 1);
+    color: rgba(10, 10, 10, 1);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.enabled_button {
+  background-color: rgba(180, 220, 180, 1);
+}
+
+.disabled_button {
+  background-color: rgba(220, 180, 180, 1);
+}
+
+#begin_practice {
+  font-size: large;
+  text-align: center;
+}
+
+.incorrect_answer {
+  color:rgba(200, 175, 175, 1)
+}
+.correct_answer {
+  color:rgba(175, 200, 175, 1)
+}
+
+#verbix_input {
+  width: 100mm;
+  height: 100mm;
+}

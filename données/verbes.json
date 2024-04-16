@@ -1,0 +1,6872 @@
+[
+    { "infinitif":"être",
+        "anglais": "to be",
+        "standard":false,
+        "participe_présent":"étant",
+        "participe_passé":"été",
+        "tenses": {
+            "présent_indicatif": {
+                "je":"suis",
+                "tu":"es",
+                "il":"est", "elle":"est",
+                "nous":"sommes",
+                "vous":"êtes",
+                "ils":"sont", "elles":"sont"
+            },
+            "passé_composé_indicatif": {
+                "je":"ai été",
+                "tu":"as été",
+                "il":"a été", "elle":"a été",
+                "nous":"avons été",
+                "vous":"avez été",
+                "ils":"ont été", "elles":"ont été"
+            },
+            "imparfait_indicatif": {
+                "je":"étais",
+                "tu":"étais",
+                "il":"était", "elle":"était",
+                "nous":"étions",
+                "vous":"étiez",
+                "ils":"étaient", "elles":"étaient"
+            },
+            "plus_que_parfait_indicatif": {
+                "je":"avais été",
+                "tu":"avais été",
+                "il":"avait été", "elle":"avait été",
+                "nous":"avions été",
+                "vous":"aviez été",
+                "ils":"avaient été", "elles":"avaient été"
+            },
+            "futur_simple_indicatif": {
+                "je":"serai",
+                "tu":"seras",
+                "il":"sera", "elle":"sera",
+                "nous":"serons",
+                "vous":"serez",
+                "ils":"seront", "elles":"seront"
+            },
+            "futur_antérieur_indicatif": {
+                "je":"aurai été",
+                "tu":"auras été",
+                "il":"aura été", "elle":"aura été",
+                "nous":"aurons été",
+                "vous":"aurez été",
+                "ils":"auront été", "elles":"auront été"
+            },
+            "passé_simple_indicatif": {
+                "je":"fus",
+                "tu":"fus",
+                "il":"fut", "elle":"fut",
+                "nous":"fûmes",
+                "vous":"fûtes",
+                "ils":"furent", "elles":"furent"
+            },
+            "passé_antérieur_indicatif": {
+                "je":"eus été",
+                "tu":"eus été",
+                "il":"eut été", "elle":"eut été",
+                "nous":"eûmes été",
+                "vous":"eûtes été",
+                "ils":"eurent été", "elles":"eurent été"
+            },
+    
+            "présent_conditionnel": {
+                "je":"serais",
+                "tu":"serais",
+                "il":"serait", "elle":"serait",
+                "nous":"serions",
+                "vous":"seriez",
+                "ils":"seraient", "elles":"seraient"
+            },
+            "passé_conditionnel": {
+                "je":"aurais été",
+                "tu":"aurais été",
+                "il":"aurait été", "elle":"aurait été",
+                "nous":"aurions été",
+                "vous":"auriez été",
+                "ils":"auraient été", "elles":"auraient été"
+            },
+    
+            "imperatif": {
+                "tu":"sois",
+                "nous":"soyons",
+                "vous":"soyez"
+            }
+        }
+    },
+    { "infinitif":"avoir",
+        "anglais": "to have, to own, to obtain",
+        "standard":false,
+        "participe_présent":"ayant",
+        "participe_passé":"eu",
+        "tenses": {
+            "présent_indicatif": {
+                "je":"ai",
+                "tu":"as",
+                "il":"as", "elle":"as",
+                "nous":"avons",
+                "vous":"avez",
+                "ils":"ont", "elles":"ont"
+            },
+            "passé_composé_indicatif": {
+                "je":"ai eu",
+                "tu":"as eu",
+                "il":"a eu", "elle":"a eu",
+                "nous":"avons eu",
+                "vous":"avez eu",
+                "ils":"ont eu", "elles":"ont eu"
+            },
+            "imparfait_indicatif": {
+                "je":"avais",
+                "tu":"avais",
+                "il":"avait", "elle":"avait",
+                "nous":"avions",
+                "vous":"aviez",
+                "ils":"avaient", "elles":"avaient"
+            },
+            "plus_que_parfait_indicatif": {
+                "je":"avais eu",
+                "tu":"avais eu",
+                "il":"avait eu", "elle":"avait eu",
+                "nous":"avions eu",
+                "vous":"aviez eu",
+                "ils":"avaient eu", "elles":"avaient eu"
+            },
+            "futur_simple_indicatif": {
+                "je":"aurai",
+                "tu":"auras",
+                "il":"aura", "elle":"aura",
+                "nous":"aurons",
+                "vous":"aurez",
+                "ils":"auront", "elles":"auront"
+            },
+            "futur_antérieur_indicatif": {
+                "je":"aurai eu",
+                "tu":"auras eu",
+                "il":"aura eu", "elle":"aura eu",
+                "nous":"aurons eu",
+                "vous":"aurez eu",
+                "ils":"auront eu", "elles":"auront eu"
+            },
+            "passé_simple_indicatif": {
+                "je":"eus",
+                "tu":"eus",
+                "il":"eut", "elle":"eut",
+                "nous":"eûmes",
+                "vous":"eûtes",
+                "ils":"eurent", "elles":"eurent"
+            },
+            "passé_antérieur_indicatif": {
+                "je":"eus eu",
+                "tu":"eus eu",
+                "il":"eut eu", "elle":"eut eu",
+                "nous":"eûmes eu",
+                "vous":"eûtes eu",
+                "ils":"eurent eu", "elles":"eurent eu"
+            },
+    
+            "présent_conditionnel": {
+                "je":"aurais",
+                "tu":"aurais",
+                "il":"aurait", "elle":"aurait",
+                "nous":"aurions",
+                "vous":"auriez",
+                "ils":"auraient", "elles":"auraient"
+            },
+            "passé_conditionnel": {
+                "je":"aurais eu",
+                "tu":"aurais eu",
+                "il":"aurait eu", "elle":"aurait eu",
+                "nous":"aurions eu",
+                "vous":"auriez eu",
+                "ils":"auraient eu", "elles":"auraient eu"
+            },
+    
+            "imperatif": {
+                "tu":"aie",
+                "nous":"ayons",
+                "vous":"ayez"
+            }
+        }
+    },
+    { "infinitif":"pouvoir",
+        "anglais": "to be able to",
+        "standard":false,
+        "participe_présent":"pouvant",
+        "participe_passé":"pu",
+        "tenses": {
+            "présent_indicatif": {
+                "je":"peux",
+                "tu":"peux",
+                "il":"peut", "elle":"peut",
+                "nous":"pouvons",
+                "vous":"pouvez",
+                "ils":"peuvent", "elles":"peuvent"
+            },
+            "passé_composé_indicatif": {
+                "je":"ai pu",
+                "tu":"as pu",
+                "il":"a pu", "elle":"a pu",
+                "nous":"avons pu",
+                "vous":"avez pu",
+                "ils":"ont pu", "elles":"ont pu"
+            },
+            "imparfait_indicatif": {
+                "je":"pouvais",
+                "tu":"pouvais",
+                "il":"pouvait", "elle":"pouvait",
+                "nous":"pouvions",
+                "vous":"pouviez",
+                "ils":"pouvaient", "elles":"pouvaient"
+            },
+            "plus_que_parfait_indicatif": {
+                "je":"avais pu",
+                "tu":"avais pu",
+                "il":"avais pu", "elle":"avais pu",
+                "nous":"avions pu",
+                "vous":"aviez pu",
+                "ils":"avaient pu", "elles":"avaient pu"
+            },
+            "futur_simple_indicatif": {
+                "je":"pourrai",
+                "tu":"pourras",
+                "il":"pourra", "elle":"pourra",
+                "nous":"pourrons",
+                "vous":"pourrez",
+                "ils":"pourront", "elles":"pourront"
+            },
+            "futur_antérieur_indicatif": {
+                "je":"pus",
+                "tu":"pus",
+                "il":"put", "elle":"put",
+                "nous":"pûmes",
+                "vous":"pûtes",
+                "ils":"purent", "elles":"purent"
+            },
+            "passé_simple_indicatif": {
+                "je":"pus",
+                "tu":"pus",
+                "il":"put", "elle":"put",
+                "nous":"pûmes",
+                "vous":"pûtes",
+                "ils":"purent", "elles":"purent"
+            },
+            "passé_antérieur_indicatif": {
+                "je":"eus pu",
+                "tu":"eus pu",
+                "il":"eut pu", "elle":"eut pu",
+                "nous":"eûmes pu",
+                "vous":"eûtes pu",
+                "ils":"eurent pu", "elles":"eurent pu"
+            },
+    
+            "présent_conditionnel": {
+                "je":"pourrais",
+                "tu":"pourrais",
+                "il":"pourrait", "elle":"pourrait",
+                "nous":"pourrions",
+                "vous":"pourriez",
+                "ils":"pourraient", "elles":"pourraient"
+            },
+            "passé_conditionnel": {
+                "je":"aurais pu)",
+                "tu":"aurais pu)",
+                "il":"aurait pu", "elle":"aurait pu",
+                "nous":"aurions pu",
+                "vous":"auriez pu)",
+                "ils":"auraient pu", "elles":"auraient pu"
+            },
+    
+            "imperatif": {
+                "tu":"peux",
+                "nous":"pouvons",
+                "vous":"pouvez"
+            }
+        }
+    },
+    { "infinitif": "faire",
+    "anglais": "to do, to make",
+    "standard": false,
+    "participe_présent": "faisant",
+    "participe_passé": "fait",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "fais",
+    "tu": "fais",
+    "il": "fait",
+    "elle": "fait",
+    "nous": "faisons",
+    "vous": "faites",
+    "ils": "font",
+    "elles": "font"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai fait",
+    "tu": "as fait",
+    "il": "a fait",
+    "elle": "a fait",
+    "nous": "avons fait",
+    "vous": "avez fait",
+    "ils": "ont fait",
+    "elles": "ont fait"
+    },
+    "imparfait_indicatif": {
+    "je": "faisais",
+    "tu": "faisais",
+    "il": "faisait",
+    "elle": "faisait",
+    "nous": "faisions",
+    "vous": "faisiez",
+    "ils": "faisaient",
+    "elles": "faisaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais fait",
+    "tu": "avais fait",
+    "il": "avait fait",
+    "elle": "avait fait",
+    "nous": "avions fait",
+    "vous": "aviez fait",
+    "ils": "avaient fait",
+    "elles": "avaient fait"
+    },
+    "futur_simple_indicatif": {
+    "je": "ferai",
+    "tu": "feras",
+    "il": "fera",
+    "elle": "fera",
+    "nous": "ferons",
+    "vous": "ferez",
+    "ils": "feront",
+    "elles": "feront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai fait",
+    "tu": "auras fait",
+    "il": "aura fait",
+    "elle": "aura fait",
+    "nous": "aurons fait",
+    "vous": "aurez fait",
+    "ils": "auront fait",
+    "elles": "auront fait"
+    },
+    "passé_simple_indicatif": {
+    "je": "fis",
+    "tu": "fis",
+    "il": "fit",
+    "elle": "fit",
+    "nous": "fîmes",
+    "vous": "fîtes",
+    "ils": "firent",
+    "elles": "firent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus fait",
+    "tu": "eus fait",
+    "il": "eut fait",
+    "elle": "eut fait",
+    "nous": "eûmes fait",
+    "vous": "eûtes fait",
+    "ils": "eurent fait",
+    "elles": "eurent fait"
+    },
+    "présent_conditionnel": {
+    "je": "ferais",
+    "tu": "ferais",
+    "il": "ferait",
+    "elle": "ferait",
+    "nous": "ferions",
+    "vous": "feriez",
+    "ils": "feraient",
+    "elles": "feraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais fait",
+    "tu": "aurais fait",
+    "il": "aurait fait",
+    "elle": "aurait fait",
+    "nous": "aurions fait",
+    "vous": "auriez fait",
+    "ils": "auraient fait",
+    "elles": "auraient fait"
+    },
+    "imperatif": {
+    "tu": "fais",
+    "nous": "faisons",
+    "vous": "faites"
+    }
+    }
+    },
+    { "infinitif": "mettre",
+    "anglais": "to put, to wear",
+    "standard": false,
+    "participe_présent": "mettant",
+    "participe_passé": "mis",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "mets",
+    "tu": "mets",
+    "il": "met",
+    "elle": "met",
+    "nous": "mettons",
+    "vous": "mettez",
+    "ils": "mettent",
+    "elles": "mettent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai mis",
+    "tu": "as mis",
+    "il": "a mis",
+    "elle": "a mis",
+    "nous": "avons mis",
+    "vous": "avez mis",
+    "ils": "ont mis",
+    "elles": "ont mis"
+    },
+    "imparfait_indicatif": {
+    "je": "mettais",
+    "tu": "mettais",
+    "il": "mettait",
+    "elle": "mettait",
+    "nous": "mettions",
+    "vous": "mettiez",
+    "ils": "mettaient",
+    "elles": "mettaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais mis",
+    "tu": "avais mis",
+    "il": "avait mis",
+    "elle": "avait mis",
+    "nous": "avions mis",
+    "vous": "aviez mis",
+    "ils": "avaient mis",
+    "elles": "avaient mis"
+    },
+    "futur_simple_indicatif": {
+    "je": "mettrai",
+    "tu": "mettras",
+    "il": "mettra",
+    "elle": "mettra",
+    "nous": "mettrons",
+    "vous": "mettrez",
+    "ils": "mettront",
+    "elles": "mettront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai mis",
+    "tu": "auras mis",
+    "il": "aura mis",
+    "elle": "aura mis",
+    "nous": "aurons mis",
+    "vous": "aurez mis",
+    "ils": "auront mis",
+    "elles": "auront mis"
+    },
+    "passé_simple_indicatif": {
+    "je": "mis",
+    "tu": "mis",
+    "il": "mit",
+    "elle": "mit",
+    "nous": "mîmes",
+    "vous": "mîtes",
+    "ils": "mirent",
+    "elles": "mirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus mis",
+    "tu": "eus mis",
+    "il": "eut mis",
+    "elle": "eut mis",
+    "nous": "eûmes mis",
+    "vous": "eûtes mis",
+    "ils": "eurent mis",
+    "elles": "eurent mis"
+    },
+    "présent_conditionnel": {
+    "je": "mettrais",
+    "tu": "mettrais",
+    "il": "mettrait",
+    "elle": "mettrait",
+    "nous": "mettrions",
+    "vous": "mettriez",
+    "ils": "mettraient",
+    "elles": "mettraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais mis",
+    "tu": "aurais mis",
+    "il": "aurait mis",
+    "elle": "aurait mis",
+    "nous": "aurions mis",
+    "vous": "auriez mis",
+    "ils": "auraient mis",
+    "elles": "auraient mis"
+    },
+    "imperatif": {
+    "tu": "mets",
+    "nous": "mettons",
+    "vous": "mettez"
+    }
+    }
+    },
+    { "infinitif": "dire",
+    "anglais": "to say, to tell",
+    "standard": false,
+    "participe_présent": "disant",
+    "participe_passé": "dit",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "dis",
+    "tu": "dis",
+    "il": "dit",
+    "elle": "dit",
+    "nous": "disons",
+    "vous": "dites",
+    "ils": "disent",
+    "elles": "disent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai dit",
+    "tu": "as dit",
+    "il": "a dit",
+    "elle": "a dit",
+    "nous": "avons dit",
+    "vous": "avez dit",
+    "ils": "ont dit",
+    "elles": "ont dit"
+    },
+    "imparfait_indicatif": {
+    "je": "disais",
+    "tu": "disais",
+    "il": "disait",
+    "elle": "disait",
+    "nous": "disions",
+    "vous": "disiez",
+    "ils": "disaient",
+    "elles": "disaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais dit",
+    "tu": "avais dit",
+    "il": "avait dit",
+    "elle": "avait dit",
+    "nous": "avions dit",
+    "vous": "aviez dit",
+    "ils": "avaient dit",
+    "elles": "avaient dit"
+    },
+    "futur_simple_indicatif": {
+    "je": "dirai",
+    "tu": "diras",
+    "il": "dira",
+    "elle": "dira",
+    "nous": "dirons",
+    "vous": "direz",
+    "ils": "diront",
+    "elles": "diront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai dit",
+    "tu": "auras dit",
+    "il": "aura dit",
+    "elle": "aura dit",
+    "nous": "aurons dit",
+    "vous": "aurez dit",
+    "ils": "auront dit",
+    "elles": "auront dit"
+    },
+    "passé_simple_indicatif": {
+    "je": "dis",
+    "tu": "dis",
+    "il": "dit",
+    "elle": "dit",
+    "nous": "dîmes",
+    "vous": "dîtes",
+    "ils": "dirent",
+    "elles": "dirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus dit",
+    "tu": "eus dit",
+    "il": "eut dit",
+    "elle": "eut dit",
+    "nous": "eûmes dit",
+    "vous": "eûtes dit",
+    "ils": "eurent dit",
+    "elles": "eurent dit"
+    },
+    "présent_conditionnel": {
+    "je": "dirais",
+    "tu": "dirais",
+    "il": "dirait",
+    "elle": "dirait",
+    "nous": "dirions",
+    "vous": "diriez",
+    "ils": "diraient",
+    "elles": "diraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais dit",
+    "tu": "aurais dit",
+    "il": "aurait dit",
+    "elle": "aurait dit",
+    "nous": "aurions dit",
+    "vous": "auriez dit",
+    "ils": "auraient dit",
+    "elles": "auraient dit"
+    },
+    "imperatif": {
+    "tu": "dis",
+    "nous": "disons",
+    "vous": "dites"
+    }
+    }
+    },
+    { "infinitif": "devoir",
+    "anglais": "to have to, must",
+    "standard": false,
+    "participe_présent": "devant",
+    "participe_passé": "dû",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "dois",
+    "tu": "dois",
+    "il": "doit",
+    "elle": "doit",
+    "nous": "devons",
+    "vous": "devez",
+    "ils": "doivent",
+    "elles": "doivent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai dû",
+    "tu": "as dû",
+    "il": "a dû",
+    "elle": "a dû",
+    "nous": "avons dû",
+    "vous": "avez dû",
+    "ils": "ont dû",
+    "elles": "ont dû"
+    },
+    "imparfait_indicatif": {
+    "je": "devais",
+    "tu": "devais",
+    "il": "devait",
+    "elle": "devait",
+    "nous": "devions",
+    "vous": "deviez",
+    "ils": "devaient",
+    "elles": "devaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais dû",
+    "tu": "avais dû",
+    "il": "avait dû",
+    "elle": "avait dû",
+    "nous": "avions dû",
+    "vous": "aviez dû",
+    "ils": "avaient dû",
+    "elles": "avaient dû"
+    },
+    "futur_simple_indicatif": {
+    "je": "devrai",
+    "tu": "devras",
+    "il": "devra",
+    "elle": "devra",
+    "nous": "devrons",
+    "vous": "devrez",
+    "ils": "devront",
+    "elles": "devront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai dû",
+    "tu": "auras dû",
+    "il": "aura dû",
+    "elle": "aura dû",
+    "nous": "aurons dû",
+    "vous": "aurez dû",
+    "ils": "auront dû",
+    "elles": "auront dû"
+    },
+    "passé_simple_indicatif": {
+    "je": "dus",
+    "tu": "dus",
+    "il": "dut",
+    "elle": "dut",
+    "nous": "dûmes",
+    "vous": "dûtes",
+    "ils": "durent",
+    "elles": "durent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus dû",
+    "tu": "eus dû",
+    "il": "eut dû",
+    "elle": "eut dû",
+    "nous": "eûmes dû",
+    "vous": "eûtes dû",
+    "ils": "eurent dû",
+    "elles": "eurent dû"
+    },
+    "présent_conditionnel": {
+    "je": "devrais",
+    "tu": "devrais",
+    "il": "devrait",
+    "elle": "devrait",
+    "nous": "devrions",
+    "vous": "devriez",
+    "ils": "devraient",
+    "elles": "devraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais dû",
+    "tu": "aurais dû",
+    "il": "aurait dû",
+    "elle": "aurait dû",
+    "nous": "aurions dû",
+    "vous": "auriez dû",
+    "ils": "auraient dû",
+    "elles": "auraient dû"
+    },
+    "imperatif": {
+    "tu": "dois",
+    "nous": "devons",
+    "vous": "devez"
+    }
+    }
+    },
+    { "infinitif": "prendre",
+    "anglais": "to take, to get",
+    "standard": false,
+    "participe_présent": "prenant",
+    "participe_passé": "pris",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "prends",
+    "tu": "prends",
+    "il": "prend",
+    "elle": "prend",
+    "nous": "prenons",
+    "vous": "prenez",
+    "ils": "prennent",
+    "elles": "prennent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai pris",
+    "tu": "as pris",
+    "il": "a pris",
+    "elle": "a pris",
+    "nous": "avons pris",
+    "vous": "avez pris",
+    "ils": "ont pris",
+    "elles": "ont pris"
+    },
+    "imparfait_indicatif": {
+    "je": "prenais",
+    "tu": "prenais",
+    "il": "prenait",
+    "elle": "prenait",
+    "nous": "prenions",
+    "vous": "preniez",
+    "ils": "prenaient",
+    "elles": "prenaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais pris",
+    "tu": "avais pris",
+    "il": "avait pris",
+    "elle": "avait pris",
+    "nous": "avions pris",
+    "vous": "aviez pris",
+    "ils": "avaient pris",
+    "elles": "avaient pris"
+    },
+    "futur_simple_indicatif": {
+    "je": "prendrai",
+    "tu": "prendras",
+    "il": "prendra",
+    "elle": "prendra",
+    "nous": "prendrons",
+    "vous": "prendrez",
+    "ils": "prendront",
+    "elles": "prendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai pris",
+    "tu": "auras pris",
+    "il": "aura pris",
+    "elle": "aura pris",
+    "nous": "aurons pris",
+    "vous": "aurez pris",
+    "ils": "auront pris",
+    "elles": "auront pris"
+    },
+    "passé_simple_indicatif": {
+    "je": "pris",
+    "tu": "pris",
+    "il": "prit",
+    "elle": "prit",
+    "nous": "prîmes",
+    "vous": "prîtes",
+    "ils": "prirent",
+    "elles": "prirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus pris",
+    "tu": "eus pris",
+    "il": "eut pris",
+    "elle": "eut pris",
+    "nous": "eûmes pris",
+    "vous": "eûtes pris",
+    "ils": "eurent pris",
+    "elles": "eurent pris"
+    },
+    "présent_conditionnel": {
+    "je": "prendrais",
+    "tu": "prendrais",
+    "il": "prendrait",
+    "elle": "prendrait",
+    "nous": "prendrions",
+    "vous": "prendriez",
+    "ils": "prendraient",
+    "elles": "prendraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais pris",
+    "tu": "aurais pris",
+    "il": "aurait pris",
+    "elle": "aurait pris",
+    "nous": "aurions pris",
+    "vous": "auriez pris",
+    "ils": "auraient pris",
+    "elles": "auraient pris"
+    },
+    "imperatif": {
+    "tu": "prends",
+    "nous": "prenons",
+    "vous": "prenez"
+    }
+    }
+    },
+    { "infinitif": "donner",
+    "anglais": "to give",
+    "standard": true,
+    "participe_présent": "donnant",
+    "participe_passé": "donné",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "donne",
+    "tu": "donnes",
+    "il": "donne",
+    "elle": "donne",
+    "nous": "donnons",
+    "vous": "donnez",
+    "ils": "donnent",
+    "elles": "donnent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai donné",
+    "tu": "as donné",
+    "il": "a donné",
+    "elle": "a donné",
+    "nous": "avons donné",
+    "vous": "avez donné",
+    "ils": "ont donné",
+    "elles": "ont donné"
+    },
+    "imparfait_indicatif": {
+    "je": "donnais",
+    "tu": "donnais",
+    "il": "donnait",
+    "elle": "donnait",
+    "nous": "donnions",
+    "vous": "donniez",
+    "ils": "donnaient",
+    "elles": "donnaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais donné",
+    "tu": "avais donné",
+    "il": "avait donné",
+    "elle": "avait donné",
+    "nous": "avions donné",
+    "vous": "aviez donné",
+    "ils": "avaient donné",
+    "elles": "avaient donné"
+    },
+    "futur_simple_indicatif": {
+    "je": "donnerai",
+    "tu": "donneras",
+    "il": "donnera",
+    "elle": "donnera",
+    "nous": "donnerons",
+    "vous": "donnerez",
+    "ils": "donneront",
+    "elles": "donneront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai donné",
+    "tu": "auras donné",
+    "il": "aura donné",
+    "elle": "aura donné",
+    "nous": "aurons donné",
+    "vous": "aurez donné",
+    "ils": "auront donné",
+    "elles": "auront donné"
+    },
+    "passé_simple_indicatif": {
+    "je": "donnai",
+    "tu": "donnas",
+    "il": "donna",
+    "elle": "donna",
+    "nous": "donnâmes",
+    "vous": "donnâtes",
+    "ils": "donnèrent",
+    "elles": "donnèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus donné",
+    "tu": "eus donné",
+    "il": "eut donné",
+    "elle": "eut donné",
+    "nous": "eûmes donné",
+    "vous": "eûtes donné",
+    "ils": "eurent donné",
+    "elles": "eurent donné"
+    },
+    "présent_conditionnel": {
+    "je": "donnerais",
+    "tu": "donnerais",
+    "il": "donnerait",
+    "elle": "donnerait",
+    "nous": "donnerions",
+    "vous": "donneriez",
+    "ils": "donneraient",
+    "elles": "donneraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais donné",
+    "tu": "aurais donné",
+    "il": "aurait donné",
+    "elle": "aurait donné",
+    "nous": "aurions donné",
+    "vous": "auriez donné",
+    "ils": "auraient donné",
+    "elles": "auraient donné"
+    },
+    "imperatif": {
+    "tu": "donne",
+    "nous": "donnons",
+    "vous": "donnez"
+    }
+    }
+    },
+    { "infinitif":"aller",
+        "anglais": "to go",
+        "standard":false,
+        "participe_présent":"allant",
+        "participe_passé":"allé",
+        "tenses": {
+            "présent_indicatif": {
+                "je":"vais",
+                "tu":"vas",
+                "il":"va", "elle":"va",
+                "nous":"allons",
+                "vous":"allez",
+                "ils":"vont", "elles":"vont"
+            },
+            "passé_composé_indicatif": {
+                "je":"suis allé(e)",
+                "tu":"es allé(e)",
+                "il":"est allé(e)", "elle":"est allé(e)",
+                "nous":"sommes allé(e)s",
+                "vous":"êtes allé(e)(s)",
+                "ils":"sont allé(e)s", "elles":"sont allé(e)s"
+            },
+            "imparfait_indicatif": {
+                "je":"allais",
+                "tu":"allais",
+                "il":"allait", "elle":"allait",
+                "nous":"allions",
+                "vous":"alliez",
+                "ils":"allaient", "elles":"allaient"
+            },
+            "plus_que_parfait_indicatif": {
+                "je":"étais allé(e)",
+                "tu":"étais allé(e)",
+                "il":"était allé(e)", "elle":"était allé(e)",
+                "nous":"étions allé(e)s",
+                "vous":"étiez allé(e)(s)",
+                "ils":"étaient allé(e)s", "elles":"étaient allé(e)s"
+            },
+            "futur_simple_indicatif": {
+                "je":"irai",
+                "tu":"iras",
+                "il":"ira", "elle":"ira",
+                "nous":"irons",
+                "vous":"irez",
+                "ils":"iront", "elles":"iront"
+            },
+            "futur_antérieur_indicatif": {
+                "je":"serai allé(e)",
+                "tu":"seras allé(e)",
+                "il":"sera allé(e)", "elle":"sera allé(e)",
+                "nous":"serons allé(e)s",
+                "vous":"serez allé(e)(s)",
+                "ils":"seront allé(e)s", "elles":"seront allé(e)s"
+            },
+            "passé_simple_indicatif": {
+                "je":"allai",
+                "tu":"allas",
+                "il":"alla", "elle":"alla",
+                "nous":"allâmes",
+                "vous":"allâtes",
+                "ils":"allèrent", "elles":"allèrent"
+            },
+            "passé_antérieur_indicatif": {
+                "je":"fus allé(e)",
+                "tu":"fus allé(e)",
+                "il":"fut allé(e)", "elle":"fut allé(e)",
+                "nous":"fûmes allé(e)s",
+                "vous":"fûtes allé(e)(s)",
+                "ils":"furent allé(e)s", "elles":"furent allé(e)s"
+            },
+    
+            "présent_conditionnel": {
+                "je":"irais",
+                "tu":"irais",
+                "il":"irait", "elle":"irait",
+                "nous":"irions",
+                "vous":"iriez",
+                "ils":"iraient", "elles":"iraient"
+            },
+            "passé_conditionnel": {
+                "je":"serais allé(e)",
+                "tu":"serais allé(e)",
+                "il":"serait allé(e)", "elle":"serait allé(e)",
+                "nous":"serions allé(e)s",
+                "vous":"seriez allé(e)(s)",
+                "ils":"seraient allé(e)s", "elles":"seraient allé(e)s"
+            },
+    
+            "imperatif": {
+                "tu":"va",
+                "nous":"allons",
+                "vous":"allez"
+            }
+        }
+    },
+    { "infinitif": "vouloir",
+    "anglais": "to want",
+    "standard": false,
+    "participe_présent": "voulant",
+    "participe_passé": "voulu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "veux",
+    "tu": "veux",
+    "il": "veut",
+    "elle": "veut",
+    "nous": "voulons",
+    "vous": "voulez",
+    "ils": "veulent",
+    "elles": "veulent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai voulu",
+    "tu": "as voulu",
+    "il": "a voulu",
+    "elle": "a voulu",
+    "nous": "avons voulu",
+    "vous": "avez voulu",
+    "ils": "ont voulu",
+    "elles": "ont voulu"
+    },
+    "imparfait_indicatif": {
+    "je": "voulais",
+    "tu": "voulais",
+    "il": "voulait",
+    "elle": "voulait",
+    "nous": "voulions",
+    "vous": "vouliez",
+    "ils": "voulaient",
+    "elles": "voulaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais voulu",
+    "tu": "avais voulu",
+    "il": "avait voulu",
+    "elle": "avait voulu",
+    "nous": "avions voulu",
+    "vous": "aviez voulu",
+    "ils": "avaient voulu",
+    "elles": "avaient voulu"
+    },
+    "futur_simple_indicatif": {
+    "je": "voudrai",
+    "tu": "voudras",
+    "il": "voudra",
+    "elle": "voudra",
+    "nous": "voudrons",
+    "vous": "voudrez",
+    "ils": "voudront",
+    "elles": "voudront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai voulu",
+    "tu": "auras voulu",
+    "il": "aura voulu",
+    "elle": "aura voulu",
+    "nous": "aurons voulu",
+    "vous": "aurez voulu",
+    "ils": "auront voulu",
+    "elles": "auront voulu"
+    },
+    "passé_simple_indicatif": {
+    "je": "voulus",
+    "tu": "voulus",
+    "il": "voulut",
+    "elle": "voulut",
+    "nous": "voulûmes",
+    "vous": "voulûtes",
+    "ils": "voulurent",
+    "elles": "voulurent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus voulu",
+    "tu": "eus voulu",
+    "il": "eut voulu",
+    "elle": "eut voulu",
+    "nous": "eûmes voulu",
+    "vous": "eûtes voulu",
+    "ils": "eurent voulu",
+    "elles": "eurent voulu"
+    },
+    "présent_conditionnel": {
+    "je": "voudrais",
+    "tu": "voudrais",
+    "il": "voudrait",
+    "elle": "voudrait",
+    "nous": "voudrions",
+    "vous": "voudriez",
+    "ils": "voudraient",
+    "elles": "voudraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais voulu",
+    "tu": "aurais voulu",
+    "il": "aurait voulu",
+    "elle": "aurait voulu",
+    "nous": "aurions voulu",
+    "vous": "auriez voulu",
+    "ils": "auraient voulu",
+    "elles": "auraient voulu"
+    },
+    "imperatif": {
+    "tu": "veux ; veuille",
+    "nous": "voulons ; veuillons",
+    "vous": "voulez ; veuillez"
+    }
+    }
+    },
+    { "infinitif": "savoir",
+    "anglais": "to know",
+    "standard": false,
+    "participe_présent": "sachant",
+    "participe_passé": "su",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "sais",
+    "tu": "sais",
+    "il": "sait",
+    "elle": "sait",
+    "nous": "savons",
+    "vous": "savez",
+    "ils": "savent",
+    "elles": "savent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai su",
+    "tu": "as su",
+    "il": "a su",
+    "elle": "a su",
+    "nous": "avons su",
+    "vous": "avez su",
+    "ils": "ont su",
+    "elles": "ont su"
+    },
+    "imparfait_indicatif": {
+    "je": "savais",
+    "tu": "savais",
+    "il": "savait",
+    "elle": "savait",
+    "nous": "savions",
+    "vous": "saviez",
+    "ils": "savaient",
+    "elles": "savaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais su",
+    "tu": "avais su",
+    "il": "avait su",
+    "elle": "avait su",
+    "nous": "avions su",
+    "vous": "aviez su",
+    "ils": "avaient su",
+    "elles": "avaient su"
+    },
+    "futur_simple_indicatif": {
+    "je": "saurai",
+    "tu": "sauras",
+    "il": "saura",
+    "elle": "saura",
+    "nous": "saurons",
+    "vous": "saurez",
+    "ils": "sauront",
+    "elles": "sauront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai su",
+    "tu": "auras su",
+    "il": "aura su",
+    "elle": "aura su",
+    "nous": "aurons su",
+    "vous": "aurez su",
+    "ils": "auront su",
+    "elles": "auront su"
+    },
+    "passé_simple_indicatif": {
+    "je": "sus",
+    "tu": "sus",
+    "il": "sut",
+    "elle": "sut",
+    "nous": "sûmes",
+    "vous": "sûtes",
+    "ils": "surent",
+    "elles": "surent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus su",
+    "tu": "eus su",
+    "il": "eut su",
+    "elle": "eut su",
+    "nous": "eûmes su",
+    "vous": "eûtes su",
+    "ils": "eurent su",
+    "elles": "eurent su"
+    },
+    "présent_conditionnel": {
+    "je": "saurais",
+    "tu": "saurais",
+    "il": "saurait",
+    "elle": "saurait",
+    "nous": "saurions",
+    "vous": "sauriez",
+    "ils": "sauraient",
+    "elles": "sauraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais su",
+    "tu": "aurais su",
+    "il": "aurait su",
+    "elle": "aurait su",
+    "nous": "aurions su",
+    "vous": "auriez su",
+    "ils": "auraient su",
+    "elles": "auraient su"
+    },
+    "imperatif": {
+    "tu": "sache",
+    "nous": "sachons",
+    "vous": "sachez"
+    }
+    }
+    },
+    { "infinitif": "falloir",
+    "anglais": "you/we/they need to do X, you/we/they have to do X",
+    "standard": false,
+    "participe_présent": "fallant",
+    "participe_passé": "fallu",
+    "tenses": {
+    "présent_indicatif": {
+    "il": "faut",
+    "elle": "faut"
+    },
+    "passé_composé_indicatif": {
+    "il": "a fallu",
+    "elle": "a fallu"
+    },
+    "imparfait_indicatif": {
+    "il": "fallait",
+    "elle": "fallait"
+    },
+    "plus_que_parfait_indicatif": {
+    "il": "avait fallu",
+    "elle": "avait fallu"
+    },
+    "futur_simple_indicatif": {
+    "il": "faudra",
+    "elle": "faudra"
+    },
+    "futur_antérieur_indicatif": {
+    "il": "aura fallu",
+    "elle": "aura fallu"
+    },
+    "passé_simple_indicatif": {
+    "il": "fallut",
+    "elle": "fallut"
+    },
+    "passé_antérieur_indicatif": {
+    "il": "eut fallu",
+    "elle": "eut fallu"
+    },
+    "présent_conditionnel": {
+    "il": "faudrait",
+    "elle": "faudrait"
+    },
+    "passé_conditionnel": {
+    "il": "aurait fallu",
+    "elle": "aurait fallu"
+    }
+    }
+    },
+    { "infinitif": "voir",
+    "anglais": "to see, to show",
+    "standard": false,
+    "participe_présent": "voyant",
+    "participe_passé": "vu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "vois",
+    "tu": "vois",
+    "il": "voit",
+    "elle": "voit",
+    "nous": "voyons",
+    "vous": "voyez",
+    "ils": "voient",
+    "elles": "voient"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai vu",
+    "tu": "as vu",
+    "il": "a vu",
+    "elle": "a vu",
+    "nous": "avons vu",
+    "vous": "avez vu",
+    "ils": "ont vu",
+    "elles": "ont vu"
+    },
+    "imparfait_indicatif": {
+    "je": "voyais",
+    "tu": "voyais",
+    "il": "voyait",
+    "elle": "voyait",
+    "nous": "voyions",
+    "vous": "voyiez",
+    "ils": "voyaient",
+    "elles": "voyaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais vu",
+    "tu": "avais vu",
+    "il": "avait vu",
+    "elle": "avait vu",
+    "nous": "avions vu",
+    "vous": "aviez vu",
+    "ils": "avaient vu",
+    "elles": "avaient vu"
+    },
+    "futur_simple_indicatif": {
+    "je": "verrai",
+    "tu": "verras",
+    "il": "verra",
+    "elle": "verra",
+    "nous": "verrons",
+    "vous": "verrez",
+    "ils": "verront",
+    "elles": "verront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai vu",
+    "tu": "auras vu",
+    "il": "aura vu",
+    "elle": "aura vu",
+    "nous": "aurons vu",
+    "vous": "aurez vu",
+    "ils": "auront vu",
+    "elles": "auront vu"
+    },
+    "passé_simple_indicatif": {
+    "je": "vis",
+    "tu": "vis",
+    "il": "vit",
+    "elle": "vit",
+    "nous": "vîmes",
+    "vous": "vîtes",
+    "ils": "virent",
+    "elles": "virent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus vu",
+    "tu": "eus vu",
+    "il": "eut vu",
+    "elle": "eut vu",
+    "nous": "eûmes vu",
+    "vous": "eûtes vu",
+    "ils": "eurent vu",
+    "elles": "eurent vu"
+    },
+    "présent_conditionnel": {
+    "je": "verrais",
+    "tu": "verrais",
+    "il": "verrait",
+    "elle": "verrait",
+    "nous": "verrions",
+    "vous": "verriez",
+    "ils": "verraient",
+    "elles": "verraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais vu",
+    "tu": "aurais vu",
+    "il": "aurait vu",
+    "elle": "aurait vu",
+    "nous": "aurions vu",
+    "vous": "auriez vu",
+    "ils": "auraient vu",
+    "elles": "auraient vu"
+    },
+    "imperatif": {
+    "tu": "vois",
+    "nous": "voyons",
+    "vous": "voyez"
+    }
+    }
+    },
+    { "infinitif": "demander",
+    "anglais": "to ask, to require",
+    "standard": true,
+    "participe_présent": "demandant",
+    "participe_passé": "demandé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "demande",
+    "tu": "demandes",
+    "il": "demande",
+    "elle": "demande",
+    "nous": "demandons",
+    "vous": "demandez",
+    "ils": "demandent",
+    "elles": "demandent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai demandé",
+    "tu": "as demandé",
+    "il": "a demandé",
+    "elle": "a demandé",
+    "nous": "avons demandé",
+    "vous": "avez demandé",
+    "ils": "ont demandé",
+    "elles": "ont demandé"
+    },
+    "imparfait_indicatif": {
+    "je": "demandais",
+    "tu": "demandais",
+    "il": "demandait",
+    "elle": "demandait",
+    "nous": "demandions",
+    "vous": "demandiez",
+    "ils": "demandaient",
+    "elles": "demandaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais demandé",
+    "tu": "avais demandé",
+    "il": "avait demandé",
+    "elle": "avait demandé",
+    "nous": "avions demandé",
+    "vous": "aviez demandé",
+    "ils": "avaient demandé",
+    "elles": "avaient demandé"
+    },
+    "futur_simple_indicatif": {
+    "je": "demanderai",
+    "tu": "demanderas",
+    "il": "demandera",
+    "elle": "demandera",
+    "nous": "demanderons",
+    "vous": "demanderez",
+    "ils": "demanderont",
+    "elles": "demanderont"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai demandé",
+    "tu": "auras demandé",
+    "il": "aura demandé",
+    "elle": "aura demandé",
+    "nous": "aurons demandé",
+    "vous": "aurez demandé",
+    "ils": "auront demandé",
+    "elles": "auront demandé"
+    },
+    "passé_simple_indicatif": {
+    "je": "demandai",
+    "tu": "demandas",
+    "il": "demanda",
+    "elle": "demanda",
+    "nous": "demandâmes",
+    "vous": "demandâtes",
+    "ils": "demandèrent",
+    "elles": "demandèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus demandé",
+    "tu": "eus demandé",
+    "il": "eut demandé",
+    "elle": "eut demandé",
+    "nous": "eûmes demandé",
+    "vous": "eûtes demandé",
+    "ils": "eurent demandé",
+    "elles": "eurent demandé"
+    },
+    "présent_conditionnel": {
+    "je": "demanderais",
+    "tu": "demanderais",
+    "il": "demanderait",
+    "elle": "demanderait",
+    "nous": "demanderions",
+    "vous": "demanderiez",
+    "ils": "demanderaient",
+    "elles": "demanderaient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais demandé",
+    "tu": "aurais demandé",
+    "il": "aurait demandé",
+    "elle": "aurait demandé",
+    "nous": "aurions demandé",
+    "vous": "auriez demandé",
+    "ils": "auraient demandé",
+    "elles": "auraient demandé"
+    },
+    "imperatif": {
+    "tu": "demande",
+    "nous": "demandons",
+    "vous": "demandez"
+    }
+    }
+    },
+    { "infinitif": "trouver",
+    "anglais": "to find, to think",
+    "standard": true,
+    "participe_présent": "trouvant",
+    "participe_passé": "trouvé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "trouve",
+    "tu": "trouves",
+    "il": "trouve",
+    "elle": "trouve",
+    "nous": "trouvons",
+    "vous": "trouvez",
+    "ils": "trouvent",
+    "elles": "trouvent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai trouvé",
+    "tu": "as trouvé",
+    "il": "a trouvé",
+    "elle": "a trouvé",
+    "nous": "avons trouvé",
+    "vous": "avez trouvé",
+    "ils": "ont trouvé",
+    "elles": "ont trouvé"
+    },
+    "imparfait_indicatif": {
+    "je": "trouvais",
+    "tu": "trouvais",
+    "il": "trouvait",
+    "elle": "trouvait",
+    "nous": "trouvions",
+    "vous": "trouviez",
+    "ils": "trouvaient",
+    "elles": "trouvaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais trouvé",
+    "tu": "avais trouvé",
+    "il": "avait trouvé",
+    "elle": "avait trouvé",
+    "nous": "avions trouvé",
+    "vous": "aviez trouvé",
+    "ils": "avaient trouvé",
+    "elles": "avaient trouvé"
+    },
+    "futur_simple_indicatif": {
+    "je": "trouverai",
+    "tu": "trouveras",
+    "il": "trouvera",
+    "elle": "trouvera",
+    "nous": "trouverons",
+    "vous": "trouverez",
+    "ils": "trouveront",
+    "elles": "trouveront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai trouvé",
+    "tu": "auras trouvé",
+    "il": "aura trouvé",
+    "elle": "aura trouvé",
+    "nous": "aurons trouvé",
+    "vous": "aurez trouvé",
+    "ils": "auront trouvé",
+    "elles": "auront trouvé"
+    },
+    "passé_simple_indicatif": {
+    "je": "trouvai",
+    "tu": "trouvas",
+    "il": "trouva",
+    "elle": "trouva",
+    "nous": "trouvâmes",
+    "vous": "trouvâtes",
+    "ils": "trouvèrent",
+    "elles": "trouvèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus trouvé",
+    "tu": "eus trouvé",
+    "il": "eut trouvé",
+    "elle": "eut trouvé",
+    "nous": "eûmes trouvé",
+    "vous": "eûtes trouvé",
+    "ils": "eurent trouvé",
+    "elles": "eurent trouvé"
+    },
+    "présent_conditionnel": {
+    "je": "trouverais",
+    "tu": "trouverais",
+    "il": "trouverait",
+    "elle": "trouverait",
+    "nous": "trouverions",
+    "vous": "trouveriez",
+    "ils": "trouveraient",
+    "elles": "trouveraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais trouvé",
+    "tu": "aurais trouvé",
+    "il": "aurait trouvé",
+    "elle": "aurait trouvé",
+    "nous": "aurions trouvé",
+    "vous": "auriez trouvé",
+    "ils": "auraient trouvé",
+    "elles": "auraient trouvé"
+    },
+    "imperatif": {
+    "tu": "trouve",
+    "nous": "trouvons",
+    "vous": "trouvez"
+    }
+    }
+    },
+    { "infinitif": "rendre",
+    "anglais": "to give back, to return X",
+    "standard": false,
+    "participe_présent": "rendant",
+    "participe_passé": "rendu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "rends",
+    "tu": "rends",
+    "il": "rend",
+    "elle": "rend",
+    "nous": "rendons",
+    "vous": "rendez",
+    "ils": "rendent",
+    "elles": "rendent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai rendu",
+    "tu": "as rendu",
+    "il": "a rendu",
+    "elle": "a rendu",
+    "nous": "avons rendu",
+    "vous": "avez rendu",
+    "ils": "ont rendu",
+    "elles": "ont rendu"
+    },
+    "imparfait_indicatif": {
+    "je": "rendais",
+    "tu": "rendais",
+    "il": "rendait",
+    "elle": "rendait",
+    "nous": "rendions",
+    "vous": "rendiez",
+    "ils": "rendaient",
+    "elles": "rendaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais rendu",
+    "tu": "avais rendu",
+    "il": "avait rendu",
+    "elle": "avait rendu",
+    "nous": "avions rendu",
+    "vous": "aviez rendu",
+    "ils": "avaient rendu",
+    "elles": "avaient rendu"
+    },
+    "futur_simple_indicatif": {
+    "je": "rendrai",
+    "tu": "rendras",
+    "il": "rendra",
+    "elle": "rendra",
+    "nous": "rendrons",
+    "vous": "rendrez",
+    "ils": "rendront",
+    "elles": "rendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai rendu",
+    "tu": "auras rendu",
+    "il": "aura rendu",
+    "elle": "aura rendu",
+    "nous": "aurons rendu",
+    "vous": "aurez rendu",
+    "ils": "auront rendu",
+    "elles": "auront rendu"
+    },
+    "passé_simple_indicatif": {
+    "je": "rendis",
+    "tu": "rendis",
+    "il": "rendit",
+    "elle": "rendit",
+    "nous": "rendîmes",
+    "vous": "rendîtes",
+    "ils": "rendirent",
+    "elles": "rendirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus rendu",
+    "tu": "eus rendu",
+    "il": "eut rendu",
+    "elle": "eut rendu",
+    "nous": "eûmes rendu",
+    "vous": "eûtes rendu",
+    "ils": "eurent rendu",
+    "elles": "eurent rendu"
+    },
+    "présent_conditionnel": {
+    "je": "rendrais",
+    "tu": "rendrais",
+    "il": "rendrait",
+    "elle": "rendrait",
+    "nous": "rendrions",
+    "vous": "rendriez",
+    "ils": "rendraient",
+    "elles": "rendraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais rendu",
+    "tu": "aurais rendu",
+    "il": "aurait rendu",
+    "elle": "aurait rendu",
+    "nous": "aurions rendu",
+    "vous": "auriez rendu",
+    "ils": "auraient rendu",
+    "elles": "auraient rendu"
+    },
+    "imperatif": {
+    "tu": "rends",
+    "nous": "rendons",
+    "vous": "rendez"
+    }
+    }
+    },
+    { "infinitif": "venir",
+    "anglais": "to come",
+    "standard": false,
+    "participe_présent": "venant",
+    "participe_passé": "venu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "viens",
+    "tu": "viens",
+    "il": "vient",
+    "elle": "vient",
+    "nous": "venons",
+    "vous": "venez",
+    "ils": "viennent",
+    "elles": "viennent"
+    },
+    "passé_composé_indicatif": {
+    "je": "suis venu(e)",
+    "tu": "es venu(e)",
+    "il": "est venu(e)",
+    "elle": "est venu(e)",
+    "nous": "sommes venu(e)s",
+    "vous": "êtes venu(e)(s)",
+    "ils": "sont venu(e)s",
+    "elles": "sont venu(e)s"
+    },
+    "imparfait_indicatif": {
+    "je": "venais",
+    "tu": "venais",
+    "il": "venait",
+    "elle": "venait",
+    "nous": "venions",
+    "vous": "veniez",
+    "ils": "venaient",
+    "elles": "venaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "étais venu(e)",
+    "tu": "étais venu(e)",
+    "il": "était venu(e)",
+    "elle": "était venu(e)",
+    "nous": "étions venu(e)s",
+    "vous": "étiez venu(e)(s)",
+    "ils": "étaient venu(e)s",
+    "elles": "étaient venu(e)s"
+    },
+    "futur_simple_indicatif": {
+    "je": "viendrai",
+    "tu": "viendras",
+    "il": "viendra",
+    "elle": "viendra",
+    "nous": "viendrons",
+    "vous": "viendrez",
+    "ils": "viendront",
+    "elles": "viendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "serai venu(e)",
+    "tu": "seras venu(e)",
+    "il": "sera venu(e)",
+    "elle": "sera venu(e)",
+    "nous": "serons venu(e)s",
+    "vous": "serez venu(e)(s)",
+    "ils": "seront venu(e)s",
+    "elles": "seront venu(e)s"
+    },
+    "passé_simple_indicatif": {
+    "je": "vins",
+    "tu": "vins",
+    "il": "vint",
+    "elle": "vint",
+    "nous": "vînmes",
+    "vous": "vîntes",
+    "ils": "vinrent",
+    "elles": "vinrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "fus venu(e)",
+    "tu": "fus venu(e)",
+    "il": "fut venu(e)",
+    "elle": "fut venu(e)",
+    "nous": "fûmes venu(e)s",
+    "vous": "fûtes venu(e)(s)",
+    "ils": "furent venu(e)s",
+    "elles": "furent venu(e)s"
+    },
+    "présent_conditionnel": {
+    "je": "viendrais",
+    "tu": "viendrais",
+    "il": "viendrait",
+    "elle": "viendrait",
+    "nous": "viendrions",
+    "vous": "viendriez",
+    "ils": "viendraient",
+    "elles": "viendraient"
+    },
+    "passé_conditionnel": {
+    "je": "serais venu(e)",
+    "tu": "serais venu(e)",
+    "il": "serait venu(e)",
+    "elle": "serait venu(e)",
+    "nous": "serions venu(e)s",
+    "vous": "seriez venu(e)(s)",
+    "ils": "seraient venu(e)s",
+    "elles": "seraient venu(e)s"
+    },
+    "imperatif": {
+    "tu": "viens",
+    "nous": "venons",
+    "vous": "venez"
+    }
+    }
+    },
+    { "infinitif": "passer",
+    "anglais": "to cross, to go through, to spend (time)",
+    "standard": true,
+    "participe_présent": "passant",
+    "participe_passé": "passé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "passe",
+    "tu": "passes",
+    "il": "passe",
+    "elle": "passe",
+    "nous": "passons",
+    "vous": "passez",
+    "ils": "passent",
+    "elles": "passent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai passé; suis passé(e)",
+    "tu": "as passé; es passé(e)",
+    "il": "a passé; est passé(e)",
+    "elle": "a passé; est passé(e)",
+    "nous": "avons passé; sommes passé(e)s",
+    "vous": "avez passé; êtes passé(e)(s)",
+    "ils": "ont passé; sont passé(e)s",
+    "elles": "ont passé; sont passé(e)s"
+    },
+    "imparfait_indicatif": {
+    "je": "passais",
+    "tu": "passais",
+    "il": "passait",
+    "elle": "passait",
+    "nous": "passions",
+    "vous": "passiez",
+    "ils": "passaient",
+    "elles": "passaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais passé; étais passé(e)",
+    "tu": "avais passé; étais passé(e)",
+    "il": "avait passé; était passé(e)",
+    "elle": "avait passé; était passé(e)",
+    "nous": "avions passé; étions passé(e)s",
+    "vous": "aviez passé; étiez passé(e)(s)",
+    "ils": "avaient passé; étaient passé(e)s",
+    "elles": "avaient passé; étaient passé(e)s"
+    },
+    "futur_simple_indicatif": {
+    "je": "passerai",
+    "tu": "passeras",
+    "il": "passera",
+    "elle": "passera",
+    "nous": "passerons",
+    "vous": "passerez",
+    "ils": "passeront",
+    "elles": "passeront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai passé; serai passé(e)",
+    "tu": "auras passé; seras passé(e)",
+    "il": "aura passé; sera passé(e)",
+    "elle": "aura passé; sera passé(e)",
+    "nous": "aurons passé; serons passé(e)s",
+    "vous": "aurez passé; serez passé(e)(s)",
+    "ils": "auront passé; seront passé(e)s",
+    "elles": "auront passé; seront passé(e)s"
+    },
+    "passé_simple_indicatif": {
+    "je": "passai",
+    "tu": "passas",
+    "il": "passa",
+    "elle": "passa",
+    "nous": "passâmes",
+    "vous": "passâtes",
+    "ils": "passèrent",
+    "elles": "passèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus passé; fus passé(e)",
+    "tu": "eus passé; fus passé(e)",
+    "il": "eut passé; fut passé(e)",
+    "elle": "eut passé; fut passé(e)",
+    "nous": "eûmes passé; fûmes passé(e)s",
+    "vous": "eûtes passé; fûtes passé(e)(s)",
+    "ils": "eurent passé; furent passé(e)s",
+    "elles": "eurent passé; furent passé(e)s"
+    },
+    "présent_conditionnel": {
+    "je": "passerais",
+    "tu": "passerais",
+    "il": "passerait",
+    "elle": "passerait",
+    "nous": "passerions",
+    "vous": "passeriez",
+    "ils": "passeraient",
+    "elles": "passeraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais passé; serais passé(e)",
+    "tu": "aurais passé; serais passé(e)",
+    "il": "aurait passé; serait passé(e)",
+    "elle": "aurait passé; serait passé(e)",
+    "nous": "aurions passé; serions passé(e)s",
+    "vous": "auriez passé; seriez passé(e)(s)",
+    "ils": "auraient passé; seraient passé(e)s",
+    "elles": "auraient passé; seraient passé(e)s"
+    },
+    "imperatif": {
+    "tu": "passe",
+    "nous": "passons",
+    "vous": "passez"
+    }
+    }
+    },
+    { "infinitif": "comprendre",
+    "anglais": "to understand, to include",
+    "standard": false,
+    "participe_présent": "comprenant",
+    "participe_passé": "compris",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "comprends",
+    "tu": "comprends",
+    "il": "comprend",
+    "elle": "comprend",
+    "nous": "comprenons",
+    "vous": "comprenez",
+    "ils": "comprennent",
+    "elles": "comprennent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai compris",
+    "tu": "as compris",
+    "il": "a compris",
+    "elle": "a compris",
+    "nous": "avons compris",
+    "vous": "avez compris",
+    "ils": "ont compris",
+    "elles": "ont compris"
+    },
+    "imparfait_indicatif": {
+    "je": "comprenais",
+    "tu": "comprenais",
+    "il": "comprenait",
+    "elle": "comprenait",
+    "nous": "comprenions",
+    "vous": "compreniez",
+    "ils": "comprenaient",
+    "elles": "comprenaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais compris",
+    "tu": "avais compris",
+    "il": "avait compris",
+    "elle": "avait compris",
+    "nous": "avions compris",
+    "vous": "aviez compris",
+    "ils": "avaient compris",
+    "elles": "avaient compris"
+    },
+    "futur_simple_indicatif": {
+    "je": "comprendrai",
+    "tu": "comprendras",
+    "il": "comprendra",
+    "elle": "comprendra",
+    "nous": "comprendrons",
+    "vous": "comprendrez",
+    "ils": "comprendront",
+    "elles": "comprendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai compris",
+    "tu": "auras compris",
+    "il": "aura compris",
+    "elle": "aura compris",
+    "nous": "aurons compris",
+    "vous": "aurez compris",
+    "ils": "auront compris",
+    "elles": "auront compris"
+    },
+    "passé_simple_indicatif": {
+    "je": "compris",
+    "tu": "compris",
+    "il": "comprit",
+    "elle": "comprit",
+    "nous": "comprîmes",
+    "vous": "comprîtes",
+    "ils": "comprirent",
+    "elles": "comprirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus compris",
+    "tu": "eus compris",
+    "il": "eut compris",
+    "elle": "eut compris",
+    "nous": "eûmes compris",
+    "vous": "eûtes compris",
+    "ils": "eurent compris",
+    "elles": "eurent compris"
+    },
+    "présent_conditionnel": {
+    "je": "comprendrais",
+    "tu": "comprendrais",
+    "il": "comprendrait",
+    "elle": "comprendrait",
+    "nous": "comprendrions",
+    "vous": "comprendriez",
+    "ils": "comprendraient",
+    "elles": "comprendraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais compris",
+    "tu": "aurais compris",
+    "il": "aurait compris",
+    "elle": "aurait compris",
+    "nous": "aurions compris",
+    "vous": "auriez compris",
+    "ils": "auraient compris",
+    "elles": "auraient compris"
+    },
+    "imperatif": {
+    "tu": "comprends",
+    "nous": "comprenons",
+    "vous": "comprenez"
+    }
+    }
+    },
+    { "infinitif": "rester",
+    "anglais": "to stay, to remain",
+    "standard": true,
+    "participe_présent": "restant",
+    "participe_passé": "resté",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "reste",
+    "tu": "restes",
+    "il": "reste",
+    "elle": "reste",
+    "nous": "restons",
+    "vous": "restez",
+    "ils": "restent",
+    "elles": "restent"
+    },
+    "passé_composé_indicatif": {
+    "je": "suis resté(e)",
+    "tu": "es resté(e)",
+    "il": "est resté(e)",
+    "elle": "est resté(e)",
+    "nous": "sommes resté(e)s",
+    "vous": "êtes resté(e)(s)",
+    "ils": "sont resté(e)s",
+    "elles": "sont resté(e)s"
+    },
+    "imparfait_indicatif": {
+    "je": "restais",
+    "tu": "restais",
+    "il": "restait",
+    "elle": "restait",
+    "nous": "restions",
+    "vous": "restiez",
+    "ils": "restaient",
+    "elles": "restaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "étais resté(e)",
+    "tu": "étais resté(e)",
+    "il": "était resté(e)",
+    "elle": "était resté(e)",
+    "nous": "étions resté(e)s",
+    "vous": "étiez resté(e)(s)",
+    "ils": "étaient resté(e)s",
+    "elles": "étaient resté(e)s"
+    },
+    "futur_simple_indicatif": {
+    "je": "resterai",
+    "tu": "resteras",
+    "il": "restera",
+    "elle": "restera",
+    "nous": "resterons",
+    "vous": "resterez",
+    "ils": "resteront",
+    "elles": "resteront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "serai resté(e)",
+    "tu": "seras resté(e)",
+    "il": "sera resté(e)",
+    "elle": "sera resté(e)",
+    "nous": "serons resté(e)s",
+    "vous": "serez resté(e)(s)",
+    "ils": "seront resté(e)s",
+    "elles": "seront resté(e)s"
+    },
+    "passé_simple_indicatif": {
+    "je": "restai",
+    "tu": "restas",
+    "il": "resta",
+    "elle": "resta",
+    "nous": "restâmes",
+    "vous": "restâtes",
+    "ils": "restèrent",
+    "elles": "restèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "fus resté(e)",
+    "tu": "fus resté(e)",
+    "il": "fut resté(e)",
+    "elle": "fut resté(e)",
+    "nous": "fûmes resté(e)s",
+    "vous": "fûtes resté(e)(s)",
+    "ils": "furent resté(e)s",
+    "elles": "furent resté(e)s"
+    },
+    "présent_conditionnel": {
+    "je": "resterais",
+    "tu": "resterais",
+    "il": "resterait",
+    "elle": "resterait",
+    "nous": "resterions",
+    "vous": "resteriez",
+    "ils": "resteraient",
+    "elles": "resteraient"
+    },
+    "passé_conditionnel": {
+    "je": "serais resté(e)",
+    "tu": "serais resté(e)",
+    "il": "serait resté(e)",
+    "elle": "serait resté(e)",
+    "nous": "serions resté(e)s",
+    "vous": "seriez resté(e)(s)",
+    "ils": "seraient resté(e)s",
+    "elles": "seraient resté(e)s"
+    },
+    "imperatif": {
+    "tu": "reste",
+    "nous": "restons",
+    "vous": "restez"
+    }
+    }
+    },
+    { "infinitif": "tenir",
+    "anglais": "to hold",
+    "standard": false,
+    "participe_présent": "tenant",
+    "participe_passé": "tenu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "tiens",
+    "tu": "tiens",
+    "il": "tient",
+    "elle": "tient",
+    "nous": "tenons",
+    "vous": "tenez",
+    "ils": "tiennent",
+    "elles": "tiennent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai tenu",
+    "tu": "as tenu",
+    "il": "a tenu",
+    "elle": "a tenu",
+    "nous": "avons tenu",
+    "vous": "avez tenu",
+    "ils": "ont tenu",
+    "elles": "ont tenu"
+    },
+    "imparfait_indicatif": {
+    "je": "tenais",
+    "tu": "tenais",
+    "il": "tenait",
+    "elle": "tenait",
+    "nous": "tenions",
+    "vous": "teniez",
+    "ils": "tenaient",
+    "elles": "tenaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais tenu",
+    "tu": "avais tenu",
+    "il": "avait tenu",
+    "elle": "avait tenu",
+    "nous": "avions tenu",
+    "vous": "aviez tenu",
+    "ils": "avaient tenu",
+    "elles": "avaient tenu"
+    },
+    "futur_simple_indicatif": {
+    "je": "tiendrai",
+    "tu": "tiendras",
+    "il": "tiendra",
+    "elle": "tiendra",
+    "nous": "tiendrons",
+    "vous": "tiendrez",
+    "ils": "tiendront",
+    "elles": "tiendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai tenu",
+    "tu": "auras tenu",
+    "il": "aura tenu",
+    "elle": "aura tenu",
+    "nous": "aurons tenu",
+    "vous": "aurez tenu",
+    "ils": "auront tenu",
+    "elles": "auront tenu"
+    },
+    "passé_simple_indicatif": {
+    "je": "tins",
+    "tu": "tins",
+    "il": "tint",
+    "elle": "tint",
+    "nous": "tînmes",
+    "vous": "tîntes",
+    "ils": "tinrent",
+    "elles": "tinrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus tenu",
+    "tu": "eus tenu",
+    "il": "eut tenu",
+    "elle": "eut tenu",
+    "nous": "eûmes tenu",
+    "vous": "eûtes tenu",
+    "ils": "eurent tenu",
+    "elles": "eurent tenu"
+    },
+    "présent_conditionnel": {
+    "je": "tiendrais",
+    "tu": "tiendrais",
+    "il": "tiendrait",
+    "elle": "tiendrait",
+    "nous": "tiendrions",
+    "vous": "tiendriez",
+    "ils": "tiendraient",
+    "elles": "tiendraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais tenu",
+    "tu": "aurais tenu",
+    "il": "aurait tenu",
+    "elle": "aurait tenu",
+    "nous": "aurions tenu",
+    "vous": "auriez tenu",
+    "ils": "auraient tenu",
+    "elles": "auraient tenu"
+    },
+    "imperatif": {
+    "tu": "tiens",
+    "nous": "tenons",
+    "vous": "tenez"
+    }
+    }
+    },
+    { "infinitif": "porter",
+    "anglais": "to carry, to wear",
+    "standard": true,
+    "participe_présent": "portant",
+    "participe_passé": "porté",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "porte",
+    "tu": "portes",
+    "il": "porte",
+    "elle": "porte",
+    "nous": "portons",
+    "vous": "portez",
+    "ils": "portent",
+    "elles": "portent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai porté",
+    "tu": "as porté",
+    "il": "a porté",
+    "elle": "a porté",
+    "nous": "avons porté",
+    "vous": "avez porté",
+    "ils": "ont porté",
+    "elles": "ont porté"
+    },
+    "imparfait_indicatif": {
+    "je": "portais",
+    "tu": "portais",
+    "il": "portait",
+    "elle": "portait",
+    "nous": "portions",
+    "vous": "portiez",
+    "ils": "portaient",
+    "elles": "portaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais porté",
+    "tu": "avais porté",
+    "il": "avait porté",
+    "elle": "avait porté",
+    "nous": "avions porté",
+    "vous": "aviez porté",
+    "ils": "avaient porté",
+    "elles": "avaient porté"
+    },
+    "futur_simple_indicatif": {
+    "je": "porterai",
+    "tu": "porteras",
+    "il": "portera",
+    "elle": "portera",
+    "nous": "porterons",
+    "vous": "porterez",
+    "ils": "porteront",
+    "elles": "porteront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai porté",
+    "tu": "auras porté",
+    "il": "aura porté",
+    "elle": "aura porté",
+    "nous": "aurons porté",
+    "vous": "aurez porté",
+    "ils": "auront porté",
+    "elles": "auront porté"
+    },
+    "passé_simple_indicatif": {
+    "je": "portai",
+    "tu": "portas",
+    "il": "porta",
+    "elle": "porta",
+    "nous": "portâmes",
+    "vous": "portâtes",
+    "ils": "portèrent",
+    "elles": "portèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus porté",
+    "tu": "eus porté",
+    "il": "eut porté",
+    "elle": "eut porté",
+    "nous": "eûmes porté",
+    "vous": "eûtes porté",
+    "ils": "eurent porté",
+    "elles": "eurent porté"
+    },
+    "présent_conditionnel": {
+    "je": "porterais",
+    "tu": "porterais",
+    "il": "porterait",
+    "elle": "porterait",
+    "nous": "porterions",
+    "vous": "porteriez",
+    "ils": "porteraient",
+    "elles": "porteraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais porté",
+    "tu": "aurais porté",
+    "il": "aurait porté",
+    "elle": "aurait porté",
+    "nous": "aurions porté",
+    "vous": "auriez porté",
+    "ils": "auraient porté",
+    "elles": "auraient porté"
+    },
+    "imperatif": {
+    "tu": "porte",
+    "nous": "portons",
+    "vous": "portez"
+    }
+    }
+    },
+    { "infinitif": "parler",
+    "anglais": "to speak, to talk",
+    "standard": true,
+    "participe_présent": "parlant",
+    "participe_passé": "parlé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "parle",
+    "tu": "parles",
+    "il": "parle",
+    "elle": "parle",
+    "nous": "parlons",
+    "vous": "parlez",
+    "ils": "parlent",
+    "elles": "parlent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai parlé",
+    "tu": "as parlé",
+    "il": "a parlé",
+    "elle": "a parlé",
+    "nous": "avons parlé",
+    "vous": "avez parlé",
+    "ils": "ont parlé",
+    "elles": "ont parlé"
+    },
+    "imparfait_indicatif": {
+    "je": "parlais",
+    "tu": "parlais",
+    "il": "parlait",
+    "elle": "parlait",
+    "nous": "parlions",
+    "vous": "parliez",
+    "ils": "parlaient",
+    "elles": "parlaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais parlé",
+    "tu": "avais parlé",
+    "il": "avait parlé",
+    "elle": "avait parlé",
+    "nous": "avions parlé",
+    "vous": "aviez parlé",
+    "ils": "avaient parlé",
+    "elles": "avaient parlé"
+    },
+    "futur_simple_indicatif": {
+    "je": "parlerai",
+    "tu": "parleras",
+    "il": "parlera",
+    "elle": "parlera",
+    "nous": "parlerons",
+    "vous": "parlerez",
+    "ils": "parleront",
+    "elles": "parleront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai parlé",
+    "tu": "auras parlé",
+    "il": "aura parlé",
+    "elle": "aura parlé",
+    "nous": "aurons parlé",
+    "vous": "aurez parlé",
+    "ils": "auront parlé",
+    "elles": "auront parlé"
+    },
+    "passé_simple_indicatif": {
+    "je": "parlai",
+    "tu": "parlas",
+    "il": "parla",
+    "elle": "parla",
+    "nous": "parlâmes",
+    "vous": "parlâtes",
+    "ils": "parlèrent",
+    "elles": "parlèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus parlé",
+    "tu": "eus parlé",
+    "il": "eut parlé",
+    "elle": "eut parlé",
+    "nous": "eûmes parlé",
+    "vous": "eûtes parlé",
+    "ils": "eurent parlé",
+    "elles": "eurent parlé"
+    },
+    "présent_conditionnel": {
+    "je": "parlerais",
+    "tu": "parlerais",
+    "il": "parlerait",
+    "elle": "parlerait",
+    "nous": "parlerions",
+    "vous": "parleriez",
+    "ils": "parleraient",
+    "elles": "parleraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais parlé",
+    "tu": "aurais parlé",
+    "il": "aurait parlé",
+    "elle": "aurait parlé",
+    "nous": "aurions parlé",
+    "vous": "auriez parlé",
+    "ils": "auraient parlé",
+    "elles": "auraient parlé"
+    },
+    "imperatif": {
+    "tu": "parle",
+    "nous": "parlons",
+    "vous": "parlez"
+    }
+    }
+    },
+    { "infinitif": "montrer",
+    "anglais": "to show",
+    "standard": true,
+    "participe_présent": "montrant",
+    "participe_passé": "montré",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "montre",
+    "tu": "montres",
+    "il": "montre",
+    "elle": "montre",
+    "nous": "montrons",
+    "vous": "montrez",
+    "ils": "montrent",
+    "elles": "montrent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai montré",
+    "tu": "as montré",
+    "il": "a montré",
+    "elle": "a montré",
+    "nous": "avons montré",
+    "vous": "avez montré",
+    "ils": "ont montré",
+    "elles": "ont montré"
+    },
+    "imparfait_indicatif": {
+    "je": "montrais",
+    "tu": "montrais",
+    "il": "montrait",
+    "elle": "montrait",
+    "nous": "montrions",
+    "vous": "montriez",
+    "ils": "montraient",
+    "elles": "montraient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais montré",
+    "tu": "avais montré",
+    "il": "avait montré",
+    "elle": "avait montré",
+    "nous": "avions montré",
+    "vous": "aviez montré",
+    "ils": "avaient montré",
+    "elles": "avaient montré"
+    },
+    "futur_simple_indicatif": {
+    "je": "montrerai",
+    "tu": "montreras",
+    "il": "montrera",
+    "elle": "montrera",
+    "nous": "montrerons",
+    "vous": "montrerez",
+    "ils": "montreront",
+    "elles": "montreront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai montré",
+    "tu": "auras montré",
+    "il": "aura montré",
+    "elle": "aura montré",
+    "nous": "aurons montré",
+    "vous": "aurez montré",
+    "ils": "auront montré",
+    "elles": "auront montré"
+    },
+    "passé_simple_indicatif": {
+    "je": "montrai",
+    "tu": "montras",
+    "il": "montra",
+    "elle": "montra",
+    "nous": "montrâmes",
+    "vous": "montrâtes",
+    "ils": "montrèrent",
+    "elles": "montrèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus montré",
+    "tu": "eus montré",
+    "il": "eut montré",
+    "elle": "eut montré",
+    "nous": "eûmes montré",
+    "vous": "eûtes montré",
+    "ils": "eurent montré",
+    "elles": "eurent montré"
+    },
+    "présent_conditionnel": {
+    "je": "montrerais",
+    "tu": "montrerais",
+    "il": "montrerait",
+    "elle": "montrerait",
+    "nous": "montrerions",
+    "vous": "montreriez",
+    "ils": "montreraient",
+    "elles": "montreraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais montré",
+    "tu": "aurais montré",
+    "il": "aurait montré",
+    "elle": "aurait montré",
+    "nous": "aurions montré",
+    "vous": "auriez montré",
+    "ils": "auraient montré",
+    "elles": "auraient montré"
+    },
+    "imperatif": {
+    "tu": "montre",
+    "nous": "montrons",
+    "vous": "montrez"
+    }
+    }
+    },
+    { "infinitif": "continuer",
+    "anglais": "to continue, to carry on",
+    "standard": true,
+    "participe_présent": "continuant",
+    "participe_passé": "continué",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "continue",
+    "tu": "continues",
+    "il": "continue",
+    "elle": "continue",
+    "nous": "continuons",
+    "vous": "continuez",
+    "ils": "continuent",
+    "elles": "continuent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai continué",
+    "tu": "as continué",
+    "il": "a continué",
+    "elle": "a continué",
+    "nous": "avons continué",
+    "vous": "avez continué",
+    "ils": "ont continué",
+    "elles": "ont continué"
+    },
+    "imparfait_indicatif": {
+    "je": "continuais",
+    "tu": "continuais",
+    "il": "continuait",
+    "elle": "continuait",
+    "nous": "continuions",
+    "vous": "continuiez",
+    "ils": "continuaient",
+    "elles": "continuaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais continué",
+    "tu": "avais continué",
+    "il": "avait continué",
+    "elle": "avait continué",
+    "nous": "avions continué",
+    "vous": "aviez continué",
+    "ils": "avaient continué",
+    "elles": "avaient continué"
+    },
+    "futur_simple_indicatif": {
+    "je": "continuerai",
+    "tu": "continueras",
+    "il": "continuera",
+    "elle": "continuera",
+    "nous": "continuerons",
+    "vous": "continuerez",
+    "ils": "continueront",
+    "elles": "continueront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai continué",
+    "tu": "auras continué",
+    "il": "aura continué",
+    "elle": "aura continué",
+    "nous": "aurons continué",
+    "vous": "aurez continué",
+    "ils": "auront continué",
+    "elles": "auront continué"
+    },
+    "passé_simple_indicatif": {
+    "je": "continuai",
+    "tu": "continuas",
+    "il": "continua",
+    "elle": "continua",
+    "nous": "continuâmes",
+    "vous": "continuâtes",
+    "ils": "continuèrent",
+    "elles": "continuèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus continué",
+    "tu": "eus continué",
+    "il": "eut continué",
+    "elle": "eut continué",
+    "nous": "eûmes continué",
+    "vous": "eûtes continué",
+    "ils": "eurent continué",
+    "elles": "eurent continué"
+    },
+    "présent_conditionnel": {
+    "je": "continuerais",
+    "tu": "continuerais",
+    "il": "continuerait",
+    "elle": "continuerait",
+    "nous": "continuerions",
+    "vous": "continueriez",
+    "ils": "continueraient",
+    "elles": "continueraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais continué",
+    "tu": "aurais continué",
+    "il": "aurait continué",
+    "elle": "aurait continué",
+    "nous": "aurions continué",
+    "vous": "auriez continué",
+    "ils": "auraient continué",
+    "elles": "auraient continué"
+    },
+    "imperatif": {
+    "tu": "continue",
+    "nous": "continuons",
+    "vous": "continuez"
+    }
+    }
+    },
+    { "infinitif": "penser",
+    "anglais": "to think",
+    "standard": true,
+    "participe_présent": "pensant",
+    "participe_passé": "pensé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "pense",
+    "tu": "penses",
+    "il": "pense",
+    "elle": "pense",
+    "nous": "pensons",
+    "vous": "pensez",
+    "ils": "pensent",
+    "elles": "pensent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai pensé",
+    "tu": "as pensé",
+    "il": "a pensé",
+    "elle": "a pensé",
+    "nous": "avons pensé",
+    "vous": "avez pensé",
+    "ils": "ont pensé",
+    "elles": "ont pensé"
+    },
+    "imparfait_indicatif": {
+    "je": "pensais",
+    "tu": "pensais",
+    "il": "pensait",
+    "elle": "pensait",
+    "nous": "pensions",
+    "vous": "pensiez",
+    "ils": "pensaient",
+    "elles": "pensaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais pensé",
+    "tu": "avais pensé",
+    "il": "avait pensé",
+    "elle": "avait pensé",
+    "nous": "avions pensé",
+    "vous": "aviez pensé",
+    "ils": "avaient pensé",
+    "elles": "avaient pensé"
+    },
+    "futur_simple_indicatif": {
+    "je": "penserai",
+    "tu": "penseras",
+    "il": "pensera",
+    "elle": "pensera",
+    "nous": "penserons",
+    "vous": "penserez",
+    "ils": "penseront",
+    "elles": "penseront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai pensé",
+    "tu": "auras pensé",
+    "il": "aura pensé",
+    "elle": "aura pensé",
+    "nous": "aurons pensé",
+    "vous": "aurez pensé",
+    "ils": "auront pensé",
+    "elles": "auront pensé"
+    },
+    "passé_simple_indicatif": {
+    "je": "pensai",
+    "tu": "pensas",
+    "il": "pensa",
+    "elle": "pensa",
+    "nous": "pensâmes",
+    "vous": "pensâtes",
+    "ils": "pensèrent",
+    "elles": "pensèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus pensé",
+    "tu": "eus pensé",
+    "il": "eut pensé",
+    "elle": "eut pensé",
+    "nous": "eûmes pensé",
+    "vous": "eûtes pensé",
+    "ils": "eurent pensé",
+    "elles": "eurent pensé"
+    },
+    "présent_conditionnel": {
+    "je": "penserais",
+    "tu": "penserais",
+    "il": "penserait",
+    "elle": "penserait",
+    "nous": "penserions",
+    "vous": "penseriez",
+    "ils": "penseraient",
+    "elles": "penseraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais pensé",
+    "tu": "aurais pensé",
+    "il": "aurait pensé",
+    "elle": "aurait pensé",
+    "nous": "aurions pensé",
+    "vous": "auriez pensé",
+    "ils": "auraient pensé",
+    "elles": "auraient pensé"
+    },
+    "imperatif": {
+    "tu": "pense",
+    "nous": "pensons",
+    "vous": "pensez"
+    }
+    }
+    },
+    { "infinitif": "suivre",
+    "anglais": "to follow, to keep up",
+    "standard": false,
+    "participe_présent": "suivant",
+    "participe_passé": "suivi",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "suis",
+    "tu": "suis",
+    "il": "suit",
+    "elle": "suit",
+    "nous": "suivons",
+    "vous": "suivez",
+    "ils": "suivent",
+    "elles": "suivent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai suivi",
+    "tu": "as suivi",
+    "il": "a suivi",
+    "elle": "a suivi",
+    "nous": "avons suivi",
+    "vous": "avez suivi",
+    "ils": "ont suivi",
+    "elles": "ont suivi"
+    },
+    "imparfait_indicatif": {
+    "je": "suivais",
+    "tu": "suivais",
+    "il": "suivait",
+    "elle": "suivait",
+    "nous": "suivions",
+    "vous": "suiviez",
+    "ils": "suivaient",
+    "elles": "suivaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais suivi",
+    "tu": "avais suivi",
+    "il": "avait suivi",
+    "elle": "avait suivi",
+    "nous": "avions suivi",
+    "vous": "aviez suivi",
+    "ils": "avaient suivi",
+    "elles": "avaient suivi"
+    },
+    "futur_simple_indicatif": {
+    "je": "suivrai",
+    "tu": "suivras",
+    "il": "suivra",
+    "elle": "suivra",
+    "nous": "suivrons",
+    "vous": "suivrez",
+    "ils": "suivront",
+    "elles": "suivront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai suivi",
+    "tu": "auras suivi",
+    "il": "aura suivi",
+    "elle": "aura suivi",
+    "nous": "aurons suivi",
+    "vous": "aurez suivi",
+    "ils": "auront suivi",
+    "elles": "auront suivi"
+    },
+    "passé_simple_indicatif": {
+    "je": "suivis",
+    "tu": "suivis",
+    "il": "suivit",
+    "elle": "suivit",
+    "nous": "suivîmes",
+    "vous": "suivîtes",
+    "ils": "suivirent",
+    "elles": "suivirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus suivi",
+    "tu": "eus suivi",
+    "il": "eut suivi",
+    "elle": "eut suivi",
+    "nous": "eûmes suivi",
+    "vous": "eûtes suivi",
+    "ils": "eurent suivi",
+    "elles": "eurent suivi"
+    },
+    "présent_conditionnel": {
+    "je": "suivrais",
+    "tu": "suivrais",
+    "il": "suivrait",
+    "elle": "suivrait",
+    "nous": "suivrions",
+    "vous": "suivriez",
+    "ils": "suivraient",
+    "elles": "suivraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais suivi",
+    "tu": "aurais suivi",
+    "il": "aurait suivi",
+    "elle": "aurait suivi",
+    "nous": "aurions suivi",
+    "vous": "auriez suivi",
+    "ils": "auraient suivi",
+    "elles": "auraient suivi"
+    },
+    "imperatif": {
+    "tu": "suis",
+    "nous": "suivons",
+    "vous": "suivez"
+    }
+    }
+    },
+    { "infinitif": "connaître",
+    "anglais": "to know",
+    "standard": false,
+    "participe_présent": "connaissant",
+    "participe_passé": "connu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "connais",
+    "tu": "connais",
+    "il": "connaît",
+    "elle": "connaît",
+    "nous": "connaissons",
+    "vous": "connaissez",
+    "ils": "connaissent",
+    "elles": "connaissent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai connu",
+    "tu": "as connu",
+    "il": "a connu",
+    "elle": "a connu",
+    "nous": "avons connu",
+    "vous": "avez connu",
+    "ils": "ont connu",
+    "elles": "ont connu"
+    },
+    "imparfait_indicatif": {
+    "je": "connaissais",
+    "tu": "connaissais",
+    "il": "connaissait",
+    "elle": "connaissait",
+    "nous": "connaissions",
+    "vous": "connaissiez",
+    "ils": "connaissaient",
+    "elles": "connaissaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais connu",
+    "tu": "avais connu",
+    "il": "avait connu",
+    "elle": "avait connu",
+    "nous": "avions connu",
+    "vous": "aviez connu",
+    "ils": "avaient connu",
+    "elles": "avaient connu"
+    },
+    "futur_simple_indicatif": {
+    "je": "connaîtrai",
+    "tu": "connaîtras",
+    "il": "connaîtra",
+    "elle": "connaîtra",
+    "nous": "connaîtrons",
+    "vous": "connaîtrez",
+    "ils": "connaîtront",
+    "elles": "connaîtront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai connu",
+    "tu": "auras connu",
+    "il": "aura connu",
+    "elle": "aura connu",
+    "nous": "aurons connu",
+    "vous": "aurez connu",
+    "ils": "auront connu",
+    "elles": "auront connu"
+    },
+    "passé_simple_indicatif": {
+    "je": "connus",
+    "tu": "connus",
+    "il": "connut",
+    "elle": "connut",
+    "nous": "connûmes",
+    "vous": "connûtes",
+    "ils": "connurent",
+    "elles": "connurent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus connu",
+    "tu": "eus connu",
+    "il": "eut connu",
+    "elle": "eut connu",
+    "nous": "eûmes connu",
+    "vous": "eûtes connu",
+    "ils": "eurent connu",
+    "elles": "eurent connu"
+    },
+    "présent_conditionnel": {
+    "je": "connaîtrais",
+    "tu": "connaîtrais",
+    "il": "connaîtrait",
+    "elle": "connaîtrait",
+    "nous": "connaîtrions",
+    "vous": "connaîtriez",
+    "ils": "connaîtraient",
+    "elles": "connaîtraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais connu",
+    "tu": "aurais connu",
+    "il": "aurait connu",
+    "elle": "aurait connu",
+    "nous": "aurions connu",
+    "vous": "auriez connu",
+    "ils": "auraient connu",
+    "elles": "auraient connu"
+    },
+    "imperatif": {
+    "tu": "connais",
+    "nous": "connaissons",
+    "vous": "connaissez"
+    }
+    }
+    },
+    { "infinitif": "croire",
+    "anglais": "to believe, to believe in",
+    "standard": false,
+    "participe_présent": "croyant",
+    "participe_passé": "cru",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "crois",
+    "tu": "crois",
+    "il": "croit",
+    "elle": "croit",
+    "nous": "croyons",
+    "vous": "croyez",
+    "ils": "croient",
+    "elles": "croient"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai cru",
+    "tu": "as cru",
+    "il": "a cru",
+    "elle": "a cru",
+    "nous": "avons cru",
+    "vous": "avez cru",
+    "ils": "ont cru",
+    "elles": "ont cru"
+    },
+    "imparfait_indicatif": {
+    "je": "croyais",
+    "tu": "croyais",
+    "il": "croyait",
+    "elle": "croyait",
+    "nous": "croyions",
+    "vous": "croyiez",
+    "ils": "croyaient",
+    "elles": "croyaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais cru",
+    "tu": "avais cru",
+    "il": "avait cru",
+    "elle": "avait cru",
+    "nous": "avions cru",
+    "vous": "aviez cru",
+    "ils": "avaient cru",
+    "elles": "avaient cru"
+    },
+    "futur_simple_indicatif": {
+    "je": "croirai",
+    "tu": "croiras",
+    "il": "croira",
+    "elle": "croira",
+    "nous": "croirons",
+    "vous": "croirez",
+    "ils": "croiront",
+    "elles": "croiront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai cru",
+    "tu": "auras cru",
+    "il": "aura cru",
+    "elle": "aura cru",
+    "nous": "aurons cru",
+    "vous": "aurez cru",
+    "ils": "auront cru",
+    "elles": "auront cru"
+    },
+    "passé_simple_indicatif": {
+    "je": "crus",
+    "tu": "crus",
+    "il": "crut",
+    "elle": "crut",
+    "nous": "crûmes",
+    "vous": "crûtes",
+    "ils": "crurent",
+    "elles": "crurent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus cru",
+    "tu": "eus cru",
+    "il": "eut cru",
+    "elle": "eut cru",
+    "nous": "eûmes cru",
+    "vous": "eûtes cru",
+    "ils": "eurent cru",
+    "elles": "eurent cru"
+    },
+    "présent_conditionnel": {
+    "je": "croirais",
+    "tu": "croirais",
+    "il": "croirait",
+    "elle": "croirait",
+    "nous": "croirions",
+    "vous": "croiriez",
+    "ils": "croiraient",
+    "elles": "croiraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais cru",
+    "tu": "aurais cru",
+    "il": "aurait cru",
+    "elle": "aurait cru",
+    "nous": "aurions cru",
+    "vous": "auriez cru",
+    "ils": "auraient cru",
+    "elles": "auraient cru"
+    },
+    "imperatif": {
+    "tu": "crois",
+    "nous": "croyons",
+    "vous": "croyez"
+    }
+    }
+    },
+    { "infinitif": "commencer",
+    "anglais": "to start, to begin",
+    "standard": true,
+    "participe_présent": "commençant",
+    "participe_passé": "commencé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "commence",
+    "tu": "commences",
+    "il": "commence",
+    "elle": "commence",
+    "nous": "commençons",
+    "vous": "commencez",
+    "ils": "commencent",
+    "elles": "commencent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai commencé",
+    "tu": "as commencé",
+    "il": "a commencé",
+    "elle": "a commencé",
+    "nous": "avons commencé",
+    "vous": "avez commencé",
+    "ils": "ont commencé",
+    "elles": "ont commencé"
+    },
+    "imparfait_indicatif": {
+    "je": "commençais",
+    "tu": "commençais",
+    "il": "commençait",
+    "elle": "commençait",
+    "nous": "commencions",
+    "vous": "commenciez",
+    "ils": "commençaient",
+    "elles": "commençaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais commencé",
+    "tu": "avais commencé",
+    "il": "avait commencé",
+    "elle": "avait commencé",
+    "nous": "avions commencé",
+    "vous": "aviez commencé",
+    "ils": "avaient commencé",
+    "elles": "avaient commencé"
+    },
+    "futur_simple_indicatif": {
+    "je": "commencerai",
+    "tu": "commenceras",
+    "il": "commencera",
+    "elle": "commencera",
+    "nous": "commencerons",
+    "vous": "commencerez",
+    "ils": "commenceront",
+    "elles": "commenceront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai commencé",
+    "tu": "auras commencé",
+    "il": "aura commencé",
+    "elle": "aura commencé",
+    "nous": "aurons commencé",
+    "vous": "aurez commencé",
+    "ils": "auront commencé",
+    "elles": "auront commencé"
+    },
+    "passé_simple_indicatif": {
+    "je": "commençai",
+    "tu": "commenças",
+    "il": "commença",
+    "elle": "commença",
+    "nous": "commençâmes",
+    "vous": "commençâtes",
+    "ils": "commencèrent",
+    "elles": "commencèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus commencé",
+    "tu": "eus commencé",
+    "il": "eut commencé",
+    "elle": "eut commencé",
+    "nous": "eûmes commencé",
+    "vous": "eûtes commencé",
+    "ils": "eurent commencé",
+    "elles": "eurent commencé"
+    },
+    "présent_conditionnel": {
+    "je": "commencerais",
+    "tu": "commencerais",
+    "il": "commencerait",
+    "elle": "commencerait",
+    "nous": "commencerions",
+    "vous": "commenceriez",
+    "ils": "commenceraient",
+    "elles": "commenceraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais commencé",
+    "tu": "aurais commencé",
+    "il": "aurait commencé",
+    "elle": "aurait commencé",
+    "nous": "aurions commencé",
+    "vous": "auriez commencé",
+    "ils": "auraient commencé",
+    "elles": "auraient commencé"
+    },
+    "imperatif": {
+    "tu": "commence",
+    "nous": "commençons",
+    "vous": "commencez"
+    }
+    }
+    },
+    { "infinitif": "compter",
+    "anglais": "to count, to include, to charge for",
+    "standard": true,
+    "participe_présent": "comptant",
+    "participe_passé": "compté",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "compte",
+    "tu": "comptes",
+    "il": "compte",
+    "elle": "compte",
+    "nous": "comptons",
+    "vous": "comptez",
+    "ils": "comptent",
+    "elles": "comptent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai compté",
+    "tu": "as compté",
+    "il": "a compté",
+    "elle": "a compté",
+    "nous": "avons compté",
+    "vous": "avez compté",
+    "ils": "ont compté",
+    "elles": "ont compté"
+    },
+    "imparfait_indicatif": {
+    "je": "comptais",
+    "tu": "comptais",
+    "il": "comptait",
+    "elle": "comptait",
+    "nous": "comptions",
+    "vous": "comptiez",
+    "ils": "comptaient",
+    "elles": "comptaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais compté",
+    "tu": "avais compté",
+    "il": "avait compté",
+    "elle": "avait compté",
+    "nous": "avions compté",
+    "vous": "aviez compté",
+    "ils": "avaient compté",
+    "elles": "avaient compté"
+    },
+    "futur_simple_indicatif": {
+    "je": "compterai",
+    "tu": "compteras",
+    "il": "comptera",
+    "elle": "comptera",
+    "nous": "compterons",
+    "vous": "compterez",
+    "ils": "compteront",
+    "elles": "compteront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai compté",
+    "tu": "auras compté",
+    "il": "aura compté",
+    "elle": "aura compté",
+    "nous": "aurons compté",
+    "vous": "aurez compté",
+    "ils": "auront compté",
+    "elles": "auront compté"
+    },
+    "passé_simple_indicatif": {
+    "je": "comptai",
+    "tu": "comptas",
+    "il": "compta",
+    "elle": "compta",
+    "nous": "comptâmes",
+    "vous": "comptâtes",
+    "ils": "comptèrent",
+    "elles": "comptèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus compté",
+    "tu": "eus compté",
+    "il": "eut compté",
+    "elle": "eut compté",
+    "nous": "eûmes compté",
+    "vous": "eûtes compté",
+    "ils": "eurent compté",
+    "elles": "eurent compté"
+    },
+    "présent_conditionnel": {
+    "je": "compterais",
+    "tu": "compterais",
+    "il": "compterait",
+    "elle": "compterait",
+    "nous": "compterions",
+    "vous": "compteriez",
+    "ils": "compteraient",
+    "elles": "compteraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais compté",
+    "tu": "aurais compté",
+    "il": "aurait compté",
+    "elle": "aurait compté",
+    "nous": "aurions compté",
+    "vous": "auriez compté",
+    "ils": "auraient compté",
+    "elles": "auraient compté"
+    },
+    "imperatif": {
+    "tu": "compte",
+    "nous": "comptons",
+    "vous": "comptez"
+    }
+    }
+    },
+    { "infinitif": "entendre",
+    "anglais": "to hear, to mean (something)",
+    "standard": false,
+    "participe_présent": "entendant",
+    "participe_passé": "entendu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "entends",
+    "tu": "entends",
+    "il": "entend",
+    "elle": "entend",
+    "nous": "entendons",
+    "vous": "entendez",
+    "ils": "entendent",
+    "elles": "entendent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai entendu",
+    "tu": "as entendu",
+    "il": "a entendu",
+    "elle": "a entendu",
+    "nous": "avons entendu",
+    "vous": "avez entendu",
+    "ils": "ont entendu",
+    "elles": "ont entendu"
+    },
+    "imparfait_indicatif": {
+    "je": "entendais",
+    "tu": "entendais",
+    "il": "entendait",
+    "elle": "entendait",
+    "nous": "entendions",
+    "vous": "entendiez",
+    "ils": "entendaient",
+    "elles": "entendaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais entendu",
+    "tu": "avais entendu",
+    "il": "avait entendu",
+    "elle": "avait entendu",
+    "nous": "avions entendu",
+    "vous": "aviez entendu",
+    "ils": "avaient entendu",
+    "elles": "avaient entendu"
+    },
+    "futur_simple_indicatif": {
+    "je": "entendrai",
+    "tu": "entendras",
+    "il": "entendra",
+    "elle": "entendra",
+    "nous": "entendrons",
+    "vous": "entendrez",
+    "ils": "entendront",
+    "elles": "entendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai entendu",
+    "tu": "auras entendu",
+    "il": "aura entendu",
+    "elle": "aura entendu",
+    "nous": "aurons entendu",
+    "vous": "aurez entendu",
+    "ils": "auront entendu",
+    "elles": "auront entendu"
+    },
+    "passé_simple_indicatif": {
+    "je": "entendis",
+    "tu": "entendis",
+    "il": "entendit",
+    "elle": "entendit",
+    "nous": "entendîmes",
+    "vous": "entendîtes",
+    "ils": "entendirent",
+    "elles": "entendirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus entendu",
+    "tu": "eus entendu",
+    "il": "eut entendu",
+    "elle": "eut entendu",
+    "nous": "eûmes entendu",
+    "vous": "eûtes entendu",
+    "ils": "eurent entendu",
+    "elles": "eurent entendu"
+    },
+    "présent_conditionnel": {
+    "je": "entendrais",
+    "tu": "entendrais",
+    "il": "entendrait",
+    "elle": "entendrait",
+    "nous": "entendrions",
+    "vous": "entendriez",
+    "ils": "entendraient",
+    "elles": "entendraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais entendu",
+    "tu": "aurais entendu",
+    "il": "aurait entendu",
+    "elle": "aurait entendu",
+    "nous": "aurions entendu",
+    "vous": "auriez entendu",
+    "ils": "auraient entendu",
+    "elles": "auraient entendu"
+    },
+    "imperatif": {
+    "tu": "entends",
+    "nous": "entendons",
+    "vous": "entendez"
+    }
+    }
+    },
+    { "infinitif": "attendre",
+    "anglais": "to wait, to wait for",
+    "standard": false,
+    "participe_présent": "attendant",
+    "participe_passé": "attendu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "attends",
+    "tu": "attends",
+    "il": "attend",
+    "elle": "attend",
+    "nous": "attendons",
+    "vous": "attendez",
+    "ils": "attendent",
+    "elles": "attendent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai attendu",
+    "tu": "as attendu",
+    "il": "a attendu",
+    "elle": "a attendu",
+    "nous": "avons attendu",
+    "vous": "avez attendu",
+    "ils": "ont attendu",
+    "elles": "ont attendu"
+    },
+    "imparfait_indicatif": {
+    "je": "attendais",
+    "tu": "attendais",
+    "il": "attendait",
+    "elle": "attendait",
+    "nous": "attendions",
+    "vous": "attendiez",
+    "ils": "attendaient",
+    "elles": "attendaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais attendu",
+    "tu": "avais attendu",
+    "il": "avait attendu",
+    "elle": "avait attendu",
+    "nous": "avions attendu",
+    "vous": "aviez attendu",
+    "ils": "avaient attendu",
+    "elles": "avaient attendu"
+    },
+    "futur_simple_indicatif": {
+    "je": "attendrai",
+    "tu": "attendras",
+    "il": "attendra",
+    "elle": "attendra",
+    "nous": "attendrons",
+    "vous": "attendrez",
+    "ils": "attendront",
+    "elles": "attendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai attendu",
+    "tu": "auras attendu",
+    "il": "aura attendu",
+    "elle": "aura attendu",
+    "nous": "aurons attendu",
+    "vous": "aurez attendu",
+    "ils": "auront attendu",
+    "elles": "auront attendu"
+    },
+    "passé_simple_indicatif": {
+    "je": "attendis",
+    "tu": "attendis",
+    "il": "attendit",
+    "elle": "attendit",
+    "nous": "attendîmes",
+    "vous": "attendîtes",
+    "ils": "attendirent",
+    "elles": "attendirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus attendu",
+    "tu": "eus attendu",
+    "il": "eut attendu",
+    "elle": "eut attendu",
+    "nous": "eûmes attendu",
+    "vous": "eûtes attendu",
+    "ils": "eurent attendu",
+    "elles": "eurent attendu"
+    },
+    "présent_conditionnel": {
+    "je": "attendrais",
+    "tu": "attendrais",
+    "il": "attendrait",
+    "elle": "attendrait",
+    "nous": "attendrions",
+    "vous": "attendriez",
+    "ils": "attendraient",
+    "elles": "attendraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais attendu",
+    "tu": "aurais attendu",
+    "il": "aurait attendu",
+    "elle": "aurait attendu",
+    "nous": "aurions attendu",
+    "vous": "auriez attendu",
+    "ils": "auraient attendu",
+    "elles": "auraient attendu"
+    },
+    "imperatif": {
+    "tu": "attends",
+    "nous": "attendons",
+    "vous": "attendez"
+    }
+    }
+    },
+    { "infinitif": "remettre",
+    "anglais": "to put back on, to put back, to put off",
+    "standard": false,
+    "participe_présent": "remettant",
+    "participe_passé": "remis",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "remets",
+    "tu": "remets",
+    "il": "remet",
+    "elle": "remet",
+    "nous": "remettons",
+    "vous": "remettez",
+    "ils": "remettent",
+    "elles": "remettent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai remis",
+    "tu": "as remis",
+    "il": "a remis",
+    "elle": "a remis",
+    "nous": "avons remis",
+    "vous": "avez remis",
+    "ils": "ont remis",
+    "elles": "ont remis"
+    },
+    "imparfait_indicatif": {
+    "je": "remettais",
+    "tu": "remettais",
+    "il": "remettait",
+    "elle": "remettait",
+    "nous": "remettions",
+    "vous": "remettiez",
+    "ils": "remettaient",
+    "elles": "remettaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais remis",
+    "tu": "avais remis",
+    "il": "avait remis",
+    "elle": "avait remis",
+    "nous": "avions remis",
+    "vous": "aviez remis",
+    "ils": "avaient remis",
+    "elles": "avaient remis"
+    },
+    "futur_simple_indicatif": {
+    "je": "remettrai",
+    "tu": "remettras",
+    "il": "remettra",
+    "elle": "remettra",
+    "nous": "remettrons",
+    "vous": "remettrez",
+    "ils": "remettront",
+    "elles": "remettront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai remis",
+    "tu": "auras remis",
+    "il": "aura remis",
+    "elle": "aura remis",
+    "nous": "aurons remis",
+    "vous": "aurez remis",
+    "ils": "auront remis",
+    "elles": "auront remis"
+    },
+    "passé_simple_indicatif": {
+    "je": "remis",
+    "tu": "remis",
+    "il": "remit",
+    "elle": "remit",
+    "nous": "remîmes",
+    "vous": "remîtes",
+    "ils": "remirent",
+    "elles": "remirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus remis",
+    "tu": "eus remis",
+    "il": "eut remis",
+    "elle": "eut remis",
+    "nous": "eûmes remis",
+    "vous": "eûtes remis",
+    "ils": "eurent remis",
+    "elles": "eurent remis"
+    },
+    "présent_conditionnel": {
+    "je": "remettrais",
+    "tu": "remettrais",
+    "il": "remettrait",
+    "elle": "remettrait",
+    "nous": "remettrions",
+    "vous": "remettriez",
+    "ils": "remettraient",
+    "elles": "remettraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais remis",
+    "tu": "aurais remis",
+    "il": "aurait remis",
+    "elle": "aurait remis",
+    "nous": "aurions remis",
+    "vous": "auriez remis",
+    "ils": "auraient remis",
+    "elles": "auraient remis"
+    },
+    "imperatif": {
+    "tu": "remets",
+    "nous": "remettons",
+    "vous": "remettez"
+    }
+    }
+    },
+    { "infinitif": "appeler",
+    "anglais": "to call, to send for",
+    "standard": false,
+    "participe_présent": "appelant",
+    "participe_passé": "appelé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "appelle",
+    "tu": "appelles",
+    "il": "appelle",
+    "elle": "appelle",
+    "nous": "appelons",
+    "vous": "appelez",
+    "ils": "appellent",
+    "elles": "appellent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai appelé",
+    "tu": "as appelé",
+    "il": "a appelé",
+    "elle": "a appelé",
+    "nous": "avons appelé",
+    "vous": "avez appelé",
+    "ils": "ont appelé",
+    "elles": "ont appelé"
+    },
+    "imparfait_indicatif": {
+    "je": "appelais",
+    "tu": "appelais",
+    "il": "appelait",
+    "elle": "appelait",
+    "nous": "appelions",
+    "vous": "appeliez",
+    "ils": "appelaient",
+    "elles": "appelaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais appelé",
+    "tu": "avais appelé",
+    "il": "avait appelé",
+    "elle": "avait appelé",
+    "nous": "avions appelé",
+    "vous": "aviez appelé",
+    "ils": "avaient appelé",
+    "elles": "avaient appelé"
+    },
+    "futur_simple_indicatif": {
+    "je": "appellerai",
+    "tu": "appelleras",
+    "il": "appellera",
+    "elle": "appellera",
+    "nous": "appellerons",
+    "vous": "appellerez",
+    "ils": "appelleront",
+    "elles": "appelleront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai appelé",
+    "tu": "auras appelé",
+    "il": "aura appelé",
+    "elle": "aura appelé",
+    "nous": "aurons appelé",
+    "vous": "aurez appelé",
+    "ils": "auront appelé",
+    "elles": "auront appelé"
+    },
+    "passé_simple_indicatif": {
+    "je": "appelai",
+    "tu": "appelas",
+    "il": "appela",
+    "elle": "appela",
+    "nous": "appelâmes",
+    "vous": "appelâtes",
+    "ils": "appelèrent",
+    "elles": "appelèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus appelé",
+    "tu": "eus appelé",
+    "il": "eut appelé",
+    "elle": "eut appelé",
+    "nous": "eûmes appelé",
+    "vous": "eûtes appelé",
+    "ils": "eurent appelé",
+    "elles": "eurent appelé"
+    },
+    "présent_conditionnel": {
+    "je": "appellerais",
+    "tu": "appellerais",
+    "il": "appellerait",
+    "elle": "appellerait",
+    "nous": "appellerions",
+    "vous": "appelleriez",
+    "ils": "appelleraient",
+    "elles": "appelleraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais appelé",
+    "tu": "aurais appelé",
+    "il": "aurait appelé",
+    "elle": "aurait appelé",
+    "nous": "aurions appelé",
+    "vous": "auriez appelé",
+    "ils": "auraient appelé",
+    "elles": "auraient appelé"
+    },
+    "imperatif": {
+    "tu": "appelle",
+    "nous": "appelons",
+    "vous": "appelez"
+    }
+    }
+    },
+    { "infinitif": "permettre",
+    "anglais": "to allow, to permit",
+    "standard": false,
+    "participe_présent": "permettant",
+    "participe_passé": "permis",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "permets",
+    "tu": "permets",
+    "il": "permet",
+    "elle": "permet",
+    "nous": "permettons",
+    "vous": "permettez",
+    "ils": "permettent",
+    "elles": "permettent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai permis",
+    "tu": "as permis",
+    "il": "a permis",
+    "elle": "a permis",
+    "nous": "avons permis",
+    "vous": "avez permis",
+    "ils": "ont permis",
+    "elles": "ont permis"
+    },
+    "imparfait_indicatif": {
+    "je": "permettais",
+    "tu": "permettais",
+    "il": "permettait",
+    "elle": "permettait",
+    "nous": "permettions",
+    "vous": "permettiez",
+    "ils": "permettaient",
+    "elles": "permettaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais permis",
+    "tu": "avais permis",
+    "il": "avait permis",
+    "elle": "avait permis",
+    "nous": "avions permis",
+    "vous": "aviez permis",
+    "ils": "avaient permis",
+    "elles": "avaient permis"
+    },
+    "futur_simple_indicatif": {
+    "je": "permettrai",
+    "tu": "permettras",
+    "il": "permettra",
+    "elle": "permettra",
+    "nous": "permettrons",
+    "vous": "permettrez",
+    "ils": "permettront",
+    "elles": "permettront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai permis",
+    "tu": "auras permis",
+    "il": "aura permis",
+    "elle": "aura permis",
+    "nous": "aurons permis",
+    "vous": "aurez permis",
+    "ils": "auront permis",
+    "elles": "auront permis"
+    },
+    "passé_simple_indicatif": {
+    "je": "permis",
+    "tu": "permis",
+    "il": "permit",
+    "elle": "permit",
+    "nous": "permîmes",
+    "vous": "permîtes",
+    "ils": "permirent",
+    "elles": "permirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus permis",
+    "tu": "eus permis",
+    "il": "eut permis",
+    "elle": "eut permis",
+    "nous": "eûmes permis",
+    "vous": "eûtes permis",
+    "ils": "eurent permis",
+    "elles": "eurent permis"
+    },
+    "présent_conditionnel": {
+    "je": "permettrais",
+    "tu": "permettrais",
+    "il": "permettrait",
+    "elle": "permettrait",
+    "nous": "permettrions",
+    "vous": "permettriez",
+    "ils": "permettraient",
+    "elles": "permettraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais permis",
+    "tu": "aurais permis",
+    "il": "aurait permis",
+    "elle": "aurait permis",
+    "nous": "aurions permis",
+    "vous": "auriez permis",
+    "ils": "auraient permis",
+    "elles": "auraient permis"
+    },
+    "imperatif": {
+    "tu": "permets",
+    "nous": "permettons",
+    "vous": "permettez"
+    }
+    }
+    },
+    { "infinitif": "occuper",
+    "anglais": "to occupy, to live in, to take up",
+    "standard": true,
+    "participe_présent": "occupant",
+    "participe_passé": "occupé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "occupe",
+    "tu": "occupes",
+    "il": "occupe",
+    "elle": "occupe",
+    "nous": "occupons",
+    "vous": "occupez",
+    "ils": "occupent",
+    "elles": "occupent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai occupé",
+    "tu": "as occupé",
+    "il": "a occupé",
+    "elle": "a occupé",
+    "nous": "avons occupé",
+    "vous": "avez occupé",
+    "ils": "ont occupé",
+    "elles": "ont occupé"
+    },
+    "imparfait_indicatif": {
+    "je": "occupais",
+    "tu": "occupais",
+    "il": "occupait",
+    "elle": "occupait",
+    "nous": "occupions",
+    "vous": "occupiez",
+    "ils": "occupaient",
+    "elles": "occupaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais occupé",
+    "tu": "avais occupé",
+    "il": "avait occupé",
+    "elle": "avait occupé",
+    "nous": "avions occupé",
+    "vous": "aviez occupé",
+    "ils": "avaient occupé",
+    "elles": "avaient occupé"
+    },
+    "futur_simple_indicatif": {
+    "je": "occuperai",
+    "tu": "occuperas",
+    "il": "occupera",
+    "elle": "occupera",
+    "nous": "occuperons",
+    "vous": "occuperez",
+    "ils": "occuperont",
+    "elles": "occuperont"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai occupé",
+    "tu": "auras occupé",
+    "il": "aura occupé",
+    "elle": "aura occupé",
+    "nous": "aurons occupé",
+    "vous": "aurez occupé",
+    "ils": "auront occupé",
+    "elles": "auront occupé"
+    },
+    "passé_simple_indicatif": {
+    "je": "occupai",
+    "tu": "occupas",
+    "il": "occupa",
+    "elle": "occupa",
+    "nous": "occupâmes",
+    "vous": "occupâtes",
+    "ils": "occupèrent",
+    "elles": "occupèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus occupé",
+    "tu": "eus occupé",
+    "il": "eut occupé",
+    "elle": "eut occupé",
+    "nous": "eûmes occupé",
+    "vous": "eûtes occupé",
+    "ils": "eurent occupé",
+    "elles": "eurent occupé"
+    },
+    "présent_conditionnel": {
+    "je": "occuperais",
+    "tu": "occuperais",
+    "il": "occuperait",
+    "elle": "occuperait",
+    "nous": "occuperions",
+    "vous": "occuperiez",
+    "ils": "occuperaient",
+    "elles": "occuperaient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais occupé",
+    "tu": "aurais occupé",
+    "il": "aurait occupé",
+    "elle": "aurait occupé",
+    "nous": "aurions occupé",
+    "vous": "auriez occupé",
+    "ils": "auraient occupé",
+    "elles": "auraient occupé"
+    },
+    "imperatif": {
+    "tu": "occupe",
+    "nous": "occupons",
+    "vous": "occupez"
+    }
+    }
+    },
+    { "infinitif": "devenir",
+    "anglais": "to become",
+    "standard": false,
+    "participe_présent": "devenant",
+    "participe_passé": "devenu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "deviens",
+    "tu": "deviens",
+    "il": "devient",
+    "elle": "devient",
+    "nous": "devenons",
+    "vous": "devenez",
+    "ils": "deviennent",
+    "elles": "deviennent"
+    },
+    "passé_composé_indicatif": {
+    "je": "suis devenu(e)",
+    "tu": "es devenu(e)",
+    "il": "est devenu(e)",
+    "elle": "est devenu(e)",
+    "nous": "sommes devenu(e)s",
+    "vous": "êtes devenu(e)(s)",
+    "ils": "sont devenu(e)s",
+    "elles": "sont devenu(e)s"
+    },
+    "imparfait_indicatif": {
+    "je": "devenais",
+    "tu": "devenais",
+    "il": "devenait",
+    "elle": "devenait",
+    "nous": "devenions",
+    "vous": "deveniez",
+    "ils": "devenaient",
+    "elles": "devenaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "étais devenu(e)",
+    "tu": "étais devenu(e)",
+    "il": "était devenu(e)",
+    "elle": "était devenu(e)",
+    "nous": "étions devenu(e)s",
+    "vous": "étiez devenu(e)(s)",
+    "ils": "étaient devenu(e)s",
+    "elles": "étaient devenu(e)s"
+    },
+    "futur_simple_indicatif": {
+    "je": "deviendrai",
+    "tu": "deviendras",
+    "il": "deviendra",
+    "elle": "deviendra",
+    "nous": "deviendrons",
+    "vous": "deviendrez",
+    "ils": "deviendront",
+    "elles": "deviendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "serai devenu(e)",
+    "tu": "seras devenu(e)",
+    "il": "sera devenu(e)",
+    "elle": "sera devenu(e)",
+    "nous": "serons devenu(e)s",
+    "vous": "serez devenu(e)(s)",
+    "ils": "seront devenu(e)s",
+    "elles": "seront devenu(e)s"
+    },
+    "passé_simple_indicatif": {
+    "je": "devins",
+    "tu": "devins",
+    "il": "devint",
+    "elle": "devint",
+    "nous": "devînmes",
+    "vous": "devîntes",
+    "ils": "devinrent",
+    "elles": "devinrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "fus devenu(e)",
+    "tu": "fus devenu(e)",
+    "il": "fut devenu(e)",
+    "elle": "fut devenu(e)",
+    "nous": "fûmes devenu(e)s",
+    "vous": "fûtes devenu(e)(s)",
+    "ils": "furent devenu(e)s",
+    "elles": "furent devenu(e)s"
+    },
+    "présent_conditionnel": {
+    "je": "deviendrais",
+    "tu": "deviendrais",
+    "il": "deviendrait",
+    "elle": "deviendrait",
+    "nous": "deviendrions",
+    "vous": "deviendriez",
+    "ils": "deviendraient",
+    "elles": "deviendraient"
+    },
+    "passé_conditionnel": {
+    "je": "serais devenu(e)",
+    "tu": "serais devenu(e)",
+    "il": "serait devenu(e)",
+    "elle": "serait devenu(e)",
+    "nous": "serions devenu(e)s",
+    "vous": "seriez devenu(e)(s)",
+    "ils": "seraient devenu(e)s",
+    "elles": "seraient devenu(e)s"
+    },
+    "imperatif": {
+    "tu": "deviens",
+    "nous": "devenons",
+    "vous": "devenez"
+    }
+    }
+    },
+    { "infinitif": "partir",
+    "anglais": "to go",
+    "standard": false,
+    "participe_présent": "partant",
+    "participe_passé": "parti",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "pars",
+    "tu": "pars",
+    "il": "part",
+    "elle": "part",
+    "nous": "partons",
+    "vous": "partez",
+    "ils": "partent",
+    "elles": "partent"
+    },
+    "passé_composé_indicatif": {
+    "je": "suis parti(e)",
+    "tu": "es parti(e)",
+    "il": "est parti(e)",
+    "elle": "est parti(e)",
+    "nous": "sommes parti(e)s",
+    "vous": "êtes parti(e)(s)",
+    "ils": "sont parti(e)s",
+    "elles": "sont parti(e)s"
+    },
+    "imparfait_indicatif": {
+    "je": "partais",
+    "tu": "partais",
+    "il": "partait",
+    "elle": "partait",
+    "nous": "partions",
+    "vous": "partiez",
+    "ils": "partaient",
+    "elles": "partaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "étais parti(e)",
+    "tu": "étais parti(e)",
+    "il": "était parti(e)",
+    "elle": "était parti(e)",
+    "nous": "étions parti(e)s",
+    "vous": "étiez parti(e)(s)",
+    "ils": "étaient parti(e)s",
+    "elles": "étaient parti(e)s"
+    },
+    "futur_simple_indicatif": {
+    "je": "partirai",
+    "tu": "partiras",
+    "il": "partira",
+    "elle": "partira",
+    "nous": "partirons",
+    "vous": "partirez",
+    "ils": "partiront",
+    "elles": "partiront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "serai parti(e)",
+    "tu": "seras parti(e)",
+    "il": "sera parti(e)",
+    "elle": "sera parti(e)",
+    "nous": "serons parti(e)s",
+    "vous": "serez parti(e)(s)",
+    "ils": "seront parti(e)s",
+    "elles": "seront parti(e)s"
+    },
+    "passé_simple_indicatif": {
+    "je": "partis",
+    "tu": "partis",
+    "il": "partit",
+    "elle": "partit",
+    "nous": "partîmes",
+    "vous": "partîtes",
+    "ils": "partirent",
+    "elles": "partirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "fus parti(e)",
+    "tu": "fus parti(e)",
+    "il": "fut parti(e)",
+    "elle": "fut parti(e)",
+    "nous": "fûmes parti(e)s",
+    "vous": "fûtes parti(e)(s)",
+    "ils": "furent parti(e)s",
+    "elles": "furent parti(e)s"
+    },
+    "présent_conditionnel": {
+    "je": "partirais",
+    "tu": "partirais",
+    "il": "partirait",
+    "elle": "partirait",
+    "nous": "partirions",
+    "vous": "partiriez",
+    "ils": "partiraient",
+    "elles": "partiraient"
+    },
+    "passé_conditionnel": {
+    "je": "serais parti(e)",
+    "tu": "serais parti(e)",
+    "il": "serait parti(e)",
+    "elle": "serait parti(e)",
+    "nous": "serions parti(e)s",
+    "vous": "seriez parti(e)(s)",
+    "ils": "seraient parti(e)s",
+    "elles": "seraient parti(e)s"
+    },
+    "imperatif": {
+    "tu": "pars",
+    "nous": "partons",
+    "vous": "partez"
+    }
+    }
+    },
+    { "infinitif": "décider",
+    "anglais": "to decide",
+    "standard": true,
+    "participe_présent": "décidant",
+    "participe_passé": "décidé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "décide",
+    "tu": "décides",
+    "il": "décide",
+    "elle": "décide",
+    "nous": "décidons",
+    "vous": "décidez",
+    "ils": "décident",
+    "elles": "décident"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai décidé",
+    "tu": "as décidé",
+    "il": "a décidé",
+    "elle": "a décidé",
+    "nous": "avons décidé",
+    "vous": "avez décidé",
+    "ils": "ont décidé",
+    "elles": "ont décidé"
+    },
+    "imparfait_indicatif": {
+    "je": "décidais",
+    "tu": "décidais",
+    "il": "décidait",
+    "elle": "décidait",
+    "nous": "décidions",
+    "vous": "décidiez",
+    "ils": "décidaient",
+    "elles": "décidaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais décidé",
+    "tu": "avais décidé",
+    "il": "avait décidé",
+    "elle": "avait décidé",
+    "nous": "avions décidé",
+    "vous": "aviez décidé",
+    "ils": "avaient décidé",
+    "elles": "avaient décidé"
+    },
+    "futur_simple_indicatif": {
+    "je": "déciderai",
+    "tu": "décideras",
+    "il": "décidera",
+    "elle": "décidera",
+    "nous": "déciderons",
+    "vous": "déciderez",
+    "ils": "décideront",
+    "elles": "décideront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai décidé",
+    "tu": "auras décidé",
+    "il": "aura décidé",
+    "elle": "aura décidé",
+    "nous": "aurons décidé",
+    "vous": "aurez décidé",
+    "ils": "auront décidé",
+    "elles": "auront décidé"
+    },
+    "passé_simple_indicatif": {
+    "je": "décidai",
+    "tu": "décidas",
+    "il": "décida",
+    "elle": "décida",
+    "nous": "décidâmes",
+    "vous": "décidâtes",
+    "ils": "décidèrent",
+    "elles": "décidèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus décidé",
+    "tu": "eus décidé",
+    "il": "eut décidé",
+    "elle": "eut décidé",
+    "nous": "eûmes décidé",
+    "vous": "eûtes décidé",
+    "ils": "eurent décidé",
+    "elles": "eurent décidé"
+    },
+    "présent_conditionnel": {
+    "je": "déciderais",
+    "tu": "déciderais",
+    "il": "déciderait",
+    "elle": "déciderait",
+    "nous": "déciderions",
+    "vous": "décideriez",
+    "ils": "décideraient",
+    "elles": "décideraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais décidé",
+    "tu": "aurais décidé",
+    "il": "aurait décidé",
+    "elle": "aurait décidé",
+    "nous": "aurions décidé",
+    "vous": "auriez décidé",
+    "ils": "auraient décidé",
+    "elles": "auraient décidé"
+    },
+    "imperatif": {
+    "tu": "décide",
+    "nous": "décidons",
+    "vous": "décidez"
+    }
+    }
+    },
+    { "infinitif": "arriver",
+    "anglais": "to arrive, to happen",
+    "standard": true,
+    "participe_présent": "arrivant",
+    "participe_passé": "arrivé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "arrive",
+    "tu": "arrives",
+    "il": "arrive",
+    "elle": "arrive",
+    "nous": "arrivons",
+    "vous": "arrivez",
+    "ils": "arrivent",
+    "elles": "arrivent"
+    },
+    "passé_composé_indicatif": {
+    "je": "suis arrivé(e)",
+    "tu": "es arrivé(e)",
+    "il": "est arrivé(e)",
+    "elle": "est arrivé(e)",
+    "nous": "sommes arrivé(e)s",
+    "vous": "êtes arrivé(e)(s)",
+    "ils": "sont arrivé(e)s",
+    "elles": "sont arrivé(e)s"
+    },
+    "imparfait_indicatif": {
+    "je": "arrivais",
+    "tu": "arrivais",
+    "il": "arrivait",
+    "elle": "arrivait",
+    "nous": "arrivions",
+    "vous": "arriviez",
+    "ils": "arrivaient",
+    "elles": "arrivaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "étais arrivé(e)",
+    "tu": "étais arrivé(e)",
+    "il": "était arrivé(e)",
+    "elle": "était arrivé(e)",
+    "nous": "étions arrivé(e)s",
+    "vous": "étiez arrivé(e)(s)",
+    "ils": "étaient arrivé(e)s",
+    "elles": "étaient arrivé(e)s"
+    },
+    "futur_simple_indicatif": {
+    "je": "arriverai",
+    "tu": "arriveras",
+    "il": "arrivera",
+    "elle": "arrivera",
+    "nous": "arriverons",
+    "vous": "arriverez",
+    "ils": "arriveront",
+    "elles": "arriveront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "serai arrivé(e)",
+    "tu": "seras arrivé(e)",
+    "il": "sera arrivé(e)",
+    "elle": "sera arrivé(e)",
+    "nous": "serons arrivé(e)s",
+    "vous": "serez arrivé(e)(s)",
+    "ils": "seront arrivé(e)s",
+    "elles": "seront arrivé(e)s"
+    },
+    "passé_simple_indicatif": {
+    "je": "arrivai",
+    "tu": "arrivas",
+    "il": "arriva",
+    "elle": "arriva",
+    "nous": "arrivâmes",
+    "vous": "arrivâtes",
+    "ils": "arrivèrent",
+    "elles": "arrivèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "fus arrivé(e)",
+    "tu": "fus arrivé(e)",
+    "il": "fut arrivé(e)",
+    "elle": "fut arrivé(e)",
+    "nous": "fûmes arrivé(e)s",
+    "vous": "fûtes arrivé(e)(s)",
+    "ils": "furent arrivé(e)s",
+    "elles": "furent arrivé(e)s"
+    },
+    "présent_conditionnel": {
+    "je": "arriverais",
+    "tu": "arriverais",
+    "il": "arriverait",
+    "elle": "arriverait",
+    "nous": "arriverions",
+    "vous": "arriveriez",
+    "ils": "arriveraient",
+    "elles": "arriveraient"
+    },
+    "passé_conditionnel": {
+    "je": "serais arrivé(e)",
+    "tu": "serais arrivé(e)",
+    "il": "serait arrivé(e)",
+    "elle": "serait arrivé(e)",
+    "nous": "serions arrivé(e)s",
+    "vous": "seriez arrivé(e)(s)",
+    "ils": "seraient arrivé(e)s",
+    "elles": "seraient arrivé(e)s"
+    },
+    "imperatif": {
+    "tu": "arrive",
+    "nous": "arrivons",
+    "vous": "arrivez"
+    }
+    }
+    },
+    { "infinitif": "servir",
+    "anglais": "to serve",
+    "standard": false,
+    "participe_présent": "servant",
+    "participe_passé": "servi",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "sers",
+    "tu": "sers",
+    "il": "sert",
+    "elle": "sert",
+    "nous": "servons",
+    "vous": "servez",
+    "ils": "servent",
+    "elles": "servent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai servi",
+    "tu": "as servi",
+    "il": "a servi",
+    "elle": "a servi",
+    "nous": "avons servi",
+    "vous": "avez servi",
+    "ils": "ont servi",
+    "elles": "ont servi"
+    },
+    "imparfait_indicatif": {
+    "je": "servais",
+    "tu": "servais",
+    "il": "servait",
+    "elle": "servait",
+    "nous": "servions",
+    "vous": "serviez",
+    "ils": "servaient",
+    "elles": "servaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais servi",
+    "tu": "avais servi",
+    "il": "avait servi",
+    "elle": "avait servi",
+    "nous": "avions servi",
+    "vous": "aviez servi",
+    "ils": "avaient servi",
+    "elles": "avaient servi"
+    },
+    "futur_simple_indicatif": {
+    "je": "servirai",
+    "tu": "serviras",
+    "il": "servira",
+    "elle": "servira",
+    "nous": "servirons",
+    "vous": "servirez",
+    "ils": "serviront",
+    "elles": "serviront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai servi",
+    "tu": "auras servi",
+    "il": "aura servi",
+    "elle": "aura servi",
+    "nous": "aurons servi",
+    "vous": "aurez servi",
+    "ils": "auront servi",
+    "elles": "auront servi"
+    },
+    "passé_simple_indicatif": {
+    "je": "servis",
+    "tu": "servis",
+    "il": "servit",
+    "elle": "servit",
+    "nous": "servîmes",
+    "vous": "servîtes",
+    "ils": "servirent",
+    "elles": "servirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus servi",
+    "tu": "eus servi",
+    "il": "eut servi",
+    "elle": "eut servi",
+    "nous": "eûmes servi",
+    "vous": "eûtes servi",
+    "ils": "eurent servi",
+    "elles": "eurent servi"
+    },
+    "présent_conditionnel": {
+    "je": "servirais",
+    "tu": "servirais",
+    "il": "servirait",
+    "elle": "servirait",
+    "nous": "servirions",
+    "vous": "serviriez",
+    "ils": "serviraient",
+    "elles": "serviraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais servi",
+    "tu": "aurais servi",
+    "il": "aurait servi",
+    "elle": "aurait servi",
+    "nous": "aurions servi",
+    "vous": "auriez servi",
+    "ils": "auraient servi",
+    "elles": "auraient servi"
+    },
+    "imperatif": {
+    "tu": "sers",
+    "nous": "servons",
+    "vous": "servez"
+    }
+    }
+    },
+    { "infinitif": "sembler",
+    "anglais": "to seem",
+    "standard": true,
+    "participe_présent": "semblant",
+    "participe_passé": "semblé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "semble",
+    "tu": "sembles",
+    "il": "semble",
+    "elle": "semble",
+    "nous": "semblons",
+    "vous": "semblez",
+    "ils": "semblent",
+    "elles": "semblent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai semblé",
+    "tu": "as semblé",
+    "il": "a semblé",
+    "elle": "a semblé",
+    "nous": "avons semblé",
+    "vous": "avez semblé",
+    "ils": "ont semblé",
+    "elles": "ont semblé"
+    },
+    "imparfait_indicatif": {
+    "je": "semblais",
+    "tu": "semblais",
+    "il": "semblait",
+    "elle": "semblait",
+    "nous": "semblions",
+    "vous": "sembliez",
+    "ils": "semblaient",
+    "elles": "semblaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais semblé",
+    "tu": "avais semblé",
+    "il": "avait semblé",
+    "elle": "avait semblé",
+    "nous": "avions semblé",
+    "vous": "aviez semblé",
+    "ils": "avaient semblé",
+    "elles": "avaient semblé"
+    },
+    "futur_simple_indicatif": {
+    "je": "semblerai",
+    "tu": "sembleras",
+    "il": "semblera",
+    "elle": "semblera",
+    "nous": "semblerons",
+    "vous": "semblerez",
+    "ils": "sembleront",
+    "elles": "sembleront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai semblé",
+    "tu": "auras semblé",
+    "il": "aura semblé",
+    "elle": "aura semblé",
+    "nous": "aurons semblé",
+    "vous": "aurez semblé",
+    "ils": "auront semblé",
+    "elles": "auront semblé"
+    },
+    "passé_simple_indicatif": {
+    "je": "semblai",
+    "tu": "semblas",
+    "il": "sembla",
+    "elle": "sembla",
+    "nous": "semblâmes",
+    "vous": "semblâtes",
+    "ils": "semblèrent",
+    "elles": "semblèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus semblé",
+    "tu": "eus semblé",
+    "il": "eut semblé",
+    "elle": "eut semblé",
+    "nous": "eûmes semblé",
+    "vous": "eûtes semblé",
+    "ils": "eurent semblé",
+    "elles": "eurent semblé"
+    },
+    "présent_conditionnel": {
+    "je": "semblerais",
+    "tu": "semblerais",
+    "il": "semblerait",
+    "elle": "semblerait",
+    "nous": "semblerions",
+    "vous": "sembleriez",
+    "ils": "sembleraient",
+    "elles": "sembleraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais semblé",
+    "tu": "aurais semblé",
+    "il": "aurait semblé",
+    "elle": "aurait semblé",
+    "nous": "aurions semblé",
+    "vous": "auriez semblé",
+    "ils": "auraient semblé",
+    "elles": "auraient semblé"
+    },
+    "imperatif": {
+    "tu": "semble",
+    "nous": "semblons",
+    "vous": "semblez"
+    }
+    }
+    },
+    { "infinitif": "revenir",
+    "anglais": "to return, to come back",
+    "standard": false,
+    "participe_présent": "revenant",
+    "participe_passé": "revenu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "reviens",
+    "tu": "reviens",
+    "il": "revient",
+    "elle": "revient",
+    "nous": "revenons",
+    "vous": "revenez",
+    "ils": "reviennent",
+    "elles": "reviennent"
+    },
+    "passé_composé_indicatif": {
+    "je": "suis revenu(e)",
+    "tu": "es revenu(e)",
+    "il": "est revenu(e)",
+    "elle": "est revenu(e)",
+    "nous": "sommes revenu(e)s",
+    "vous": "êtes revenu(e)(s)",
+    "ils": "sont revenu(e)s",
+    "elles": "sont revenu(e)s"
+    },
+    "imparfait_indicatif": {
+    "je": "revenais",
+    "tu": "revenais",
+    "il": "revenait",
+    "elle": "revenait",
+    "nous": "revenions",
+    "vous": "reveniez",
+    "ils": "revenaient",
+    "elles": "revenaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "étais revenu(e)",
+    "tu": "étais revenu(e)",
+    "il": "était revenu(e)",
+    "elle": "était revenu(e)",
+    "nous": "étions revenu(e)s",
+    "vous": "étiez revenu(e)(s)",
+    "ils": "étaient revenu(e)s",
+    "elles": "étaient revenu(e)s"
+    },
+    "futur_simple_indicatif": {
+    "je": "reviendrai",
+    "tu": "reviendras",
+    "il": "reviendra",
+    "elle": "reviendra",
+    "nous": "reviendrons",
+    "vous": "reviendrez",
+    "ils": "reviendront",
+    "elles": "reviendront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "serai revenu(e)",
+    "tu": "seras revenu(e)",
+    "il": "sera revenu(e)",
+    "elle": "sera revenu(e)",
+    "nous": "serons revenu(e)s",
+    "vous": "serez revenu(e)(s)",
+    "ils": "seront revenu(e)s",
+    "elles": "seront revenu(e)s"
+    },
+    "passé_simple_indicatif": {
+    "je": "revins",
+    "tu": "revins",
+    "il": "revint",
+    "elle": "revint",
+    "nous": "revînmes",
+    "vous": "revîntes",
+    "ils": "revinrent",
+    "elles": "revinrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "fus revenu(e)",
+    "tu": "fus revenu(e)",
+    "il": "fut revenu(e)",
+    "elle": "fut revenu(e)",
+    "nous": "fûmes revenu(e)s",
+    "vous": "fûtes revenu(e)(s)",
+    "ils": "furent revenu(e)s",
+    "elles": "furent revenu(e)s"
+    },
+    "présent_conditionnel": {
+    "je": "reviendrais",
+    "tu": "reviendrais",
+    "il": "reviendrait",
+    "elle": "reviendrait",
+    "nous": "reviendrions",
+    "vous": "reviendriez",
+    "ils": "reviendraient",
+    "elles": "reviendraient"
+    },
+    "passé_conditionnel": {
+    "je": "serais revenu(e)",
+    "tu": "serais revenu(e)",
+    "il": "serait revenu(e)",
+    "elle": "serait revenu(e)",
+    "nous": "serions revenu(e)s",
+    "vous": "seriez revenu(e)(s)",
+    "ils": "seraient revenu(e)s",
+    "elles": "seraient revenu(e)s"
+    },
+    "imperatif": {
+    "tu": "reviens",
+    "nous": "revenons",
+    "vous": "revenez"
+    }
+    }
+    },
+    { "infinitif": "laisser",
+    "anglais": "to leave (something), to let (something)",
+    "standard": true,
+    "participe_présent": "laissant",
+    "participe_passé": "laissé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "laisse",
+    "tu": "laisses",
+    "il": "laisse",
+    "elle": "laisse",
+    "nous": "laissons",
+    "vous": "laissez",
+    "ils": "laissent",
+    "elles": "laissent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai laissé",
+    "tu": "as laissé",
+    "il": "a laissé",
+    "elle": "a laissé",
+    "nous": "avons laissé",
+    "vous": "avez laissé",
+    "ils": "ont laissé",
+    "elles": "ont laissé"
+    },
+    "imparfait_indicatif": {
+    "je": "laissais",
+    "tu": "laissais",
+    "il": "laissait",
+    "elle": "laissait",
+    "nous": "laissions",
+    "vous": "laissiez",
+    "ils": "laissaient",
+    "elles": "laissaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais laissé",
+    "tu": "avais laissé",
+    "il": "avait laissé",
+    "elle": "avait laissé",
+    "nous": "avions laissé",
+    "vous": "aviez laissé",
+    "ils": "avaient laissé",
+    "elles": "avaient laissé"
+    },
+    "futur_simple_indicatif": {
+    "je": "laisserai",
+    "tu": "laisseras",
+    "il": "laissera",
+    "elle": "laissera",
+    "nous": "laisserons",
+    "vous": "laisserez",
+    "ils": "laisseront",
+    "elles": "laisseront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai laissé",
+    "tu": "auras laissé",
+    "il": "aura laissé",
+    "elle": "aura laissé",
+    "nous": "aurons laissé",
+    "vous": "aurez laissé",
+    "ils": "auront laissé",
+    "elles": "auront laissé"
+    },
+    "passé_simple_indicatif": {
+    "je": "laissai",
+    "tu": "laissas",
+    "il": "laissa",
+    "elle": "laissa",
+    "nous": "laissâmes",
+    "vous": "laissâtes",
+    "ils": "laissèrent",
+    "elles": "laissèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus laissé",
+    "tu": "eus laissé",
+    "il": "eut laissé",
+    "elle": "eut laissé",
+    "nous": "eûmes laissé",
+    "vous": "eûtes laissé",
+    "ils": "eurent laissé",
+    "elles": "eurent laissé"
+    },
+    "présent_conditionnel": {
+    "je": "laisserais",
+    "tu": "laisserais",
+    "il": "laisserait",
+    "elle": "laisserait",
+    "nous": "laisserions",
+    "vous": "laisseriez",
+    "ils": "laisseraient",
+    "elles": "laisseraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais laissé",
+    "tu": "aurais laissé",
+    "il": "aurait laissé",
+    "elle": "aurait laissé",
+    "nous": "aurions laissé",
+    "vous": "auriez laissé",
+    "ils": "auraient laissé",
+    "elles": "auraient laissé"
+    },
+    "imperatif": {
+    "tu": "laisse",
+    "nous": "laissons",
+    "vous": "laissez"
+    }
+    }
+    },
+    { "infinitif": "recevoir",
+    "anglais": "to recieve, to see (something)",
+    "standard": false,
+    "participe_présent": "recevant",
+    "participe_passé": "reçu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "reçois",
+    "tu": "reçois",
+    "il": "reçoit",
+    "elle": "reçoit",
+    "nous": "recevons",
+    "vous": "recevez",
+    "ils": "reçoivent",
+    "elles": "reçoivent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai reçu",
+    "tu": "as reçu",
+    "il": "a reçu",
+    "elle": "a reçu",
+    "nous": "avons reçu",
+    "vous": "avez reçu",
+    "ils": "ont reçu",
+    "elles": "ont reçu"
+    },
+    "imparfait_indicatif": {
+    "je": "recevais",
+    "tu": "recevais",
+    "il": "recevait",
+    "elle": "recevait",
+    "nous": "recevions",
+    "vous": "receviez",
+    "ils": "recevaient",
+    "elles": "recevaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais reçu",
+    "tu": "avais reçu",
+    "il": "avait reçu",
+    "elle": "avait reçu",
+    "nous": "avions reçu",
+    "vous": "aviez reçu",
+    "ils": "avaient reçu",
+    "elles": "avaient reçu"
+    },
+    "futur_simple_indicatif": {
+    "je": "recevrai",
+    "tu": "recevras",
+    "il": "recevra",
+    "elle": "recevra",
+    "nous": "recevrons",
+    "vous": "recevrez",
+    "ils": "recevront",
+    "elles": "recevront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai reçu",
+    "tu": "auras reçu",
+    "il": "aura reçu",
+    "elle": "aura reçu",
+    "nous": "aurons reçu",
+    "vous": "aurez reçu",
+    "ils": "auront reçu",
+    "elles": "auront reçu"
+    },
+    "passé_simple_indicatif": {
+    "je": "reçus",
+    "tu": "reçus",
+    "il": "reçut",
+    "elle": "reçut",
+    "nous": "reçûmes",
+    "vous": "reçûtes",
+    "ils": "reçurent",
+    "elles": "reçurent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus reçu",
+    "tu": "eus reçu",
+    "il": "eut reçu",
+    "elle": "eut reçu",
+    "nous": "eûmes reçu",
+    "vous": "eûtes reçu",
+    "ils": "eurent reçu",
+    "elles": "eurent reçu"
+    },
+    "présent_conditionnel": {
+    "je": "recevrais",
+    "tu": "recevrais",
+    "il": "recevrait",
+    "elle": "recevrait",
+    "nous": "recevrions",
+    "vous": "recevriez",
+    "ils": "recevraient",
+    "elles": "recevraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais reçu",
+    "tu": "aurais reçu",
+    "il": "aurait reçu",
+    "elle": "aurait reçu",
+    "nous": "aurions reçu",
+    "vous": "auriez reçu",
+    "ils": "auraient reçu",
+    "elles": "auraient reçu"
+    },
+    "imperatif": {
+    "tu": "reçois",
+    "nous": "recevons",
+    "vous": "recevez"
+    }
+    }
+    },
+    { "infinitif": "répondre",
+    "anglais": "to answer, to reply, to respond",
+    "standard": false,
+    "participe_présent": "répondant",
+    "participe_passé": "répondu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "réponds",
+    "tu": "réponds",
+    "il": "répond",
+    "elle": "répond",
+    "nous": "répondons",
+    "vous": "répondez",
+    "ils": "répondent",
+    "elles": "répondent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai répondu",
+    "tu": "as répondu",
+    "il": "a répondu",
+    "elle": "a répondu",
+    "nous": "avons répondu",
+    "vous": "avez répondu",
+    "ils": "ont répondu",
+    "elles": "ont répondu"
+    },
+    "imparfait_indicatif": {
+    "je": "répondais",
+    "tu": "répondais",
+    "il": "répondait",
+    "elle": "répondait",
+    "nous": "répondions",
+    "vous": "répondiez",
+    "ils": "répondaient",
+    "elles": "répondaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais répondu",
+    "tu": "avais répondu",
+    "il": "avait répondu",
+    "elle": "avait répondu",
+    "nous": "avions répondu",
+    "vous": "aviez répondu",
+    "ils": "avaient répondu",
+    "elles": "avaient répondu"
+    },
+    "futur_simple_indicatif": {
+    "je": "répondrai",
+    "tu": "répondras",
+    "il": "répondra",
+    "elle": "répondra",
+    "nous": "répondrons",
+    "vous": "répondrez",
+    "ils": "répondront",
+    "elles": "répondront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai répondu",
+    "tu": "auras répondu",
+    "il": "aura répondu",
+    "elle": "aura répondu",
+    "nous": "aurons répondu",
+    "vous": "aurez répondu",
+    "ils": "auront répondu",
+    "elles": "auront répondu"
+    },
+    "passé_simple_indicatif": {
+    "je": "répondis",
+    "tu": "répondis",
+    "il": "répondit",
+    "elle": "répondit",
+    "nous": "répondîmes",
+    "vous": "répondîtes",
+    "ils": "répondirent",
+    "elles": "répondirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus répondu",
+    "tu": "eus répondu",
+    "il": "eut répondu",
+    "elle": "eut répondu",
+    "nous": "eûmes répondu",
+    "vous": "eûtes répondu",
+    "ils": "eurent répondu",
+    "elles": "eurent répondu"
+    },
+    "présent_conditionnel": {
+    "je": "répondrais",
+    "tu": "répondrais",
+    "il": "répondrait",
+    "elle": "répondrait",
+    "nous": "répondrions",
+    "vous": "répondriez",
+    "ils": "répondraient",
+    "elles": "répondraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais répondu",
+    "tu": "aurais répondu",
+    "il": "aurait répondu",
+    "elle": "aurait répondu",
+    "nous": "aurions répondu",
+    "vous": "auriez répondu",
+    "ils": "auraient répondu",
+    "elles": "auraient répondu"
+    },
+    "imperatif": {
+    "tu": "réponds",
+    "nous": "répondons",
+    "vous": "répondez"
+    }
+    }
+    },
+    { "infinitif": "vivre",
+    "anglais": "to live, to be alive",
+    "standard": false,
+    "participe_présent": "vivant",
+    "participe_passé": "vécu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "vis",
+    "tu": "vis",
+    "il": "vit",
+    "elle": "vit",
+    "nous": "vivons",
+    "vous": "vivez",
+    "ils": "vivent",
+    "elles": "vivent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai vécu",
+    "tu": "as vécu",
+    "il": "a vécu",
+    "elle": "a vécu",
+    "nous": "avons vécu",
+    "vous": "avez vécu",
+    "ils": "ont vécu",
+    "elles": "ont vécu"
+    },
+    "imparfait_indicatif": {
+    "je": "vivais",
+    "tu": "vivais",
+    "il": "vivait",
+    "elle": "vivait",
+    "nous": "vivions",
+    "vous": "viviez",
+    "ils": "vivaient",
+    "elles": "vivaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais vécu",
+    "tu": "avais vécu",
+    "il": "avait vécu",
+    "elle": "avait vécu",
+    "nous": "avions vécu",
+    "vous": "aviez vécu",
+    "ils": "avaient vécu",
+    "elles": "avaient vécu"
+    },
+    "futur_simple_indicatif": {
+    "je": "vivrai",
+    "tu": "vivras",
+    "il": "vivra",
+    "elle": "vivra",
+    "nous": "vivrons",
+    "vous": "vivrez",
+    "ils": "vivront",
+    "elles": "vivront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai vécu",
+    "tu": "auras vécu",
+    "il": "aura vécu",
+    "elle": "aura vécu",
+    "nous": "aurons vécu",
+    "vous": "aurez vécu",
+    "ils": "auront vécu",
+    "elles": "auront vécu"
+    },
+    "passé_simple_indicatif": {
+    "je": "vécus",
+    "tu": "vécus",
+    "il": "vécut",
+    "elle": "vécut",
+    "nous": "vécûmes",
+    "vous": "vécûtes",
+    "ils": "vécurent",
+    "elles": "vécurent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus vécu",
+    "tu": "eus vécu",
+    "il": "eut vécu",
+    "elle": "eut vécu",
+    "nous": "eûmes vécu",
+    "vous": "eûtes vécu",
+    "ils": "eurent vécu",
+    "elles": "eurent vécu"
+    },
+    "présent_conditionnel": {
+    "je": "vivrais",
+    "tu": "vivrais",
+    "il": "vivrait",
+    "elle": "vivrait",
+    "nous": "vivrions",
+    "vous": "vivriez",
+    "ils": "vivraient",
+    "elles": "vivraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais vécu",
+    "tu": "aurais vécu",
+    "il": "aurait vécu",
+    "elle": "aurait vécu",
+    "nous": "aurions vécu",
+    "vous": "auriez vécu",
+    "ils": "auraient vécu",
+    "elles": "auraient vécu"
+    },
+    "imperatif": {
+    "tu": "vis",
+    "nous": "vivons",
+    "vous": "vivez"
+    }
+    }
+    },
+    { "infinitif": "rappeler",
+    "anglais": "to call back, to remember",
+    "standard": false,
+    "participe_présent": "rappelant",
+    "participe_passé": "rappelé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "rappelle",
+    "tu": "rappelles",
+    "il": "rappelle",
+    "elle": "rappelle",
+    "nous": "rappelons",
+    "vous": "rappelez",
+    "ils": "rappellent",
+    "elles": "rappellent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai rappelé",
+    "tu": "as rappelé",
+    "il": "a rappelé",
+    "elle": "a rappelé",
+    "nous": "avons rappelé",
+    "vous": "avez rappelé",
+    "ils": "ont rappelé",
+    "elles": "ont rappelé"
+    },
+    "imparfait_indicatif": {
+    "je": "rappelais",
+    "tu": "rappelais",
+    "il": "rappelait",
+    "elle": "rappelait",
+    "nous": "rappelions",
+    "vous": "rappeliez",
+    "ils": "rappelaient",
+    "elles": "rappelaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais rappelé",
+    "tu": "avais rappelé",
+    "il": "avait rappelé",
+    "elle": "avait rappelé",
+    "nous": "avions rappelé",
+    "vous": "aviez rappelé",
+    "ils": "avaient rappelé",
+    "elles": "avaient rappelé"
+    },
+    "futur_simple_indicatif": {
+    "je": "rappellerai",
+    "tu": "rappelleras",
+    "il": "rappellera",
+    "elle": "rappellera",
+    "nous": "rappellerons",
+    "vous": "rappellerez",
+    "ils": "rappelleront",
+    "elles": "rappelleront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai rappelé",
+    "tu": "auras rappelé",
+    "il": "aura rappelé",
+    "elle": "aura rappelé",
+    "nous": "aurons rappelé",
+    "vous": "aurez rappelé",
+    "ils": "auront rappelé",
+    "elles": "auront rappelé"
+    },
+    "passé_simple_indicatif": {
+    "je": "rappelai",
+    "tu": "rappelas",
+    "il": "rappela",
+    "elle": "rappela",
+    "nous": "rappelâmes",
+    "vous": "rappelâtes",
+    "ils": "rappelèrent",
+    "elles": "rappelèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus rappelé",
+    "tu": "eus rappelé",
+    "il": "eut rappelé",
+    "elle": "eut rappelé",
+    "nous": "eûmes rappelé",
+    "vous": "eûtes rappelé",
+    "ils": "eurent rappelé",
+    "elles": "eurent rappelé"
+    },
+    "présent_conditionnel": {
+    "je": "rappellerais",
+    "tu": "rappellerais",
+    "il": "rappellerait",
+    "elle": "rappellerait",
+    "nous": "rappellerions",
+    "vous": "rappelleriez",
+    "ils": "rappelleraient",
+    "elles": "rappelleraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais rappelé",
+    "tu": "aurais rappelé",
+    "il": "aurait rappelé",
+    "elle": "aurait rappelé",
+    "nous": "aurions rappelé",
+    "vous": "auriez rappelé",
+    "ils": "auraient rappelé",
+    "elles": "auraient rappelé"
+    },
+    "imperatif": {
+    "tu": "rappelle",
+    "nous": "rappelons",
+    "vous": "rappelez"
+    }
+    }
+    },
+    { "infinitif": "présenter",
+    "anglais": "to present, to introduce",
+    "standard": true,
+    "participe_présent": "présentant",
+    "participe_passé": "présenté",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "présente",
+    "tu": "présentes",
+    "il": "présente",
+    "elle": "présente",
+    "nous": "présentons",
+    "vous": "présentez",
+    "ils": "présentent",
+    "elles": "présentent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai présenté",
+    "tu": "as présenté",
+    "il": "a présenté",
+    "elle": "a présenté",
+    "nous": "avons présenté",
+    "vous": "avez présenté",
+    "ils": "ont présenté",
+    "elles": "ont présenté"
+    },
+    "imparfait_indicatif": {
+    "je": "présentais",
+    "tu": "présentais",
+    "il": "présentait",
+    "elle": "présentait",
+    "nous": "présentions",
+    "vous": "présentiez",
+    "ils": "présentaient",
+    "elles": "présentaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais présenté",
+    "tu": "avais présenté",
+    "il": "avait présenté",
+    "elle": "avait présenté",
+    "nous": "avions présenté",
+    "vous": "aviez présenté",
+    "ils": "avaient présenté",
+    "elles": "avaient présenté"
+    },
+    "futur_simple_indicatif": {
+    "je": "présenterai",
+    "tu": "présenteras",
+    "il": "présentera",
+    "elle": "présentera",
+    "nous": "présenterons",
+    "vous": "présenterez",
+    "ils": "présenteront",
+    "elles": "présenteront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai présenté",
+    "tu": "auras présenté",
+    "il": "aura présenté",
+    "elle": "aura présenté",
+    "nous": "aurons présenté",
+    "vous": "aurez présenté",
+    "ils": "auront présenté",
+    "elles": "auront présenté"
+    },
+    "passé_simple_indicatif": {
+    "je": "présentai",
+    "tu": "présentas",
+    "il": "présenta",
+    "elle": "présenta",
+    "nous": "présentâmes",
+    "vous": "présentâtes",
+    "ils": "présentèrent",
+    "elles": "présentèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus présenté",
+    "tu": "eus présenté",
+    "il": "eut présenté",
+    "elle": "eut présenté",
+    "nous": "eûmes présenté",
+    "vous": "eûtes présenté",
+    "ils": "eurent présenté",
+    "elles": "eurent présenté"
+    },
+    "présent_conditionnel": {
+    "je": "présenterais",
+    "tu": "présenterais",
+    "il": "présenterait",
+    "elle": "présenterait",
+    "nous": "présenterions",
+    "vous": "présenteriez",
+    "ils": "présenteraient",
+    "elles": "présenteraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais présenté",
+    "tu": "aurais présenté",
+    "il": "aurait présenté",
+    "elle": "aurait présenté",
+    "nous": "aurions présenté",
+    "vous": "auriez présenté",
+    "ils": "auraient présenté",
+    "elles": "auraient présenté"
+    },
+    "imperatif": {
+    "tu": "présente",
+    "nous": "présentons",
+    "vous": "présentez"
+    }
+    }
+    },
+    { "infinitif": "accepter",
+    "anglais": "to accept",
+    "standard": true,
+    "participe_présent": "acceptant",
+    "participe_passé": "accepté",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "accepte",
+    "tu": "acceptes",
+    "il": "accepte",
+    "elle": "accepte",
+    "nous": "acceptons",
+    "vous": "acceptez",
+    "ils": "acceptent",
+    "elles": "acceptent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai accepté",
+    "tu": "as accepté",
+    "il": "a accepté",
+    "elle": "a accepté",
+    "nous": "avons accepté",
+    "vous": "avez accepté",
+    "ils": "ont accepté",
+    "elles": "ont accepté"
+    },
+    "imparfait_indicatif": {
+    "je": "acceptais",
+    "tu": "acceptais",
+    "il": "acceptait",
+    "elle": "acceptait",
+    "nous": "acceptions",
+    "vous": "acceptiez",
+    "ils": "acceptaient",
+    "elles": "acceptaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais accepté",
+    "tu": "avais accepté",
+    "il": "avait accepté",
+    "elle": "avait accepté",
+    "nous": "avions accepté",
+    "vous": "aviez accepté",
+    "ils": "avaient accepté",
+    "elles": "avaient accepté"
+    },
+    "futur_simple_indicatif": {
+    "je": "accepterai",
+    "tu": "accepteras",
+    "il": "acceptera",
+    "elle": "acceptera",
+    "nous": "accepterons",
+    "vous": "accepterez",
+    "ils": "accepteront",
+    "elles": "accepteront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai accepté",
+    "tu": "auras accepté",
+    "il": "aura accepté",
+    "elle": "aura accepté",
+    "nous": "aurons accepté",
+    "vous": "aurez accepté",
+    "ils": "auront accepté",
+    "elles": "auront accepté"
+    },
+    "passé_simple_indicatif": {
+    "je": "acceptai",
+    "tu": "acceptas",
+    "il": "accepta",
+    "elle": "accepta",
+    "nous": "acceptâmes",
+    "vous": "acceptâtes",
+    "ils": "acceptèrent",
+    "elles": "acceptèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus accepté",
+    "tu": "eus accepté",
+    "il": "eut accepté",
+    "elle": "eut accepté",
+    "nous": "eûmes accepté",
+    "vous": "eûtes accepté",
+    "ils": "eurent accepté",
+    "elles": "eurent accepté"
+    },
+    "présent_conditionnel": {
+    "je": "accepterais",
+    "tu": "accepterais",
+    "il": "accepterait",
+    "elle": "accepterait",
+    "nous": "accepterions",
+    "vous": "accepteriez",
+    "ils": "accepteraient",
+    "elles": "accepteraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais accepté",
+    "tu": "aurais accepté",
+    "il": "aurait accepté",
+    "elle": "aurait accepté",
+    "nous": "aurions accepté",
+    "vous": "auriez accepté",
+    "ils": "auraient accepté",
+    "elles": "auraient accepté"
+    },
+    "imperatif": {
+    "tu": "accepte",
+    "nous": "acceptons",
+    "vous": "acceptez"
+    }
+    }
+    },
+    { "infinitif": "agir",
+    "anglais": "to act (on something), to behave",
+    "standard": true,
+    "participe_présent": "agissant",
+    "participe_passé": "agi",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "agis",
+    "tu": "agis",
+    "il": "agit",
+    "elle": "agit",
+    "nous": "agissons",
+    "vous": "agissez",
+    "ils": "agissent",
+    "elles": "agissent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai agi",
+    "tu": "as agi",
+    "il": "a agi",
+    "elle": "a agi",
+    "nous": "avons agi",
+    "vous": "avez agi",
+    "ils": "ont agi",
+    "elles": "ont agi"
+    },
+    "imparfait_indicatif": {
+    "je": "agissais",
+    "tu": "agissais",
+    "il": "agissait",
+    "elle": "agissait",
+    "nous": "agissions",
+    "vous": "agissiez",
+    "ils": "agissaient",
+    "elles": "agissaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais agi",
+    "tu": "avais agi",
+    "il": "avait agi",
+    "elle": "avait agi",
+    "nous": "avions agi",
+    "vous": "aviez agi",
+    "ils": "avaient agi",
+    "elles": "avaient agi"
+    },
+    "futur_simple_indicatif": {
+    "je": "agirai",
+    "tu": "agiras",
+    "il": "agira",
+    "elle": "agira",
+    "nous": "agirons",
+    "vous": "agirez",
+    "ils": "agiront",
+    "elles": "agiront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai agi",
+    "tu": "auras agi",
+    "il": "aura agi",
+    "elle": "aura agi",
+    "nous": "aurons agi",
+    "vous": "aurez agi",
+    "ils": "auront agi",
+    "elles": "auront agi"
+    },
+    "passé_simple_indicatif": {
+    "je": "agis",
+    "tu": "agis",
+    "il": "agit",
+    "elle": "agit",
+    "nous": "agîmes",
+    "vous": "agîtes",
+    "ils": "agirent",
+    "elles": "agirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus agi",
+    "tu": "eus agi",
+    "il": "eut agi",
+    "elle": "eut agi",
+    "nous": "eûmes agi",
+    "vous": "eûtes agi",
+    "ils": "eurent agi",
+    "elles": "eurent agi"
+    },
+    "présent_conditionnel": {
+    "je": "agirais",
+    "tu": "agirais",
+    "il": "agirait",
+    "elle": "agirait",
+    "nous": "agirions",
+    "vous": "agiriez",
+    "ils": "agiraient",
+    "elles": "agiraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais agi",
+    "tu": "aurais agi",
+    "il": "aurait agi",
+    "elle": "aurait agi",
+    "nous": "aurions agi",
+    "vous": "auriez agi",
+    "ils": "auraient agi",
+    "elles": "auraient agi"
+    },
+    "imperatif": {
+    "tu": "agis",
+    "nous": "agissons",
+    "vous": "agissez"
+    }
+    }
+    },
+    { "infinitif": "poser",
+    "anglais": "to put down, to pose, ",
+    "standard": true,
+    "participe_présent": "posant",
+    "participe_passé": "posé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "pose",
+    "tu": "poses",
+    "il": "pose",
+    "elle": "pose",
+    "nous": "posons",
+    "vous": "posez",
+    "ils": "posent",
+    "elles": "posent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai posé",
+    "tu": "as posé",
+    "il": "a posé",
+    "elle": "a posé",
+    "nous": "avons posé",
+    "vous": "avez posé",
+    "ils": "ont posé",
+    "elles": "ont posé"
+    },
+    "imparfait_indicatif": {
+    "je": "posais",
+    "tu": "posais",
+    "il": "posait",
+    "elle": "posait",
+    "nous": "posions",
+    "vous": "posiez",
+    "ils": "posaient",
+    "elles": "posaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais posé",
+    "tu": "avais posé",
+    "il": "avait posé",
+    "elle": "avait posé",
+    "nous": "avions posé",
+    "vous": "aviez posé",
+    "ils": "avaient posé",
+    "elles": "avaient posé"
+    },
+    "futur_simple_indicatif": {
+    "je": "poserai",
+    "tu": "poseras",
+    "il": "posera",
+    "elle": "posera",
+    "nous": "poserons",
+    "vous": "poserez",
+    "ils": "poseront",
+    "elles": "poseront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai posé",
+    "tu": "auras posé",
+    "il": "aura posé",
+    "elle": "aura posé",
+    "nous": "aurons posé",
+    "vous": "aurez posé",
+    "ils": "auront posé",
+    "elles": "auront posé"
+    },
+    "passé_simple_indicatif": {
+    "je": "posai",
+    "tu": "posas",
+    "il": "posa",
+    "elle": "posa",
+    "nous": "posâmes",
+    "vous": "posâtes",
+    "ils": "posèrent",
+    "elles": "posèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus posé",
+    "tu": "eus posé",
+    "il": "eut posé",
+    "elle": "eut posé",
+    "nous": "eûmes posé",
+    "vous": "eûtes posé",
+    "ils": "eurent posé",
+    "elles": "eurent posé"
+    },
+    "présent_conditionnel": {
+    "je": "poserais",
+    "tu": "poserais",
+    "il": "poserait",
+    "elle": "poserait",
+    "nous": "poserions",
+    "vous": "poseriez",
+    "ils": "poseraient",
+    "elles": "poseraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais posé",
+    "tu": "aurais posé",
+    "il": "aurait posé",
+    "elle": "aurait posé",
+    "nous": "aurions posé",
+    "vous": "auriez posé",
+    "ils": "auraient posé",
+    "elles": "auraient posé"
+    },
+    "imperatif": {
+    "tu": "pose",
+    "nous": "posons",
+    "vous": "posez"
+    }
+    }
+    },
+    { "infinitif": "jouer",
+    "anglais": "to play, to act",
+    "standard": true,
+    "participe_présent": "jouant",
+    "participe_passé": "joué",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "joue",
+    "tu": "joues",
+    "il": "joue",
+    "elle": "joue",
+    "nous": "jouons",
+    "vous": "jouez",
+    "ils": "jouent",
+    "elles": "jouent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai joué",
+    "tu": "as joué",
+    "il": "a joué",
+    "elle": "a joué",
+    "nous": "avons joué",
+    "vous": "avez joué",
+    "ils": "ont joué",
+    "elles": "ont joué"
+    },
+    "imparfait_indicatif": {
+    "je": "jouais",
+    "tu": "jouais",
+    "il": "jouait",
+    "elle": "jouait",
+    "nous": "jouions",
+    "vous": "jouiez",
+    "ils": "jouaient",
+    "elles": "jouaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais joué",
+    "tu": "avais joué",
+    "il": "avait joué",
+    "elle": "avait joué",
+    "nous": "avions joué",
+    "vous": "aviez joué",
+    "ils": "avaient joué",
+    "elles": "avaient joué"
+    },
+    "futur_simple_indicatif": {
+    "je": "jouerai",
+    "tu": "joueras",
+    "il": "jouera",
+    "elle": "jouera",
+    "nous": "jouerons",
+    "vous": "jouerez",
+    "ils": "joueront",
+    "elles": "joueront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai joué",
+    "tu": "auras joué",
+    "il": "aura joué",
+    "elle": "aura joué",
+    "nous": "aurons joué",
+    "vous": "aurez joué",
+    "ils": "auront joué",
+    "elles": "auront joué"
+    },
+    "passé_simple_indicatif": {
+    "je": "jouai",
+    "tu": "jouas",
+    "il": "joua",
+    "elle": "joua",
+    "nous": "jouâmes",
+    "vous": "jouâtes",
+    "ils": "jouèrent",
+    "elles": "jouèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus joué",
+    "tu": "eus joué",
+    "il": "eut joué",
+    "elle": "eut joué",
+    "nous": "eûmes joué",
+    "vous": "eûtes joué",
+    "ils": "eurent joué",
+    "elles": "eurent joué"
+    },
+    "présent_conditionnel": {
+    "je": "jouerais",
+    "tu": "jouerais",
+    "il": "jouerait",
+    "elle": "jouerait",
+    "nous": "jouerions",
+    "vous": "joueriez",
+    "ils": "joueraient",
+    "elles": "joueraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais joué",
+    "tu": "aurais joué",
+    "il": "aurait joué",
+    "elle": "aurait joué",
+    "nous": "aurions joué",
+    "vous": "auriez joué",
+    "ils": "auraient joué",
+    "elles": "auraient joué"
+    },
+    "imperatif": {
+    "tu": "joue",
+    "nous": "jouons",
+    "vous": "jouez"
+    }
+    }
+    },
+    { "infinitif": "reconnaître",
+    "anglais": "to recognize, to admit",
+    "standard": false,
+    "participe_présent": "reconnaissant",
+    "participe_passé": "reconnu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "reconnais",
+    "tu": "reconnais",
+    "il": "reconnaît",
+    "elle": "reconnaît",
+    "nous": "reconnaissons",
+    "vous": "reconnaissez",
+    "ils": "reconnaissent",
+    "elles": "reconnaissent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai reconnu",
+    "tu": "as reconnu",
+    "il": "a reconnu",
+    "elle": "a reconnu",
+    "nous": "avons reconnu",
+    "vous": "avez reconnu",
+    "ils": "ont reconnu",
+    "elles": "ont reconnu"
+    },
+    "imparfait_indicatif": {
+    "je": "reconnaissais",
+    "tu": "reconnaissais",
+    "il": "reconnaissait",
+    "elle": "reconnaissait",
+    "nous": "reconnaissions",
+    "vous": "reconnaissiez",
+    "ils": "reconnaissaient",
+    "elles": "reconnaissaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais reconnu",
+    "tu": "avais reconnu",
+    "il": "avait reconnu",
+    "elle": "avait reconnu",
+    "nous": "avions reconnu",
+    "vous": "aviez reconnu",
+    "ils": "avaient reconnu",
+    "elles": "avaient reconnu"
+    },
+    "futur_simple_indicatif": {
+    "je": "reconnaîtrai",
+    "tu": "reconnaîtras",
+    "il": "reconnaîtra",
+    "elle": "reconnaîtra",
+    "nous": "reconnaîtrons",
+    "vous": "reconnaîtrez",
+    "ils": "reconnaîtront",
+    "elles": "reconnaîtront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai reconnu",
+    "tu": "auras reconnu",
+    "il": "aura reconnu",
+    "elle": "aura reconnu",
+    "nous": "aurons reconnu",
+    "vous": "aurez reconnu",
+    "ils": "auront reconnu",
+    "elles": "auront reconnu"
+    },
+    "passé_simple_indicatif": {
+    "je": "reconnus",
+    "tu": "reconnus",
+    "il": "reconnut",
+    "elle": "reconnut",
+    "nous": "reconnûmes",
+    "vous": "reconnûtes",
+    "ils": "reconnurent",
+    "elles": "reconnurent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus reconnu",
+    "tu": "eus reconnu",
+    "il": "eut reconnu",
+    "elle": "eut reconnu",
+    "nous": "eûmes reconnu",
+    "vous": "eûtes reconnu",
+    "ils": "eurent reconnu",
+    "elles": "eurent reconnu"
+    },
+    "présent_conditionnel": {
+    "je": "reconnaîtrais",
+    "tu": "reconnaîtrais",
+    "il": "reconnaîtrait",
+    "elle": "reconnaîtrait",
+    "nous": "reconnaîtrions",
+    "vous": "reconnaîtriez",
+    "ils": "reconnaîtraient",
+    "elles": "reconnaîtraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais reconnu",
+    "tu": "aurais reconnu",
+    "il": "aurait reconnu",
+    "elle": "aurait reconnu",
+    "nous": "aurions reconnu",
+    "vous": "auriez reconnu",
+    "ils": "auraient reconnu",
+    "elles": "auraient reconnu"
+    },
+    "imperatif": {
+    "tu": "reconnais",
+    "nous": "reconnaissons",
+    "vous": "reconnaissez"
+    }
+    }
+    },
+    { "infinitif": "choisir",
+    "anglais": "to choose",
+    "standard": true,
+    "participe_présent": "choisissant",
+    "participe_passé": "choisi",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "choisis",
+    "tu": "choisis",
+    "il": "choisit",
+    "elle": "choisit",
+    "nous": "choisissons",
+    "vous": "choisissez",
+    "ils": "choisissent",
+    "elles": "choisissent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai choisi",
+    "tu": "as choisi",
+    "il": "a choisi",
+    "elle": "a choisi",
+    "nous": "avons choisi",
+    "vous": "avez choisi",
+    "ils": "ont choisi",
+    "elles": "ont choisi"
+    },
+    "imparfait_indicatif": {
+    "je": "choisissais",
+    "tu": "choisissais",
+    "il": "choisissait",
+    "elle": "choisissait",
+    "nous": "choisissions",
+    "vous": "choisissiez",
+    "ils": "choisissaient",
+    "elles": "choisissaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais choisi",
+    "tu": "avais choisi",
+    "il": "avait choisi",
+    "elle": "avait choisi",
+    "nous": "avions choisi",
+    "vous": "aviez choisi",
+    "ils": "avaient choisi",
+    "elles": "avaient choisi"
+    },
+    "futur_simple_indicatif": {
+    "je": "choisirai",
+    "tu": "choisiras",
+    "il": "choisira",
+    "elle": "choisira",
+    "nous": "choisirons",
+    "vous": "choisirez",
+    "ils": "choisiront",
+    "elles": "choisiront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai choisi",
+    "tu": "auras choisi",
+    "il": "aura choisi",
+    "elle": "aura choisi",
+    "nous": "aurons choisi",
+    "vous": "aurez choisi",
+    "ils": "auront choisi",
+    "elles": "auront choisi"
+    },
+    "passé_simple_indicatif": {
+    "je": "choisis",
+    "tu": "choisis",
+    "il": "choisit",
+    "elle": "choisit",
+    "nous": "choisîmes",
+    "vous": "choisîtes",
+    "ils": "choisirent",
+    "elles": "choisirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus choisi",
+    "tu": "eus choisi",
+    "il": "eut choisi",
+    "elle": "eut choisi",
+    "nous": "eûmes choisi",
+    "vous": "eûtes choisi",
+    "ils": "eurent choisi",
+    "elles": "eurent choisi"
+    },
+    "présent_conditionnel": {
+    "je": "choisirais",
+    "tu": "choisirais",
+    "il": "choisirait",
+    "elle": "choisirait",
+    "nous": "choisirions",
+    "vous": "choisiriez",
+    "ils": "choisiraient",
+    "elles": "choisiraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais choisi",
+    "tu": "aurais choisi",
+    "il": "aurait choisi",
+    "elle": "aurait choisi",
+    "nous": "aurions choisi",
+    "vous": "auriez choisi",
+    "ils": "auraient choisi",
+    "elles": "auraient choisi"
+    },
+    "imperatif": {
+    "tu": "choisis",
+    "nous": "choisissons",
+    "vous": "choisissez"
+    }
+    }
+    },
+    { "infinitif": "toucher",
+    "anglais": "to touch, to feel, to hit, to affect, to recieve",
+    "standard": true,
+    "participe_présent": "touchant",
+    "participe_passé": "touché",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "touche",
+    "tu": "touches",
+    "il": "touche",
+    "elle": "touche",
+    "nous": "touchons",
+    "vous": "touchez",
+    "ils": "touchent",
+    "elles": "touchent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai touché",
+    "tu": "as touché",
+    "il": "a touché",
+    "elle": "a touché",
+    "nous": "avons touché",
+    "vous": "avez touché",
+    "ils": "ont touché",
+    "elles": "ont touché"
+    },
+    "imparfait_indicatif": {
+    "je": "touchais",
+    "tu": "touchais",
+    "il": "touchait",
+    "elle": "touchait",
+    "nous": "touchions",
+    "vous": "touchiez",
+    "ils": "touchaient",
+    "elles": "touchaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais touché",
+    "tu": "avais touché",
+    "il": "avait touché",
+    "elle": "avait touché",
+    "nous": "avions touché",
+    "vous": "aviez touché",
+    "ils": "avaient touché",
+    "elles": "avaient touché"
+    },
+    "futur_simple_indicatif": {
+    "je": "toucherai",
+    "tu": "toucheras",
+    "il": "touchera",
+    "elle": "touchera",
+    "nous": "toucherons",
+    "vous": "toucherez",
+    "ils": "toucheront",
+    "elles": "toucheront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai touché",
+    "tu": "auras touché",
+    "il": "aura touché",
+    "elle": "aura touché",
+    "nous": "aurons touché",
+    "vous": "aurez touché",
+    "ils": "auront touché",
+    "elles": "auront touché"
+    },
+    "passé_simple_indicatif": {
+    "je": "touchai",
+    "tu": "touchas",
+    "il": "toucha",
+    "elle": "toucha",
+    "nous": "touchâmes",
+    "vous": "touchâtes",
+    "ils": "touchèrent",
+    "elles": "touchèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus touché",
+    "tu": "eus touché",
+    "il": "eut touché",
+    "elle": "eut touché",
+    "nous": "eûmes touché",
+    "vous": "eûtes touché",
+    "ils": "eurent touché",
+    "elles": "eurent touché"
+    },
+    "présent_conditionnel": {
+    "je": "toucherais",
+    "tu": "toucherais",
+    "il": "toucherait",
+    "elle": "toucherait",
+    "nous": "toucherions",
+    "vous": "toucheriez",
+    "ils": "toucheraient",
+    "elles": "toucheraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais touché",
+    "tu": "aurais touché",
+    "il": "aurait touché",
+    "elle": "aurait touché",
+    "nous": "aurions touché",
+    "vous": "auriez touché",
+    "ils": "auraient touché",
+    "elles": "auraient touché"
+    },
+    "imperatif": {
+    "tu": "touche",
+    "nous": "touchons",
+    "vous": "touchez"
+    }
+    }
+    },
+    { "infinitif": "aimer",
+    "anglais": "to love, to like",
+    "standard": true,
+    "participe_présent": "aimant",
+    "participe_passé": "aimé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "aime",
+    "tu": "aimes",
+    "il": "aime",
+    "elle": "aime",
+    "nous": "aimons",
+    "vous": "aimez",
+    "ils": "aiment",
+    "elles": "aiment"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai aimé",
+    "tu": "as aimé",
+    "il": "a aimé",
+    "elle": "a aimé",
+    "nous": "avons aimé",
+    "vous": "avez aimé",
+    "ils": "ont aimé",
+    "elles": "ont aimé"
+    },
+    "imparfait_indicatif": {
+    "je": "aimais",
+    "tu": "aimais",
+    "il": "aimait",
+    "elle": "aimait",
+    "nous": "aimions",
+    "vous": "aimiez",
+    "ils": "aimaient",
+    "elles": "aimaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais aimé",
+    "tu": "avais aimé",
+    "il": "avait aimé",
+    "elle": "avait aimé",
+    "nous": "avions aimé",
+    "vous": "aviez aimé",
+    "ils": "avaient aimé",
+    "elles": "avaient aimé"
+    },
+    "futur_simple_indicatif": {
+    "je": "aimerai",
+    "tu": "aimeras",
+    "il": "aimera",
+    "elle": "aimera",
+    "nous": "aimerons",
+    "vous": "aimerez",
+    "ils": "aimeront",
+    "elles": "aimeront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai aimé",
+    "tu": "auras aimé",
+    "il": "aura aimé",
+    "elle": "aura aimé",
+    "nous": "aurons aimé",
+    "vous": "aurez aimé",
+    "ils": "auront aimé",
+    "elles": "auront aimé"
+    },
+    "passé_simple_indicatif": {
+    "je": "aimai",
+    "tu": "aimas",
+    "il": "aima",
+    "elle": "aima",
+    "nous": "aimâmes",
+    "vous": "aimâtes",
+    "ils": "aimèrent",
+    "elles": "aimèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus aimé",
+    "tu": "eus aimé",
+    "il": "eut aimé",
+    "elle": "eut aimé",
+    "nous": "eûmes aimé",
+    "vous": "eûtes aimé",
+    "ils": "eurent aimé",
+    "elles": "eurent aimé"
+    },
+    "présent_conditionnel": {
+    "je": "aimerais",
+    "tu": "aimerais",
+    "il": "aimerait",
+    "elle": "aimerait",
+    "nous": "aimerions",
+    "vous": "aimeriez",
+    "ils": "aimeraient",
+    "elles": "aimeraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais aimé",
+    "tu": "aurais aimé",
+    "il": "aurait aimé",
+    "elle": "aurait aimé",
+    "nous": "aurions aimé",
+    "vous": "auriez aimé",
+    "ils": "auraient aimé",
+    "elles": "auraient aimé"
+    },
+    "imperatif": {
+    "tu": "aime",
+    "nous": "aimons",
+    "vous": "aimez"
+    }
+    }
+    },
+    { "infinitif": "retrouver",
+    "anglais": "to find, to meet up with",
+    "standard": true,
+    "participe_présent": "retrouvant",
+    "participe_passé": "retrouvé",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "retrouve",
+    "tu": "retrouves",
+    "il": "retrouve",
+    "elle": "retrouve",
+    "nous": "retrouvons",
+    "vous": "retrouvez",
+    "ils": "retrouvent",
+    "elles": "retrouvent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai retrouvé",
+    "tu": "as retrouvé",
+    "il": "a retrouvé",
+    "elle": "a retrouvé",
+    "nous": "avons retrouvé",
+    "vous": "avez retrouvé",
+    "ils": "ont retrouvé",
+    "elles": "ont retrouvé"
+    },
+    "imparfait_indicatif": {
+    "je": "retrouvais",
+    "tu": "retrouvais",
+    "il": "retrouvait",
+    "elle": "retrouvait",
+    "nous": "retrouvions",
+    "vous": "retrouviez",
+    "ils": "retrouvaient",
+    "elles": "retrouvaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais retrouvé",
+    "tu": "avais retrouvé",
+    "il": "avait retrouvé",
+    "elle": "avait retrouvé",
+    "nous": "avions retrouvé",
+    "vous": "aviez retrouvé",
+    "ils": "avaient retrouvé",
+    "elles": "avaient retrouvé"
+    },
+    "futur_simple_indicatif": {
+    "je": "retrouverai",
+    "tu": "retrouveras",
+    "il": "retrouvera",
+    "elle": "retrouvera",
+    "nous": "retrouverons",
+    "vous": "retrouverez",
+    "ils": "retrouveront",
+    "elles": "retrouveront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai retrouvé",
+    "tu": "auras retrouvé",
+    "il": "aura retrouvé",
+    "elle": "aura retrouvé",
+    "nous": "aurons retrouvé",
+    "vous": "aurez retrouvé",
+    "ils": "auront retrouvé",
+    "elles": "auront retrouvé"
+    },
+    "passé_simple_indicatif": {
+    "je": "retrouvai",
+    "tu": "retrouvas",
+    "il": "retrouva",
+    "elle": "retrouva",
+    "nous": "retrouvâmes",
+    "vous": "retrouvâtes",
+    "ils": "retrouvèrent",
+    "elles": "retrouvèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus retrouvé",
+    "tu": "eus retrouvé",
+    "il": "eut retrouvé",
+    "elle": "eut retrouvé",
+    "nous": "eûmes retrouvé",
+    "vous": "eûtes retrouvé",
+    "ils": "eurent retrouvé",
+    "elles": "eurent retrouvé"
+    },
+    "présent_conditionnel": {
+    "je": "retrouverais",
+    "tu": "retrouverais",
+    "il": "retrouverait",
+    "elle": "retrouverait",
+    "nous": "retrouverions",
+    "vous": "retrouveriez",
+    "ils": "retrouveraient",
+    "elles": "retrouveraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais retrouvé",
+    "tu": "aurais retrouvé",
+    "il": "aurait retrouvé",
+    "elle": "aurait retrouvé",
+    "nous": "aurions retrouvé",
+    "vous": "auriez retrouvé",
+    "ils": "auraient retrouvé",
+    "elles": "auraient retrouvé"
+    },
+    "imperatif": {
+    "tu": "retrouve",
+    "nous": "retrouvons",
+    "vous": "retrouvez"
+    }
+    }
+    },
+    { "infinitif": "perdre",
+    "anglais": "to lose (something), to waste (something)",
+    "standard": false,
+    "participe_présent": "perdant",
+    "participe_passé": "perdu",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "perds",
+    "tu": "perds",
+    "il": "perd",
+    "elle": "perd",
+    "nous": "perdons",
+    "vous": "perdez",
+    "ils": "perdent",
+    "elles": "perdent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai perdu",
+    "tu": "as perdu",
+    "il": "a perdu",
+    "elle": "a perdu",
+    "nous": "avons perdu",
+    "vous": "avez perdu",
+    "ils": "ont perdu",
+    "elles": "ont perdu"
+    },
+    "imparfait_indicatif": {
+    "je": "perdais",
+    "tu": "perdais",
+    "il": "perdait",
+    "elle": "perdait",
+    "nous": "perdions",
+    "vous": "perdiez",
+    "ils": "perdaient",
+    "elles": "perdaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais perdu",
+    "tu": "avais perdu",
+    "il": "avait perdu",
+    "elle": "avait perdu",
+    "nous": "avions perdu",
+    "vous": "aviez perdu",
+    "ils": "avaient perdu",
+    "elles": "avaient perdu"
+    },
+    "futur_simple_indicatif": {
+    "je": "perdrai",
+    "tu": "perdras",
+    "il": "perdra",
+    "elle": "perdra",
+    "nous": "perdrons",
+    "vous": "perdrez",
+    "ils": "perdront",
+    "elles": "perdront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai perdu",
+    "tu": "auras perdu",
+    "il": "aura perdu",
+    "elle": "aura perdu",
+    "nous": "aurons perdu",
+    "vous": "aurez perdu",
+    "ils": "auront perdu",
+    "elles": "auront perdu"
+    },
+    "passé_simple_indicatif": {
+    "je": "perdis",
+    "tu": "perdis",
+    "il": "perdit",
+    "elle": "perdit",
+    "nous": "perdîmes",
+    "vous": "perdîtes",
+    "ils": "perdirent",
+    "elles": "perdirent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus perdu",
+    "tu": "eus perdu",
+    "il": "eut perdu",
+    "elle": "eut perdu",
+    "nous": "eûmes perdu",
+    "vous": "eûtes perdu",
+    "ils": "eurent perdu",
+    "elles": "eurent perdu"
+    },
+    "présent_conditionnel": {
+    "je": "perdrais",
+    "tu": "perdrais",
+    "il": "perdrait",
+    "elle": "perdrait",
+    "nous": "perdrions",
+    "vous": "perdriez",
+    "ils": "perdraient",
+    "elles": "perdraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais perdu",
+    "tu": "aurais perdu",
+    "il": "aurait perdu",
+    "elle": "aurait perdu",
+    "nous": "aurions perdu",
+    "vous": "auriez perdu",
+    "ils": "auraient perdu",
+    "elles": "auraient perdu"
+    },
+    "imperatif": {
+    "tu": "perds",
+    "nous": "perdons",
+    "vous": "perdez"
+    }
+    }
+    },
+    { "infinitif": "expliquer",
+    "anglais": "to explain",
+    "standard": true,
+    "participe_présent": "expliquant",
+    "participe_passé": "expliqué",
+    "tenses": {
+    "présent_indicatif": {
+    "je": "explique",
+    "tu": "expliques",
+    "il": "explique",
+    "elle": "explique",
+    "nous": "expliquons",
+    "vous": "expliquez",
+    "ils": "expliquent",
+    "elles": "expliquent"
+    },
+    "passé_composé_indicatif": {
+    "je": "ai expliqué",
+    "tu": "as expliqué",
+    "il": "a expliqué",
+    "elle": "a expliqué",
+    "nous": "avons expliqué",
+    "vous": "avez expliqué",
+    "ils": "ont expliqué",
+    "elles": "ont expliqué"
+    },
+    "imparfait_indicatif": {
+    "je": "expliquais",
+    "tu": "expliquais",
+    "il": "expliquait",
+    "elle": "expliquait",
+    "nous": "expliquions",
+    "vous": "expliquiez",
+    "ils": "expliquaient",
+    "elles": "expliquaient"
+    },
+    "plus_que_parfait_indicatif": {
+    "je": "avais expliqué",
+    "tu": "avais expliqué",
+    "il": "avait expliqué",
+    "elle": "avait expliqué",
+    "nous": "avions expliqué",
+    "vous": "aviez expliqué",
+    "ils": "avaient expliqué",
+    "elles": "avaient expliqué"
+    },
+    "futur_simple_indicatif": {
+    "je": "expliquerai",
+    "tu": "expliqueras",
+    "il": "expliquera",
+    "elle": "expliquera",
+    "nous": "expliquerons",
+    "vous": "expliquerez",
+    "ils": "expliqueront",
+    "elles": "expliqueront"
+    },
+    "futur_antérieur_indicatif": {
+    "je": "aurai expliqué",
+    "tu": "auras expliqué",
+    "il": "aura expliqué",
+    "elle": "aura expliqué",
+    "nous": "aurons expliqué",
+    "vous": "aurez expliqué",
+    "ils": "auront expliqué",
+    "elles": "auront expliqué"
+    },
+    "passé_simple_indicatif": {
+    "je": "expliquai",
+    "tu": "expliquas",
+    "il": "expliqua",
+    "elle": "expliqua",
+    "nous": "expliquâmes",
+    "vous": "expliquâtes",
+    "ils": "expliquèrent",
+    "elles": "expliquèrent"
+    },
+    "passé_antérieur_indicatif": {
+    "je": "eus expliqué",
+    "tu": "eus expliqué",
+    "il": "eut expliqué",
+    "elle": "eut expliqué",
+    "nous": "eûmes expliqué",
+    "vous": "eûtes expliqué",
+    "ils": "eurent expliqué",
+    "elles": "eurent expliqué"
+    },
+    "présent_conditionnel": {
+    "je": "expliquerais",
+    "tu": "expliquerais",
+    "il": "expliquerait",
+    "elle": "expliquerait",
+    "nous": "expliquerions",
+    "vous": "expliqueriez",
+    "ils": "expliqueraient",
+    "elles": "expliqueraient"
+    },
+    "passé_conditionnel": {
+    "je": "aurais expliqué",
+    "tu": "aurais expliqué",
+    "il": "aurait expliqué",
+    "elle": "aurait expliqué",
+    "nous": "aurions expliqué",
+    "vous": "auriez expliqué",
+    "ils": "auraient expliqué",
+    "elles": "auraient expliqué"
+    },
+    "imperatif": {
+    "tu": "explique",
+    "nous": "expliquons",
+    "vous": "expliquez"
+    }
+    }
+    }
+
+]
