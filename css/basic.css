@@ -46,3 +46,7 @@ button {
   width: 100mm;
   height: 100mm;
 }
+
+#verbix_logo {
+  vertical-align: middle;
+}
