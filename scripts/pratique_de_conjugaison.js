@@ -46,7 +46,6 @@ async function init_page() {
     document.getElementById("answer_input").addEventListener("keydown", try_submit_answer)
 
     await parse_and_filter_json()
-    console.log(loaded_json)
     get_next_question()
 }
 
@@ -168,8 +167,6 @@ function check_answer_correct() {
             all_correct_answers.push( correct_answer_forms[i] )
     }
 
-    console.log(all_correct_answers)
-
     // now check all correct answers against the user input
     let cur_answer_no_pronoun = current_answer
 
@@ -182,12 +179,10 @@ function check_answer_correct() {
         }
     }
 
-    console.log(cur_answer_no_pronoun)
-
     let simplified_cur_answer = simplify_string(cur_answer_no_pronoun)
 
     for(let i = 0; i < all_correct_answers.length; ++i) {
-        console.log(`Comparing ${simplified_cur_answer} to ${simplify_string( all_correct_answers[i] )}`)
+        //console.log(`Comparing ${simplified_cur_answer} to ${simplify_string( all_correct_answers[i] )}`)
         if( simplified_cur_answer == simplify_string( all_correct_answers[i] ) )
         {
             is_correct = true
