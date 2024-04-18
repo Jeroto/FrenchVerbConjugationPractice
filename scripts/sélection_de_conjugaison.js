@@ -22,7 +22,7 @@ const ALL_VERB_GROUPS = [
 
     "er_standard",    "er_non_standard",
     "ir_standard",  "ir_non_standard",
-    "re_standard",  "re_non_standard",
+    "re_non_standard",
 ]
 
 function init_page() {
@@ -142,7 +142,7 @@ function update_buttons() {
     set_button_display("aucun_temps", "Aucun", are_all_tenses_disabled())
 
     set_button_display("présent_indicatif", "Présent Indicatif", verb_tenses.includes("présent_indicatif"))
-    set_button_display("passé_composé_indicatif", "Passé Composé Indicati", verb_tenses.includes("passé_composé_indicatif"))
+    set_button_display("passé_composé_indicatif", "Passé Composé Indicatif", verb_tenses.includes("passé_composé_indicatif"))
     set_button_display("imparfait_indicatif", "Imparfait Indicatif", verb_tenses.includes("imparfait_indicatif"))
     set_button_display("plus_que_parfait_indicatif", "Plus que Parfait Indicatif", verb_tenses.includes("plus_que_parfait_indicatif"))
     set_button_display("futur_simple_indicatif", "Futur Simple Indicatif", verb_tenses.includes("futur_simple_indicatif"))
@@ -164,7 +164,6 @@ function update_buttons() {
 
     set_button_display("er_standard", "'er' Standards", verb_groups.includes("er_standard"))
     set_button_display("ir_standard", "'ir' Standards", verb_groups.includes("ir_standard"))
-    set_button_display("re_standard", "'re' Standards", verb_groups.includes("re_standard"))
     set_button_display("er_non_standard", "'er' Non Standards", verb_groups.includes("er_non_standard"))
     set_button_display("ir_non_standard", "'ir' Non Standards", verb_groups.includes("ir_non_standard"))
     set_button_display("re_non_standard", "'re' Non Standards", verb_groups.includes("re_non_standard"))

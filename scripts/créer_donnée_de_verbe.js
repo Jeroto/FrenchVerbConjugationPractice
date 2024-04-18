@@ -35,7 +35,7 @@ function try_create_json() {
     built_verb_data.standard = null
     built_verb_data.participe_présent = null
     built_verb_data.participe_passé = null
-    built_verb_data.tenses = {}
+    built_verb_data.temps = {}
 
 
     built_verb_data.infinitif = try_get_infinitive(input_text)
@@ -51,49 +51,49 @@ function try_create_json() {
     let new_tense_obj = null
     new_tense_obj = create_tense_object(input_text, "Présent", "Indicatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["présent_indicatif"] = new_tense_obj
+        built_verb_data.temps["présent_indicatif"] = new_tense_obj
 
     new_tense_obj = create_tense_object(input_text, "Passé composé", "Indicatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["passé_composé_indicatif"] = new_tense_obj
+        built_verb_data.temps["passé_composé_indicatif"] = new_tense_obj
 
     new_tense_obj = create_tense_object(input_text, "Imparfait", "Indicatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["imparfait_indicatif"] = new_tense_obj
+        built_verb_data.temps["imparfait_indicatif"] = new_tense_obj
 
     new_tense_obj = create_tense_object(input_text, "Plus-que-parfait", "Indicatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["plus_que_parfait_indicatif"] = new_tense_obj
+        built_verb_data.temps["plus_que_parfait_indicatif"] = new_tense_obj
 
     new_tense_obj = create_tense_object(input_text, "Futur simple", "Indicatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["futur_simple_indicatif"] = new_tense_obj
+        built_verb_data.temps["futur_simple_indicatif"] = new_tense_obj
 
     new_tense_obj = create_tense_object(input_text, "Futur antérieur", "Indicatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["futur_antérieur_indicatif"] = new_tense_obj
+        built_verb_data.temps["futur_antérieur_indicatif"] = new_tense_obj
 
     new_tense_obj = create_tense_object(input_text, "Passé simple", "Indicatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["passé_simple_indicatif"] = new_tense_obj
+        built_verb_data.temps["passé_simple_indicatif"] = new_tense_obj
 
     new_tense_obj = create_tense_object(input_text, "Passé antérieur", "Indicatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["passé_antérieur_indicatif"] = new_tense_obj
+        built_verb_data.temps["passé_antérieur_indicatif"] = new_tense_obj
 
 
     new_tense_obj = create_tense_object(input_text, "Présent", "Conditionnel")
     if(new_tense_obj != null)
-        built_verb_data.tenses["présent_conditionnel"] = new_tense_obj
+        built_verb_data.temps["présent_conditionnel"] = new_tense_obj
 
     new_tense_obj = create_tense_object(input_text, "Passé", "Conditionnel")
     if(new_tense_obj != null)
-        built_verb_data.tenses["passé_conditionnel"] = new_tense_obj
+        built_verb_data.temps["passé_conditionnel"] = new_tense_obj
 
 
     new_tense_obj = create_tense_object(input_text, "NONE", "Imperatif")
     if(new_tense_obj != null)
-        built_verb_data.tenses["imperatif"] = new_tense_obj
+        built_verb_data.temps["imperatif"] = new_tense_obj
 
     output_json_obj(built_verb_data)
 
@@ -229,6 +229,13 @@ function create_tense_object(input_text, tense_title_text, mood_title_text) {
     for(let i = 0; i < entry_layout.length; ++i)
     {
         tense_obj_out[ entry_layout[i].pronoun ] = entry_array[ entry_layout[i].index ].trim()
+
+        // change gendered terms to force correct gender agreement
+        if( entry_layout[i].pronoun == "il" || entry_layout[i].pronoun == "ils" )
+            tense_obj_out[ entry_layout[i].pronoun ] = tense_obj_out[ entry_layout[i].pronoun ].replace("(e)", "")
+
+        if( entry_layout[i].pronoun == "elle" || entry_layout[i].pronoun == "elles" )
+            tense_obj_out[ entry_layout[i].pronoun ] = tense_obj_out[ entry_layout[i].pronoun ].replace("(e)", "e")
     }
 
     return tense_obj_out

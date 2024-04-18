@@ -157,44 +157,44 @@ function filter_verb_tenses(verb, tenses = ["all"]) {
     {
         switch(tenses[t]) {
             case "présent_indicatif":
-                rebuilt_tenses["présent_indicatif"] = verb.tenses["présent_indicatif"]
+                rebuilt_tenses["présent_indicatif"] = verb.temps["présent_indicatif"]
                 break
             case "passé_composé_indicatif":
-                rebuilt_tenses["passé_composé_indicatif"] = verb.tenses["passé_composé_indicatif"]
+                rebuilt_tenses["passé_composé_indicatif"] = verb.temps["passé_composé_indicatif"]
                 break
             case "imparfait_indicatif":
-                rebuilt_tenses["imparfait_indicatif"] = verb.tenses["imparfait_indicatif"]
+                rebuilt_tenses["imparfait_indicatif"] = verb.temps["imparfait_indicatif"]
                 break
             case "plus_que_parfait_indicatif":
-                rebuilt_tenses["plus_que_parfait_indicatif"] = verb.tenses["plus_que_parfait_indicatif"]
+                rebuilt_tenses["plus_que_parfait_indicatif"] = verb.temps["plus_que_parfait_indicatif"]
                 break
             case "futur_simple_indicatif":
-                rebuilt_tenses["futur_simple_indicatif"] = verb.tenses["futur_simple_indicatif"]
+                rebuilt_tenses["futur_simple_indicatif"] = verb.temps["futur_simple_indicatif"]
                 break
             case "futur_antérieur_indicatif":
-                rebuilt_tenses["futur_antérieur_indicatif"] = verb.tenses["futur_antérieur_indicatif"]
+                rebuilt_tenses["futur_antérieur_indicatif"] = verb.temps["futur_antérieur_indicatif"]
                 break
             case "passé_simple_indicatif":
-                rebuilt_tenses["passé_simple_indicatif"] = verb.tenses["passé_simple_indicatif"]
+                rebuilt_tenses["passé_simple_indicatif"] = verb.temps["passé_simple_indicatif"]
                 break
             case "passé_antérieur_indicatif":
-                rebuilt_tenses["passé_antérieur_indicatif"] = verb.tenses["passé_antérieur_indicatif"]
+                rebuilt_tenses["passé_antérieur_indicatif"] = verb.temps["passé_antérieur_indicatif"]
                 break
 
             case "présent_conditionnel":
-                rebuilt_tenses["présent_conditionnel"] = verb.tenses["présent_conditionnel"]
+                rebuilt_tenses["présent_conditionnel"] = verb.temps["présent_conditionnel"]
                 break
             case "passé_conditionnel":
-                rebuilt_tenses["passé_conditionnel"] = verb.tenses["passé_conditionnel"]
+                rebuilt_tenses["passé_conditionnel"] = verb.temps["passé_conditionnel"]
                 break
 
             case "imperatif":
-                rebuilt_tenses["imperatif"] = verb.tenses["imperatif"]
+                rebuilt_tenses["imperatif"] = verb.temps["imperatif"]
                 break
         }
     }
 
-    verb.tenses = rebuilt_tenses
+    verb.temps = rebuilt_tenses
 
     return verb
 }

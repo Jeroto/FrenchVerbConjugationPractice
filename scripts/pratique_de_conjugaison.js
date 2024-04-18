@@ -2,6 +2,15 @@ import * as JsonParser from "./analyseur_de_json.js"
 
 const CONJUGATION_PAGE = "./conjugaison.html"
 
+const PRONOUNS = [
+    "je" , "j'",
+    "tu ",
+    "il ", "elle ",
+    "nous ",
+    "vous ",
+    "ils ", "elles "
+]
+
 /** @type {import("./analyseur_de_json.js").Verb[]} */
 let loaded_json = null
 
@@ -75,7 +84,7 @@ function get_next_question() {
     {
         question_tense = get_rand_from_array(selected_verb_tenses)
     }
-    while ( question_verb.tenses[question_tense] == null )
+    while ( question_verb.temps[question_tense] == null && !question_tense.includes("participe") )
 
 
     if(question_tense == "participe_présent")
@@ -90,10 +99,10 @@ function get_next_question() {
     }
     else 
     {
-        let tense_person_keys = Object.keys(question_verb.tenses[question_tense])
+        let tense_person_keys = Object.keys(question_verb.temps[question_tense])
         let person_key = get_rand_from_array( tense_person_keys )
 
-        correct_answer = question_verb.tenses[question_tense][person_key]
+        correct_answer = question_verb.temps[question_tense][person_key]
 
         question_word_string= `<b>${person_key}</b> "<b>${question_verb.infinitif}</b>"`
     }
@@ -132,15 +141,61 @@ function check_answer_correct() {
     let current_answer = document.getElementById("answer_input").value
     let is_correct = false
 
-    let simplified_correct_answer = simplify_string(correct_answer)
-    let simplified_cur_answer = simplify_string(current_answer)
+    // if there are multiple forms which are correct, they are split by /
+    /** @type {String[]} */
+    let correct_answer_forms = correct_answer.split("/")
 
-    console.log(`Comparing ${simplified_correct_answer} to ${simplified_cur_answer}`)
+    // all the possible correct answers are stored in here, with letters in parenthesis being optional
+    /** @type {String[]} */
+    let all_correct_answers = []
 
-    if( simplified_correct_answer == simplified_cur_answer )
-        is_correct = true
+    for(let i = 0; i < correct_answer_forms.length; ++i) {
+        if( correct_answer_forms[i].endsWith("(e)(s)") ) {
+            all_correct_answers.push( correct_answer_forms[i].replace("(e)(s)", "") )
+            all_correct_answers.push( correct_answer_forms[i].replace("(e)(s)", "e") )
+            all_correct_answers.push( correct_answer_forms[i].replace("(e)(s)", "s") )
+            all_correct_answers.push( correct_answer_forms[i].replace("(e)(s)", "es") )
+        }
+        else if( correct_answer_forms[i].includes("(e)") ) {
+            all_correct_answers.push( correct_answer_forms[i].replace("(e)", "") )
+            all_correct_answers.push( correct_answer_forms[i].replace("(e)", "e") )
+        }
+        else if( correct_answer_forms[i].endsWith("(s)") ) {
+            all_correct_answers.push( correct_answer_forms[i].replace("(s)", "") )
+            all_correct_answers.push( correct_answer_forms[i].replace("(s)", "s") )
+        }
+        else
+            all_correct_answers.push( correct_answer_forms[i] )
+    }
 
-    previous_answer = current_answer
+    console.log(all_correct_answers)
+
+    // now check all correct answers against the user input
+    let cur_answer_no_pronoun = current_answer
+
+    for(let i = 0; i < PRONOUNS.length; ++i)
+    {
+        // remove a possible pronoun from the start of the answer
+        if( current_answer.toLowerCase().startsWith(PRONOUNS[i]) ) {
+            cur_answer_no_pronoun = cur_answer_no_pronoun.slice(PRONOUNS[i].length)
+            break
+        }
+    }
+
+    console.log(cur_answer_no_pronoun)
+
+    let simplified_cur_answer = simplify_string(cur_answer_no_pronoun)
+
+    for(let i = 0; i < all_correct_answers.length; ++i) {
+        console.log(`Comparing ${simplified_cur_answer} to ${simplify_string( all_correct_answers[i] )}`)
+        if( simplified_cur_answer == simplify_string( all_correct_answers[i] ) )
+        {
+            is_correct = true
+            break
+        }
+    }
+
+    previous_answer = cur_answer_no_pronoun
     previous_answer_correct = is_correct
 
     if(is_correct)
@@ -161,7 +216,7 @@ function simplify_string(text)
     let modified = String(text)
 
     modified = modified.toLowerCase()
-    modified = remove_strings(modified, [" ", "_", "-", ",", "."])
+    modified = remove_strings(modified, [" ", "_", "-", ",", ".", "(", ")"])
     modified = remove_accents(modified)
     return modified
 }

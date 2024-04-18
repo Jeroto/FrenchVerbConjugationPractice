@@ -4,7 +4,7 @@
         "standard":false,
         "participe_présent":"étant",
         "participe_passé":"été",
-        "tenses": {
+        "temps": {
             "présent_indicatif": {
                 "je":"suis",
                 "tu":"es",
@@ -99,7 +99,7 @@
         "standard":false,
         "participe_présent":"ayant",
         "participe_passé":"eu",
-        "tenses": {
+        "temps": {
             "présent_indicatif": {
                 "je":"ai",
                 "tu":"as",
@@ -194,7 +194,7 @@
         "standard":false,
         "participe_présent":"pouvant",
         "participe_passé":"pu",
-        "tenses": {
+        "temps": {
             "présent_indicatif": {
                 "je":"peux",
                 "tu":"peux",
@@ -289,7 +289,7 @@
     "standard": false,
     "participe_présent": "faisant",
     "participe_passé": "fait",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "fais",
     "tu": "fais",
@@ -402,7 +402,7 @@
     "standard": false,
     "participe_présent": "mettant",
     "participe_passé": "mis",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "mets",
     "tu": "mets",
@@ -515,7 +515,7 @@
     "standard": false,
     "participe_présent": "disant",
     "participe_passé": "dit",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "dis",
     "tu": "dis",
@@ -628,7 +628,7 @@
     "standard": false,
     "participe_présent": "devant",
     "participe_passé": "dû",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "dois",
     "tu": "dois",
@@ -741,7 +741,7 @@
     "standard": false,
     "participe_présent": "prenant",
     "participe_passé": "pris",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "prends",
     "tu": "prends",
@@ -854,7 +854,7 @@
     "standard": true,
     "participe_présent": "donnant",
     "participe_passé": "donné",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "donne",
     "tu": "donnes",
@@ -967,7 +967,7 @@
         "standard":false,
         "participe_présent":"allant",
         "participe_passé":"allé",
-        "tenses": {
+        "temps": {
             "présent_indicatif": {
                 "je":"vais",
                 "tu":"vas",
@@ -979,10 +979,10 @@
             "passé_composé_indicatif": {
                 "je":"suis allé(e)",
                 "tu":"es allé(e)",
-                "il":"est allé(e)", "elle":"est allé(e)",
+                "il":"est allé", "elle":"est allée",
                 "nous":"sommes allé(e)s",
                 "vous":"êtes allé(e)(s)",
-                "ils":"sont allé(e)s", "elles":"sont allé(e)s"
+                "ils":"sont allés", "elles":"sont allées"
             },
             "imparfait_indicatif": {
                 "je":"allais",
@@ -995,10 +995,10 @@
             "plus_que_parfait_indicatif": {
                 "je":"étais allé(e)",
                 "tu":"étais allé(e)",
-                "il":"était allé(e)", "elle":"était allé(e)",
+                "il":"était allé", "elle":"était allée",
                 "nous":"étions allé(e)s",
                 "vous":"étiez allé(e)(s)",
-                "ils":"étaient allé(e)s", "elles":"étaient allé(e)s"
+                "ils":"étaient allés", "elles":"étaient allées"
             },
             "futur_simple_indicatif": {
                 "je":"irai",
@@ -1011,10 +1011,10 @@
             "futur_antérieur_indicatif": {
                 "je":"serai allé(e)",
                 "tu":"seras allé(e)",
-                "il":"sera allé(e)", "elle":"sera allé(e)",
+                "il":"sera allé", "elle":"sera allée",
                 "nous":"serons allé(e)s",
                 "vous":"serez allé(e)(s)",
-                "ils":"seront allé(e)s", "elles":"seront allé(e)s"
+                "ils":"seront allés", "elles":"seront allées"
             },
             "passé_simple_indicatif": {
                 "je":"allai",
@@ -1027,10 +1027,10 @@
             "passé_antérieur_indicatif": {
                 "je":"fus allé(e)",
                 "tu":"fus allé(e)",
-                "il":"fut allé(e)", "elle":"fut allé(e)",
+                "il":"fut allé", "elle":"fut allée",
                 "nous":"fûmes allé(e)s",
                 "vous":"fûtes allé(e)(s)",
-                "ils":"furent allé(e)s", "elles":"furent allé(e)s"
+                "ils":"furent allés", "elles":"furent allées"
             },
     
             "présent_conditionnel": {
@@ -1044,10 +1044,10 @@
             "passé_conditionnel": {
                 "je":"serais allé(e)",
                 "tu":"serais allé(e)",
-                "il":"serait allé(e)", "elle":"serait allé(e)",
+                "il":"serait allé", "elle":"serait allée",
                 "nous":"serions allé(e)s",
                 "vous":"seriez allé(e)(s)",
-                "ils":"seraient allé(e)s", "elles":"seraient allé(e)s"
+                "ils":"seraient allés", "elles":"seraient allées"
             },
     
             "imperatif": {
@@ -1062,7 +1062,7 @@
     "standard": false,
     "participe_présent": "voulant",
     "participe_passé": "voulu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "veux",
     "tu": "veux",
@@ -1164,9 +1164,9 @@
     "elles": "auraient voulu"
     },
     "imperatif": {
-    "tu": "veux ; veuille",
-    "nous": "voulons ; veuillons",
-    "vous": "voulez ; veuillez"
+    "tu": "veux/veuille",
+    "nous": "voulons/veuillons",
+    "vous": "voulez/veuillez"
     }
     }
     },
@@ -1175,7 +1175,7 @@
     "standard": false,
     "participe_présent": "sachant",
     "participe_passé": "su",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "sais",
     "tu": "sais",
@@ -1288,7 +1288,7 @@
     "standard": false,
     "participe_présent": "fallant",
     "participe_passé": "fallu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "il": "faut",
     "elle": "faut"
@@ -1336,7 +1336,7 @@
     "standard": false,
     "participe_présent": "voyant",
     "participe_passé": "vu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "vois",
     "tu": "vois",
@@ -1449,7 +1449,7 @@
     "standard": true,
     "participe_présent": "demandant",
     "participe_passé": "demandé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "demande",
     "tu": "demandes",
@@ -1562,7 +1562,7 @@
     "standard": true,
     "participe_présent": "trouvant",
     "participe_passé": "trouvé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "trouve",
     "tu": "trouves",
@@ -1675,7 +1675,7 @@
     "standard": false,
     "participe_présent": "rendant",
     "participe_passé": "rendu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "rends",
     "tu": "rends",
@@ -1788,7 +1788,7 @@
     "standard": false,
     "participe_présent": "venant",
     "participe_passé": "venu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "viens",
     "tu": "viens",
@@ -1802,12 +1802,12 @@
     "passé_composé_indicatif": {
     "je": "suis venu(e)",
     "tu": "es venu(e)",
-    "il": "est venu(e)",
-    "elle": "est venu(e)",
+    "il": "est venu",
+    "elle": "est venue",
     "nous": "sommes venu(e)s",
     "vous": "êtes venu(e)(s)",
-    "ils": "sont venu(e)s",
-    "elles": "sont venu(e)s"
+    "ils": "sont venus",
+    "elles": "sont venues"
     },
     "imparfait_indicatif": {
     "je": "venais",
@@ -1822,12 +1822,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais venu(e)",
     "tu": "étais venu(e)",
-    "il": "était venu(e)",
-    "elle": "était venu(e)",
+    "il": "était venu",
+    "elle": "était venue",
     "nous": "étions venu(e)s",
     "vous": "étiez venu(e)(s)",
-    "ils": "étaient venu(e)s",
-    "elles": "étaient venu(e)s"
+    "ils": "étaient venus",
+    "elles": "étaient venues"
     },
     "futur_simple_indicatif": {
     "je": "viendrai",
@@ -1842,12 +1842,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai venu(e)",
     "tu": "seras venu(e)",
-    "il": "sera venu(e)",
-    "elle": "sera venu(e)",
+    "il": "sera venu",
+    "elle": "sera venue",
     "nous": "serons venu(e)s",
     "vous": "serez venu(e)(s)",
-    "ils": "seront venu(e)s",
-    "elles": "seront venu(e)s"
+    "ils": "seront venus",
+    "elles": "seront venues"
     },
     "passé_simple_indicatif": {
     "je": "vins",
@@ -1862,12 +1862,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus venu(e)",
     "tu": "fus venu(e)",
-    "il": "fut venu(e)",
-    "elle": "fut venu(e)",
+    "il": "fut venu",
+    "elle": "fut venue",
     "nous": "fûmes venu(e)s",
     "vous": "fûtes venu(e)(s)",
-    "ils": "furent venu(e)s",
-    "elles": "furent venu(e)s"
+    "ils": "furent venus",
+    "elles": "furent venues"
     },
     "présent_conditionnel": {
     "je": "viendrais",
@@ -1882,12 +1882,12 @@
     "passé_conditionnel": {
     "je": "serais venu(e)",
     "tu": "serais venu(e)",
-    "il": "serait venu(e)",
-    "elle": "serait venu(e)",
+    "il": "serait venu",
+    "elle": "serait venue",
     "nous": "serions venu(e)s",
     "vous": "seriez venu(e)(s)",
-    "ils": "seraient venu(e)s",
-    "elles": "seraient venu(e)s"
+    "ils": "seraient venus",
+    "elles": "seraient venues"
     },
     "imperatif": {
     "tu": "viens",
@@ -1901,7 +1901,7 @@
     "standard": true,
     "participe_présent": "passant",
     "participe_passé": "passé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "passe",
     "tu": "passes",
@@ -1913,14 +1913,14 @@
     "elles": "passent"
     },
     "passé_composé_indicatif": {
-    "je": "ai passé; suis passé(e)",
-    "tu": "as passé; es passé(e)",
-    "il": "a passé; est passé(e)",
-    "elle": "a passé; est passé(e)",
-    "nous": "avons passé; sommes passé(e)s",
-    "vous": "avez passé; êtes passé(e)(s)",
-    "ils": "ont passé; sont passé(e)s",
-    "elles": "ont passé; sont passé(e)s"
+    "je": "ai passé/suis passé(e)",
+    "tu": "as passé/es passé(e)",
+    "il": "a passé/est passé",
+    "elle": "a passé/est passée",
+    "nous": "avons passé/sommes passé(e)s",
+    "vous": "avez passé/êtes passé(e)(s)",
+    "ils": "ont passé/sont passés",
+    "elles": "ont passé/sont passées"
     },
     "imparfait_indicatif": {
     "je": "passais",
@@ -1933,14 +1933,14 @@
     "elles": "passaient"
     },
     "plus_que_parfait_indicatif": {
-    "je": "avais passé; étais passé(e)",
-    "tu": "avais passé; étais passé(e)",
-    "il": "avait passé; était passé(e)",
-    "elle": "avait passé; était passé(e)",
-    "nous": "avions passé; étions passé(e)s",
-    "vous": "aviez passé; étiez passé(e)(s)",
-    "ils": "avaient passé; étaient passé(e)s",
-    "elles": "avaient passé; étaient passé(e)s"
+    "je": "avais passé/étais passé(e)",
+    "tu": "avais passé/étais passé(e)",
+    "il": "avait passé/était passé(e)",
+    "elle": "avait passé/était passé(e)",
+    "nous": "avions passé/étions passé(e)s",
+    "vous": "aviez passé/étiez passé(e)(s)",
+    "ils": "avaient passé/étaient passé(e)s",
+    "elles": "avaient passé/étaient passé(e)s"
     },
     "futur_simple_indicatif": {
     "je": "passerai",
@@ -1953,14 +1953,14 @@
     "elles": "passeront"
     },
     "futur_antérieur_indicatif": {
-    "je": "aurai passé; serai passé(e)",
-    "tu": "auras passé; seras passé(e)",
-    "il": "aura passé; sera passé(e)",
-    "elle": "aura passé; sera passé(e)",
-    "nous": "aurons passé; serons passé(e)s",
-    "vous": "aurez passé; serez passé(e)(s)",
-    "ils": "auront passé; seront passé(e)s",
-    "elles": "auront passé; seront passé(e)s"
+    "je": "aurai passé/serai passé(e)",
+    "tu": "auras passé/seras passé(e)",
+    "il": "aura passé/sera passé(e)",
+    "elle": "aura passé/sera passé(e)",
+    "nous": "aurons passé/serons passé(e)s",
+    "vous": "aurez passé/serez passé(e)(s)",
+    "ils": "auront passé/seront passé(e)s",
+    "elles": "auront passé/seront passé(e)s"
     },
     "passé_simple_indicatif": {
     "je": "passai",
@@ -1973,14 +1973,14 @@
     "elles": "passèrent"
     },
     "passé_antérieur_indicatif": {
-    "je": "eus passé; fus passé(e)",
-    "tu": "eus passé; fus passé(e)",
-    "il": "eut passé; fut passé(e)",
-    "elle": "eut passé; fut passé(e)",
-    "nous": "eûmes passé; fûmes passé(e)s",
-    "vous": "eûtes passé; fûtes passé(e)(s)",
-    "ils": "eurent passé; furent passé(e)s",
-    "elles": "eurent passé; furent passé(e)s"
+    "je": "eus passé/fus passé(e)",
+    "tu": "eus passé/fus passé(e)",
+    "il": "eut passé/fut passé(e)",
+    "elle": "eut passé/fut passé(e)",
+    "nous": "eûmes passé/fûmes passé(e)s",
+    "vous": "eûtes passé/fûtes passé(e)(s)",
+    "ils": "eurent passé/furent passé(e)s",
+    "elles": "eurent passé/furent passé(e)s"
     },
     "présent_conditionnel": {
     "je": "passerais",
@@ -1993,14 +1993,14 @@
     "elles": "passeraient"
     },
     "passé_conditionnel": {
-    "je": "aurais passé; serais passé(e)",
-    "tu": "aurais passé; serais passé(e)",
-    "il": "aurait passé; serait passé(e)",
-    "elle": "aurait passé; serait passé(e)",
-    "nous": "aurions passé; serions passé(e)s",
-    "vous": "auriez passé; seriez passé(e)(s)",
-    "ils": "auraient passé; seraient passé(e)s",
-    "elles": "auraient passé; seraient passé(e)s"
+    "je": "aurais passé/serais passé(e)",
+    "tu": "aurais passé/serais passé(e)",
+    "il": "aurait passé/serait passé(e)",
+    "elle": "aurait passé/serait passé(e)",
+    "nous": "aurions passé/serions passé(e)s",
+    "vous": "auriez passé/seriez passé(e)(s)",
+    "ils": "auraient passé/seraient passé(e)s",
+    "elles": "auraient passé/seraient passé(e)s"
     },
     "imperatif": {
     "tu": "passe",
@@ -2014,7 +2014,7 @@
     "standard": false,
     "participe_présent": "comprenant",
     "participe_passé": "compris",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "comprends",
     "tu": "comprends",
@@ -2127,7 +2127,7 @@
     "standard": true,
     "participe_présent": "restant",
     "participe_passé": "resté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "reste",
     "tu": "restes",
@@ -2141,12 +2141,12 @@
     "passé_composé_indicatif": {
     "je": "suis resté(e)",
     "tu": "es resté(e)",
-    "il": "est resté(e)",
-    "elle": "est resté(e)",
+    "il": "est resté",
+    "elle": "est restée",
     "nous": "sommes resté(e)s",
     "vous": "êtes resté(e)(s)",
-    "ils": "sont resté(e)s",
-    "elles": "sont resté(e)s"
+    "ils": "sont restés",
+    "elles": "sont restées"
     },
     "imparfait_indicatif": {
     "je": "restais",
@@ -2161,12 +2161,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais resté(e)",
     "tu": "étais resté(e)",
-    "il": "était resté(e)",
-    "elle": "était resté(e)",
+    "il": "était resté",
+    "elle": "était restée",
     "nous": "étions resté(e)s",
     "vous": "étiez resté(e)(s)",
-    "ils": "étaient resté(e)s",
-    "elles": "étaient resté(e)s"
+    "ils": "étaient restés",
+    "elles": "étaient restées"
     },
     "futur_simple_indicatif": {
     "je": "resterai",
@@ -2181,12 +2181,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai resté(e)",
     "tu": "seras resté(e)",
-    "il": "sera resté(e)",
-    "elle": "sera resté(e)",
+    "il": "sera resté",
+    "elle": "sera restée",
     "nous": "serons resté(e)s",
     "vous": "serez resté(e)(s)",
-    "ils": "seront resté(e)s",
-    "elles": "seront resté(e)s"
+    "ils": "seront restés",
+    "elles": "seront restées"
     },
     "passé_simple_indicatif": {
     "je": "restai",
@@ -2201,12 +2201,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus resté(e)",
     "tu": "fus resté(e)",
-    "il": "fut resté(e)",
-    "elle": "fut resté(e)",
+    "il": "fut resté",
+    "elle": "fut restée",
     "nous": "fûmes resté(e)s",
     "vous": "fûtes resté(e)(s)",
-    "ils": "furent resté(e)s",
-    "elles": "furent resté(e)s"
+    "ils": "furent restés",
+    "elles": "furent restées"
     },
     "présent_conditionnel": {
     "je": "resterais",
@@ -2221,12 +2221,12 @@
     "passé_conditionnel": {
     "je": "serais resté(e)",
     "tu": "serais resté(e)",
-    "il": "serait resté(e)",
-    "elle": "serait resté(e)",
+    "il": "serait resté",
+    "elle": "serait restée",
     "nous": "serions resté(e)s",
     "vous": "seriez resté(e)(s)",
-    "ils": "seraient resté(e)s",
-    "elles": "seraient resté(e)s"
+    "ils": "seraient restés",
+    "elles": "seraient restées"
     },
     "imperatif": {
     "tu": "reste",
@@ -2240,7 +2240,7 @@
     "standard": false,
     "participe_présent": "tenant",
     "participe_passé": "tenu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "tiens",
     "tu": "tiens",
@@ -2353,7 +2353,7 @@
     "standard": true,
     "participe_présent": "portant",
     "participe_passé": "porté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "porte",
     "tu": "portes",
@@ -2466,7 +2466,7 @@
     "standard": true,
     "participe_présent": "parlant",
     "participe_passé": "parlé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "parle",
     "tu": "parles",
@@ -2579,7 +2579,7 @@
     "standard": true,
     "participe_présent": "montrant",
     "participe_passé": "montré",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "montre",
     "tu": "montres",
@@ -2692,7 +2692,7 @@
     "standard": true,
     "participe_présent": "continuant",
     "participe_passé": "continué",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "continue",
     "tu": "continues",
@@ -2805,7 +2805,7 @@
     "standard": true,
     "participe_présent": "pensant",
     "participe_passé": "pensé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "pense",
     "tu": "penses",
@@ -2918,7 +2918,7 @@
     "standard": false,
     "participe_présent": "suivant",
     "participe_passé": "suivi",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "suis",
     "tu": "suis",
@@ -3031,7 +3031,7 @@
     "standard": false,
     "participe_présent": "connaissant",
     "participe_passé": "connu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "connais",
     "tu": "connais",
@@ -3144,7 +3144,7 @@
     "standard": false,
     "participe_présent": "croyant",
     "participe_passé": "cru",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "crois",
     "tu": "crois",
@@ -3257,7 +3257,7 @@
     "standard": true,
     "participe_présent": "commençant",
     "participe_passé": "commencé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "commence",
     "tu": "commences",
@@ -3370,7 +3370,7 @@
     "standard": true,
     "participe_présent": "comptant",
     "participe_passé": "compté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "compte",
     "tu": "comptes",
@@ -3483,7 +3483,7 @@
     "standard": false,
     "participe_présent": "entendant",
     "participe_passé": "entendu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "entends",
     "tu": "entends",
@@ -3596,7 +3596,7 @@
     "standard": false,
     "participe_présent": "attendant",
     "participe_passé": "attendu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "attends",
     "tu": "attends",
@@ -3709,7 +3709,7 @@
     "standard": false,
     "participe_présent": "remettant",
     "participe_passé": "remis",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "remets",
     "tu": "remets",
@@ -3822,7 +3822,7 @@
     "standard": false,
     "participe_présent": "appelant",
     "participe_passé": "appelé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "appelle",
     "tu": "appelles",
@@ -3935,7 +3935,7 @@
     "standard": false,
     "participe_présent": "permettant",
     "participe_passé": "permis",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "permets",
     "tu": "permets",
@@ -4048,7 +4048,7 @@
     "standard": true,
     "participe_présent": "occupant",
     "participe_passé": "occupé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "occupe",
     "tu": "occupes",
@@ -4161,7 +4161,7 @@
     "standard": false,
     "participe_présent": "devenant",
     "participe_passé": "devenu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "deviens",
     "tu": "deviens",
@@ -4175,12 +4175,12 @@
     "passé_composé_indicatif": {
     "je": "suis devenu(e)",
     "tu": "es devenu(e)",
-    "il": "est devenu(e)",
-    "elle": "est devenu(e)",
+    "il": "est devenu",
+    "elle": "est devenue",
     "nous": "sommes devenu(e)s",
     "vous": "êtes devenu(e)(s)",
-    "ils": "sont devenu(e)s",
-    "elles": "sont devenu(e)s"
+    "ils": "sont devenus",
+    "elles": "sont devenues"
     },
     "imparfait_indicatif": {
     "je": "devenais",
@@ -4195,12 +4195,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais devenu(e)",
     "tu": "étais devenu(e)",
-    "il": "était devenu(e)",
-    "elle": "était devenu(e)",
+    "il": "était devenu",
+    "elle": "était devenue",
     "nous": "étions devenu(e)s",
     "vous": "étiez devenu(e)(s)",
-    "ils": "étaient devenu(e)s",
-    "elles": "étaient devenu(e)s"
+    "ils": "étaient devenus",
+    "elles": "étaient devenues"
     },
     "futur_simple_indicatif": {
     "je": "deviendrai",
@@ -4215,12 +4215,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai devenu(e)",
     "tu": "seras devenu(e)",
-    "il": "sera devenu(e)",
-    "elle": "sera devenu(e)",
+    "il": "sera devenu",
+    "elle": "sera devenue",
     "nous": "serons devenu(e)s",
     "vous": "serez devenu(e)(s)",
-    "ils": "seront devenu(e)s",
-    "elles": "seront devenu(e)s"
+    "ils": "seront devenus",
+    "elles": "seront devenues"
     },
     "passé_simple_indicatif": {
     "je": "devins",
@@ -4235,12 +4235,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus devenu(e)",
     "tu": "fus devenu(e)",
-    "il": "fut devenu(e)",
-    "elle": "fut devenu(e)",
+    "il": "fut devenu",
+    "elle": "fut devenue",
     "nous": "fûmes devenu(e)s",
     "vous": "fûtes devenu(e)(s)",
-    "ils": "furent devenu(e)s",
-    "elles": "furent devenu(e)s"
+    "ils": "furent devenus",
+    "elles": "furent devenues"
     },
     "présent_conditionnel": {
     "je": "deviendrais",
@@ -4255,12 +4255,12 @@
     "passé_conditionnel": {
     "je": "serais devenu(e)",
     "tu": "serais devenu(e)",
-    "il": "serait devenu(e)",
-    "elle": "serait devenu(e)",
+    "il": "serait devenu",
+    "elle": "serait devenue",
     "nous": "serions devenu(e)s",
     "vous": "seriez devenu(e)(s)",
-    "ils": "seraient devenu(e)s",
-    "elles": "seraient devenu(e)s"
+    "ils": "seraient devenus",
+    "elles": "seraient devenues"
     },
     "imperatif": {
     "tu": "deviens",
@@ -4274,7 +4274,7 @@
     "standard": false,
     "participe_présent": "partant",
     "participe_passé": "parti",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "pars",
     "tu": "pars",
@@ -4288,12 +4288,12 @@
     "passé_composé_indicatif": {
     "je": "suis parti(e)",
     "tu": "es parti(e)",
-    "il": "est parti(e)",
-    "elle": "est parti(e)",
+    "il": "est parti",
+    "elle": "est partie",
     "nous": "sommes parti(e)s",
     "vous": "êtes parti(e)(s)",
-    "ils": "sont parti(e)s",
-    "elles": "sont parti(e)s"
+    "ils": "sont partis",
+    "elles": "sont parties"
     },
     "imparfait_indicatif": {
     "je": "partais",
@@ -4308,12 +4308,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais parti(e)",
     "tu": "étais parti(e)",
-    "il": "était parti(e)",
-    "elle": "était parti(e)",
+    "il": "était parti",
+    "elle": "était partie",
     "nous": "étions parti(e)s",
     "vous": "étiez parti(e)(s)",
-    "ils": "étaient parti(e)s",
-    "elles": "étaient parti(e)s"
+    "ils": "étaient partis",
+    "elles": "étaient parties"
     },
     "futur_simple_indicatif": {
     "je": "partirai",
@@ -4328,12 +4328,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai parti(e)",
     "tu": "seras parti(e)",
-    "il": "sera parti(e)",
-    "elle": "sera parti(e)",
+    "il": "sera parti",
+    "elle": "sera partie",
     "nous": "serons parti(e)s",
     "vous": "serez parti(e)(s)",
-    "ils": "seront parti(e)s",
-    "elles": "seront parti(e)s"
+    "ils": "seront partis",
+    "elles": "seront parties"
     },
     "passé_simple_indicatif": {
     "je": "partis",
@@ -4348,12 +4348,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus parti(e)",
     "tu": "fus parti(e)",
-    "il": "fut parti(e)",
-    "elle": "fut parti(e)",
+    "il": "fut parti",
+    "elle": "fut partie",
     "nous": "fûmes parti(e)s",
     "vous": "fûtes parti(e)(s)",
-    "ils": "furent parti(e)s",
-    "elles": "furent parti(e)s"
+    "ils": "furent partis",
+    "elles": "furent parties"
     },
     "présent_conditionnel": {
     "je": "partirais",
@@ -4368,12 +4368,12 @@
     "passé_conditionnel": {
     "je": "serais parti(e)",
     "tu": "serais parti(e)",
-    "il": "serait parti(e)",
-    "elle": "serait parti(e)",
+    "il": "serait parti",
+    "elle": "serait partie",
     "nous": "serions parti(e)s",
     "vous": "seriez parti(e)(s)",
-    "ils": "seraient parti(e)s",
-    "elles": "seraient parti(e)s"
+    "ils": "seraient partis",
+    "elles": "seraient parties"
     },
     "imperatif": {
     "tu": "pars",
@@ -4387,7 +4387,7 @@
     "standard": true,
     "participe_présent": "décidant",
     "participe_passé": "décidé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "décide",
     "tu": "décides",
@@ -4500,7 +4500,7 @@
     "standard": true,
     "participe_présent": "arrivant",
     "participe_passé": "arrivé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "arrive",
     "tu": "arrives",
@@ -4514,12 +4514,12 @@
     "passé_composé_indicatif": {
     "je": "suis arrivé(e)",
     "tu": "es arrivé(e)",
-    "il": "est arrivé(e)",
-    "elle": "est arrivé(e)",
+    "il": "est arrivé",
+    "elle": "est arrivée",
     "nous": "sommes arrivé(e)s",
     "vous": "êtes arrivé(e)(s)",
-    "ils": "sont arrivé(e)s",
-    "elles": "sont arrivé(e)s"
+    "ils": "sont arrivés",
+    "elles": "sont arrivées"
     },
     "imparfait_indicatif": {
     "je": "arrivais",
@@ -4534,12 +4534,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais arrivé(e)",
     "tu": "étais arrivé(e)",
-    "il": "était arrivé(e)",
-    "elle": "était arrivé(e)",
+    "il": "était arrivé",
+    "elle": "était arrivée",
     "nous": "étions arrivé(e)s",
     "vous": "étiez arrivé(e)(s)",
-    "ils": "étaient arrivé(e)s",
-    "elles": "étaient arrivé(e)s"
+    "ils": "étaient arrivés",
+    "elles": "étaient arrivées"
     },
     "futur_simple_indicatif": {
     "je": "arriverai",
@@ -4554,12 +4554,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai arrivé(e)",
     "tu": "seras arrivé(e)",
-    "il": "sera arrivé(e)",
-    "elle": "sera arrivé(e)",
+    "il": "sera arrivé",
+    "elle": "sera arrivée",
     "nous": "serons arrivé(e)s",
     "vous": "serez arrivé(e)(s)",
-    "ils": "seront arrivé(e)s",
-    "elles": "seront arrivé(e)s"
+    "ils": "seront arrivés",
+    "elles": "seront arrivées"
     },
     "passé_simple_indicatif": {
     "je": "arrivai",
@@ -4574,12 +4574,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus arrivé(e)",
     "tu": "fus arrivé(e)",
-    "il": "fut arrivé(e)",
-    "elle": "fut arrivé(e)",
+    "il": "fut arrivé",
+    "elle": "fut arrivée",
     "nous": "fûmes arrivé(e)s",
     "vous": "fûtes arrivé(e)(s)",
-    "ils": "furent arrivé(e)s",
-    "elles": "furent arrivé(e)s"
+    "ils": "furent arrivés",
+    "elles": "furent arrivées"
     },
     "présent_conditionnel": {
     "je": "arriverais",
@@ -4594,12 +4594,12 @@
     "passé_conditionnel": {
     "je": "serais arrivé(e)",
     "tu": "serais arrivé(e)",
-    "il": "serait arrivé(e)",
-    "elle": "serait arrivé(e)",
+    "il": "serait arrivé",
+    "elle": "serait arrivée",
     "nous": "serions arrivé(e)s",
     "vous": "seriez arrivé(e)(s)",
-    "ils": "seraient arrivé(e)s",
-    "elles": "seraient arrivé(e)s"
+    "ils": "seraient arrivés",
+    "elles": "seraient arrivées"
     },
     "imperatif": {
     "tu": "arrive",
@@ -4613,7 +4613,7 @@
     "standard": false,
     "participe_présent": "servant",
     "participe_passé": "servi",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "sers",
     "tu": "sers",
@@ -4726,7 +4726,7 @@
     "standard": true,
     "participe_présent": "semblant",
     "participe_passé": "semblé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "semble",
     "tu": "sembles",
@@ -4839,7 +4839,7 @@
     "standard": false,
     "participe_présent": "revenant",
     "participe_passé": "revenu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "reviens",
     "tu": "reviens",
@@ -4853,12 +4853,12 @@
     "passé_composé_indicatif": {
     "je": "suis revenu(e)",
     "tu": "es revenu(e)",
-    "il": "est revenu(e)",
-    "elle": "est revenu(e)",
+    "il": "est revenu",
+    "elle": "est revenue",
     "nous": "sommes revenu(e)s",
     "vous": "êtes revenu(e)(s)",
-    "ils": "sont revenu(e)s",
-    "elles": "sont revenu(e)s"
+    "ils": "sont revenus",
+    "elles": "sont revenues"
     },
     "imparfait_indicatif": {
     "je": "revenais",
@@ -4873,12 +4873,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais revenu(e)",
     "tu": "étais revenu(e)",
-    "il": "était revenu(e)",
-    "elle": "était revenu(e)",
+    "il": "était revenu",
+    "elle": "était revenue",
     "nous": "étions revenu(e)s",
     "vous": "étiez revenu(e)(s)",
-    "ils": "étaient revenu(e)s",
-    "elles": "étaient revenu(e)s"
+    "ils": "étaient revenus",
+    "elles": "étaient revenues"
     },
     "futur_simple_indicatif": {
     "je": "reviendrai",
@@ -4893,12 +4893,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai revenu(e)",
     "tu": "seras revenu(e)",
-    "il": "sera revenu(e)",
-    "elle": "sera revenu(e)",
+    "il": "sera revenu",
+    "elle": "sera revenue",
     "nous": "serons revenu(e)s",
     "vous": "serez revenu(e)(s)",
-    "ils": "seront revenu(e)s",
-    "elles": "seront revenu(e)s"
+    "ils": "seront revenus",
+    "elles": "seront revenues"
     },
     "passé_simple_indicatif": {
     "je": "revins",
@@ -4913,12 +4913,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus revenu(e)",
     "tu": "fus revenu(e)",
-    "il": "fut revenu(e)",
-    "elle": "fut revenu(e)",
+    "il": "fut revenu",
+    "elle": "fut revenue",
     "nous": "fûmes revenu(e)s",
     "vous": "fûtes revenu(e)(s)",
-    "ils": "furent revenu(e)s",
-    "elles": "furent revenu(e)s"
+    "ils": "furent revenus",
+    "elles": "furent revenues"
     },
     "présent_conditionnel": {
     "je": "reviendrais",
@@ -4933,12 +4933,12 @@
     "passé_conditionnel": {
     "je": "serais revenu(e)",
     "tu": "serais revenu(e)",
-    "il": "serait revenu(e)",
-    "elle": "serait revenu(e)",
+    "il": "serait revenu",
+    "elle": "serait revenue",
     "nous": "serions revenu(e)s",
     "vous": "seriez revenu(e)(s)",
-    "ils": "seraient revenu(e)s",
-    "elles": "seraient revenu(e)s"
+    "ils": "seraient revenus",
+    "elles": "seraient revenues"
     },
     "imperatif": {
     "tu": "reviens",
@@ -4952,7 +4952,7 @@
     "standard": true,
     "participe_présent": "laissant",
     "participe_passé": "laissé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "laisse",
     "tu": "laisses",
@@ -5065,7 +5065,7 @@
     "standard": false,
     "participe_présent": "recevant",
     "participe_passé": "reçu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "reçois",
     "tu": "reçois",
@@ -5178,7 +5178,7 @@
     "standard": false,
     "participe_présent": "répondant",
     "participe_passé": "répondu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "réponds",
     "tu": "réponds",
@@ -5291,7 +5291,7 @@
     "standard": false,
     "participe_présent": "vivant",
     "participe_passé": "vécu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "vis",
     "tu": "vis",
@@ -5404,7 +5404,7 @@
     "standard": false,
     "participe_présent": "rappelant",
     "participe_passé": "rappelé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "rappelle",
     "tu": "rappelles",
@@ -5517,7 +5517,7 @@
     "standard": true,
     "participe_présent": "présentant",
     "participe_passé": "présenté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "présente",
     "tu": "présentes",
@@ -5630,7 +5630,7 @@
     "standard": true,
     "participe_présent": "acceptant",
     "participe_passé": "accepté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "accepte",
     "tu": "acceptes",
@@ -5743,7 +5743,7 @@
     "standard": true,
     "participe_présent": "agissant",
     "participe_passé": "agi",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "agis",
     "tu": "agis",
@@ -5856,7 +5856,7 @@
     "standard": true,
     "participe_présent": "posant",
     "participe_passé": "posé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "pose",
     "tu": "poses",
@@ -5969,7 +5969,7 @@
     "standard": true,
     "participe_présent": "jouant",
     "participe_passé": "joué",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "joue",
     "tu": "joues",
@@ -6082,7 +6082,7 @@
     "standard": false,
     "participe_présent": "reconnaissant",
     "participe_passé": "reconnu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "reconnais",
     "tu": "reconnais",
@@ -6195,7 +6195,7 @@
     "standard": true,
     "participe_présent": "choisissant",
     "participe_passé": "choisi",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "choisis",
     "tu": "choisis",
@@ -6308,7 +6308,7 @@
     "standard": true,
     "participe_présent": "touchant",
     "participe_passé": "touché",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "touche",
     "tu": "touches",
@@ -6421,7 +6421,7 @@
     "standard": true,
     "participe_présent": "aimant",
     "participe_passé": "aimé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "aime",
     "tu": "aimes",
@@ -6534,7 +6534,7 @@
     "standard": true,
     "participe_présent": "retrouvant",
     "participe_passé": "retrouvé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "retrouve",
     "tu": "retrouves",
@@ -6647,7 +6647,7 @@
     "standard": false,
     "participe_présent": "perdant",
     "participe_passé": "perdu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "perds",
     "tu": "perds",
@@ -6760,7 +6760,7 @@
     "standard": true,
     "participe_présent": "expliquant",
     "participe_passé": "expliqué",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "explique",
     "tu": "expliques",
@@ -6873,7 +6873,7 @@
     "standard": true,
     "participe_présent": "considérant",
     "participe_passé": "considéré",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "considère",
     "tu": "considères",
@@ -6986,7 +6986,7 @@
     "standard": false,
     "participe_présent": "ouvrant",
     "participe_passé": "ouvert",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "ouvre",
     "tu": "ouvres",
@@ -7099,7 +7099,7 @@
     "standard": true,
     "participe_présent": "gagnant",
     "participe_passé": "gagné",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "gagne",
     "tu": "gagnes",
@@ -7212,7 +7212,7 @@
     "standard": true,
     "participe_présent": "existant",
     "participe_passé": "existé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "existe",
     "tu": "existes",
@@ -7325,7 +7325,7 @@
     "standard": true,
     "participe_présent": "refusant",
     "participe_passé": "refusé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "refuse",
     "tu": "refuses",
@@ -7438,7 +7438,7 @@
     "standard": false,
     "participe_présent": "lisant",
     "participe_passé": "lu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "lis",
     "tu": "lis",
@@ -7551,7 +7551,7 @@
     "standard": true,
     "participe_présent": "réussissant",
     "participe_passé": "réussi",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "réussis",
     "tu": "réussis",
@@ -7664,7 +7664,7 @@
     "standard": true,
     "participe_présent": "changeant",
     "participe_passé": "changé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "change",
     "tu": "changes",
@@ -7777,7 +7777,7 @@
     "standard": true,
     "participe_présent": "travaillant",
     "participe_passé": "travaillé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "travaille",
     "tu": "travailles",
@@ -7890,7 +7890,7 @@
     "standard": true,
     "participe_présent": "représentant",
     "participe_passé": "représenté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "représente",
     "tu": "représentes",
@@ -8003,7 +8003,7 @@
     "standard": true,
     "participe_présent": "assurant",
     "participe_passé": "assuré",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "assure",
     "tu": "assures",
@@ -8116,16 +8116,16 @@
     "standard": false,
     "participe_présent": "essayant",
     "participe_passé": "essayé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
-    "je": "essaye ; essaie",
-    "tu": "essayes ; essaies",
-    "il": "essaye ; essaie",
-    "elle": "essaye ; essaie",
+    "je": "essaye /essaie",
+    "tu": "essayes /essaies",
+    "il": "essaye /essaie",
+    "elle": "essaye /essaie",
     "nous": "essayons",
     "vous": "essayez",
-    "ils": "essayent ; essaient",
-    "elles": "essayent ; essaient"
+    "ils": "essayent /essaient",
+    "elles": "essayent /essaient"
     },
     "passé_composé_indicatif": {
     "je": "ai essayé",
@@ -8158,14 +8158,14 @@
     "elles": "avaient essayé"
     },
     "futur_simple_indicatif": {
-    "je": "essayerai ; essaierai",
-    "tu": "essayeras ; essaieras",
-    "il": "essayera ; essaiera",
-    "elle": "essayera ; essaiera",
-    "nous": "essayerons ; essaierons",
-    "vous": "essayerez ; essaierez",
-    "ils": "essayeront ; essaieront",
-    "elles": "essayeront ; essaieront"
+    "je": "essayerai /essaierai",
+    "tu": "essayeras /essaieras",
+    "il": "essayera /essaiera",
+    "elle": "essayera /essaiera",
+    "nous": "essayerons /essaierons",
+    "vous": "essayerez /essaierez",
+    "ils": "essayeront /essaieront",
+    "elles": "essayeront /essaieront"
     },
     "futur_antérieur_indicatif": {
     "je": "aurai essayé",
@@ -8198,14 +8198,14 @@
     "elles": "eurent essayé"
     },
     "présent_conditionnel": {
-    "je": "essayerais ; essaierais",
-    "tu": "essayerais ; essaierais",
-    "il": "essayerait ; essaierait",
-    "elle": "essayerait ; essaierait",
-    "nous": "essayerions ; essaierions",
-    "vous": "essayeriez ; essaieriez",
-    "ils": "essayeraient ; essaieraient",
-    "elles": "essayeraient ; essaieraient"
+    "je": "essayerais /essaierais",
+    "tu": "essayerais /essaierais",
+    "il": "essayerait /essaierait",
+    "elle": "essayerait /essaierait",
+    "nous": "essayerions /essaierions",
+    "vous": "essayeriez /essaieriez",
+    "ils": "essayeraient /essaieraient",
+    "elles": "essayeraient /essaieraient"
     },
     "passé_conditionnel": {
     "je": "aurais essayé",
@@ -8218,7 +8218,7 @@
     "elles": "auraient essayé"
     },
     "imperatif": {
-    "tu": "essaye ; essaie",
+    "tu": "essaye /essaie",
     "nous": "essayons",
     "vous": "essayez"
     }
@@ -8229,7 +8229,7 @@
     "standard": true,
     "participe_présent": "empêchant",
     "participe_passé": "empêché",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "empêche",
     "tu": "empêches",
@@ -8342,26 +8342,26 @@
     "standard": false,
     "participe_présent": "sortant",
     "participe_passé": "sorti",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
-    "je": "sors ; sortis",
-    "tu": "sors ; sortis",
-    "il": "sort ; sortit",
-    "elle": "sort ; sortit",
-    "nous": "sortons ; sortissons",
-    "vous": "sortez ; sortissez",
-    "ils": "sortent ; sortissent",
-    "elles": "sortent ; sortissent"
+    "je": "sors /sortis",
+    "tu": "sors /sortis",
+    "il": "sort /sortit",
+    "elle": "sort /sortit",
+    "nous": "sortons /sortissons",
+    "vous": "sortez /sortissez",
+    "ils": "sortent /sortissent",
+    "elles": "sortent /sortissent"
     },
     "passé_composé_indicatif": {
     "je": "suis sorti(e)",
     "tu": "es sorti(e)",
-    "il": "est sorti(e)",
-    "elle": "est sorti(e)",
+    "il": "est sorti",
+    "elle": "est sortie",
     "nous": "sommes sorti(e)s",
     "vous": "êtes sorti(e)(s)",
-    "ils": "sont sorti(e)s",
-    "elles": "sont sorti(e)s"
+    "ils": "sont sortis",
+    "elles": "sont sorties"
     },
     "imparfait_indicatif": {
     "je": "sortais",
@@ -8376,12 +8376,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais sorti(e)",
     "tu": "étais sorti(e)",
-    "il": "était sorti(e)",
-    "elle": "était sorti(e)",
+    "il": "était sorti",
+    "elle": "était sortie",
     "nous": "étions sorti(e)s",
     "vous": "étiez sorti(e)(s)",
-    "ils": "étaient sorti(e)s",
-    "elles": "étaient sorti(e)s"
+    "ils": "étaient sortis",
+    "elles": "étaient sorties"
     },
     "futur_simple_indicatif": {
     "je": "sortirai",
@@ -8396,12 +8396,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai sorti(e)",
     "tu": "seras sorti(e)",
-    "il": "sera sorti(e)",
-    "elle": "sera sorti(e)",
+    "il": "sera sorti",
+    "elle": "sera sortie",
     "nous": "serons sorti(e)s",
     "vous": "serez sorti(e)(s)",
-    "ils": "seront sorti(e)s",
-    "elles": "seront sorti(e)s"
+    "ils": "seront sortis",
+    "elles": "seront sorties"
     },
     "passé_simple_indicatif": {
     "je": "sortais",
@@ -8416,12 +8416,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus sorti(e)",
     "tu": "fus sorti(e)",
-    "il": "fut sorti(e)",
-    "elle": "fut sorti(e)",
+    "il": "fut sorti",
+    "elle": "fut sortie",
     "nous": "fûmes sorti(e)s",
     "vous": "fûtes sorti(e)(s)",
-    "ils": "furent sorti(e)s",
-    "elles": "furent sorti(e)s"
+    "ils": "furent sortis",
+    "elles": "furent sorties"
     },
     "présent_conditionnel": {
     "je": "sortirais",
@@ -8436,17 +8436,17 @@
     "passé_conditionnel": {
     "je": "serais sorti(e)",
     "tu": "serais sorti(e)",
-    "il": "serait sorti(e)",
-    "elle": "serait sorti(e)",
+    "il": "serait sorti",
+    "elle": "serait sortie",
     "nous": "serions sorti(e)s",
     "vous": "seriez sorti(e)(s)",
-    "ils": "seraient sorti(e)s",
-    "elles": "seraient sorti(e)s"
+    "ils": "seraient sortis",
+    "elles": "seraient sorties"
     },
     "imperatif": {
-    "tu": "sors ; sortis",
-    "nous": "sortons ; sortissons",
-    "vous": "sortez ; sortissez"
+    "tu": "sors /sortis",
+    "nous": "sortons /sortissons",
+    "vous": "sortez /sortissez"
     }
     }
     },
@@ -8455,7 +8455,7 @@
     "standard": false,
     "participe_présent": "reprenant",
     "participe_passé": "repris",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "reprends",
     "tu": "reprends",
@@ -8568,7 +8568,7 @@
     "standard": true,
     "participe_présent": "menant",
     "participe_passé": "mené",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "mène",
     "tu": "mènes",
@@ -8681,7 +8681,7 @@
     "standard": false,
     "participe_présent": "appartenant",
     "participe_passé": "appartenu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "appartiens",
     "tu": "appartiens",
@@ -8794,7 +8794,7 @@
     "standard": true,
     "participe_présent": "risquant",
     "participe_passé": "risqué",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "risque",
     "tu": "risques",
@@ -8907,7 +8907,7 @@
     "standard": true,
     "participe_présent": "concernant",
     "participe_passé": "concerné",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "concerne",
     "tu": "concernes",
@@ -9020,7 +9020,7 @@
     "standard": false,
     "participe_présent": "apprenant",
     "participe_passé": "appris",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "apprends",
     "tu": "apprends",
@@ -9133,7 +9133,7 @@
     "standard": true,
     "participe_présent": "rencontrant",
     "participe_passé": "rencontré",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "rencontre",
     "tu": "rencontres",
@@ -9246,7 +9246,7 @@
     "standard": true,
     "participe_présent": "créant",
     "participe_passé": "créé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "crée",
     "tu": "crées",
@@ -9359,7 +9359,7 @@
     "standard": false,
     "participe_présent": "obtenant",
     "participe_passé": "obtenu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "obtiens",
     "tu": "obtiens",
@@ -9472,7 +9472,7 @@
     "standard": true,
     "participe_présent": "cherchant",
     "participe_passé": "cherché",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "cherche",
     "tu": "cherches",
@@ -9585,7 +9585,7 @@
     "standard": true,
     "participe_présent": "entrant",
     "participe_passé": "entré",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "entre",
     "tu": "entres",
@@ -9599,12 +9599,12 @@
     "passé_composé_indicatif": {
     "je": "suis entré(e)",
     "tu": "es entré(e)",
-    "il": "est entré(e)",
-    "elle": "est entré(e)",
+    "il": "est entré",
+    "elle": "est entrée",
     "nous": "sommes entré(e)s",
     "vous": "êtes entré(e)(s)",
-    "ils": "sont entré(e)s",
-    "elles": "sont entré(e)s"
+    "ils": "sont entrés",
+    "elles": "sont entrées"
     },
     "imparfait_indicatif": {
     "je": "entrais",
@@ -9619,12 +9619,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais entré(e)",
     "tu": "étais entré(e)",
-    "il": "était entré(e)",
-    "elle": "était entré(e)",
+    "il": "était entré",
+    "elle": "était entrée",
     "nous": "étions entré(e)s",
     "vous": "étiez entré(e)(s)",
-    "ils": "étaient entré(e)s",
-    "elles": "étaient entré(e)s"
+    "ils": "étaient entrés",
+    "elles": "étaient entrées"
     },
     "futur_simple_indicatif": {
     "je": "entrerai",
@@ -9639,12 +9639,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai entré(e)",
     "tu": "seras entré(e)",
-    "il": "sera entré(e)",
-    "elle": "sera entré(e)",
+    "il": "sera entré",
+    "elle": "sera entrée",
     "nous": "serons entré(e)s",
     "vous": "serez entré(e)(s)",
-    "ils": "seront entré(e)s",
-    "elles": "seront entré(e)s"
+    "ils": "seront entrés",
+    "elles": "seront entrées"
     },
     "passé_simple_indicatif": {
     "je": "entrai",
@@ -9659,12 +9659,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus entré(e)",
     "tu": "fus entré(e)",
-    "il": "fut entré(e)",
-    "elle": "fut entré(e)",
+    "il": "fut entré",
+    "elle": "fut entrée",
     "nous": "fûmes entré(e)s",
     "vous": "fûtes entré(e)(s)",
-    "ils": "furent entré(e)s",
-    "elles": "furent entré(e)s"
+    "ils": "furent entrés",
+    "elles": "furent entrées"
     },
     "présent_conditionnel": {
     "je": "entrerais",
@@ -9679,12 +9679,12 @@
     "passé_conditionnel": {
     "je": "serais entré(e)",
     "tu": "serais entré(e)",
-    "il": "serait entré(e)",
-    "elle": "serait entré(e)",
+    "il": "serait entré",
+    "elle": "serait entrée",
     "nous": "serions entré(e)s",
     "vous": "seriez entré(e)(s)",
-    "ils": "seraient entré(e)s",
-    "elles": "seraient entré(e)s"
+    "ils": "seraient entrés",
+    "elles": "seraient entrées"
     },
     "imperatif": {
     "tu": "entre",
@@ -9698,7 +9698,7 @@
     "standard": true,
     "participe_présent": "proposant",
     "participe_passé": "proposé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "propose",
     "tu": "proposes",
@@ -9811,7 +9811,7 @@
     "standard": true,
     "participe_présent": "apportant",
     "participe_passé": "apporté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "apporte",
     "tu": "apportes",
@@ -9924,7 +9924,7 @@
     "standard": true,
     "participe_présent": "utilisant",
     "participe_passé": "utilisé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "utilise",
     "tu": "utilises",
@@ -10037,7 +10037,7 @@
     "standard": false,
     "participe_présent": "atteignant",
     "participe_passé": "atteint",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "atteins",
     "tu": "atteins",
@@ -10150,7 +10150,7 @@
     "standard": true,
     "participe_présent": "tentant",
     "participe_passé": "tenté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "tente",
     "tu": "tentes",
@@ -10263,7 +10263,7 @@
     "standard": true,
     "participe_présent": "important",
     "participe_passé": "importé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "importe",
     "tu": "importes",
@@ -10376,7 +10376,7 @@
     "standard": true,
     "participe_présent": "ajoutant",
     "participe_passé": "ajouté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "ajoute",
     "tu": "ajoutes",
@@ -10489,7 +10489,7 @@
     "standard": false,
     "participe_présent": "produisant",
     "participe_passé": "produit",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "produis",
     "tu": "produis",
@@ -10602,7 +10602,7 @@
     "standard": true,
     "participe_présent": "préparant",
     "participe_passé": "préparé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "prépare",
     "tu": "prépares",
@@ -10715,7 +10715,7 @@
     "standard": true,
     "participe_présent": "relevant",
     "participe_passé": "relevé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "relève",
     "tu": "relèves",
@@ -10828,7 +10828,7 @@
     "standard": false,
     "participe_présent": "écrivant",
     "participe_passé": "écrit",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "écris",
     "tu": "écris",
@@ -10941,7 +10941,7 @@
     "standard": false,
     "participe_présent": "défendant",
     "participe_passé": "défendu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "défends",
     "tu": "défends",
@@ -11054,7 +11054,7 @@
     "standard": true,
     "participe_présent": "tirant",
     "participe_passé": "tiré",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "tire",
     "tu": "tires",
@@ -11167,7 +11167,7 @@
     "standard": true,
     "participe_présent": "annulant",
     "participe_passé": "annulé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "annule",
     "tu": "annules",
@@ -11280,7 +11280,7 @@
     "standard": false,
     "participe_présent": "contenant",
     "participe_passé": "contenu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "contiens",
     "tu": "contiens",
@@ -11393,7 +11393,7 @@
     "standard": true,
     "participe_présent": "dansant",
     "participe_passé": "dansé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "danse",
     "tu": "danses",
@@ -11506,7 +11506,7 @@
     "standard": true,
     "participe_présent": "écoutant",
     "participe_passé": "écouté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "écoute",
     "tu": "écoutes",
@@ -11619,7 +11619,7 @@
     "standard": false,
     "participe_présent": "jetant",
     "participe_passé": "jeté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "jette",
     "tu": "jettes",
@@ -11732,7 +11732,7 @@
     "standard": true,
     "participe_présent": "remplissant",
     "participe_passé": "rempli",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "remplis",
     "tu": "remplis",
@@ -11845,7 +11845,7 @@
     "standard": true,
     "participe_présent": "volant",
     "participe_passé": "volé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "vole",
     "tu": "voles",
@@ -11958,7 +11958,7 @@
     "standard": false,
     "participe_présent": "achetant",
     "participe_passé": "acheté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "achète",
     "tu": "achètes",
@@ -12071,7 +12071,7 @@
     "standard": false,
     "participe_présent": "buvant",
     "participe_passé": "bu",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "bois",
     "tu": "bois",
@@ -12184,7 +12184,7 @@
     "standard": true,
     "participe_présent": "coupant",
     "participe_passé": "coupé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "coupe",
     "tu": "coupes",
@@ -12297,7 +12297,7 @@
     "standard": true,
     "participe_présent": "emmenant",
     "participe_passé": "emmené",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "emmène",
     "tu": "emmènes",
@@ -12410,7 +12410,7 @@
     "standard": true,
     "participe_présent": "lavant",
     "participe_passé": "lavé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "lave",
     "tu": "laves",
@@ -12523,7 +12523,7 @@
     "standard": true,
     "participe_présent": "oubliant",
     "participe_passé": "oublié",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "oublie",
     "tu": "oublies",
@@ -12636,7 +12636,7 @@
     "standard": true,
     "participe_présent": "réparant",
     "participe_passé": "réparé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "répare",
     "tu": "répares",
@@ -12749,7 +12749,7 @@
     "standard": true,
     "participe_présent": "terminant",
     "participe_passé": "terminé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "termine",
     "tu": "termines",
@@ -12862,7 +12862,7 @@
     "standard": true,
     "participe_présent": "cassant",
     "participe_passé": "cassé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "casse",
     "tu": "casses",
@@ -12975,7 +12975,7 @@
     "standard": false,
     "participe_présent": "conduisant",
     "participe_passé": "conduit",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "conduis",
     "tu": "conduis",
@@ -13088,7 +13088,7 @@
     "standard": true,
     "participe_présent": "dessinant",
     "participe_passé": "dessiné",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "dessine",
     "tu": "dessines",
@@ -13201,7 +13201,7 @@
     "standard": true,
     "participe_présent": "mangeant",
     "participe_passé": "mangé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "mange",
     "tu": "manges",
@@ -13314,7 +13314,7 @@
     "standard": true,
     "participe_présent": "peignant",
     "participe_passé": "peigné",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "peigne",
     "tu": "peignes",
@@ -13427,7 +13427,7 @@
     "standard": true,
     "participe_présent": "prêtant",
     "participe_passé": "prêté",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "prête",
     "tu": "prêtes",
@@ -13540,7 +13540,7 @@
     "standard": true,
     "participe_présent": "tombant",
     "participe_passé": "tombé",
-    "tenses": {
+    "temps": {
     "présent_indicatif": {
     "je": "tombe",
     "tu": "tombes",
@@ -13554,12 +13554,12 @@
     "passé_composé_indicatif": {
     "je": "suis tombé(e)",
     "tu": "es tombé(e)",
-    "il": "est tombé(e)",
-    "elle": "est tombé(e)",
+    "il": "est tombé",
+    "elle": "est tombée",
     "nous": "sommes tombé(e)s",
     "vous": "êtes tombé(e)(s)",
-    "ils": "sont tombé(e)s",
-    "elles": "sont tombé(e)s"
+    "ils": "sont tombés",
+    "elles": "sont tombées"
     },
     "imparfait_indicatif": {
     "je": "tombais",
@@ -13574,12 +13574,12 @@
     "plus_que_parfait_indicatif": {
     "je": "étais tombé(e)",
     "tu": "étais tombé(e)",
-    "il": "était tombé(e)",
-    "elle": "était tombé(e)",
+    "il": "était tombé",
+    "elle": "était tombée",
     "nous": "étions tombé(e)s",
     "vous": "étiez tombé(e)(s)",
-    "ils": "étaient tombé(e)s",
-    "elles": "étaient tombé(e)s"
+    "ils": "étaient tombés",
+    "elles": "étaient tombées"
     },
     "futur_simple_indicatif": {
     "je": "tomberai",
@@ -13594,12 +13594,12 @@
     "futur_antérieur_indicatif": {
     "je": "serai tombé(e)",
     "tu": "seras tombé(e)",
-    "il": "sera tombé(e)",
-    "elle": "sera tombé(e)",
+    "il": "sera tombé",
+    "elle": "sera tombée",
     "nous": "serons tombé(e)s",
     "vous": "serez tombé(e)(s)",
-    "ils": "seront tombé(e)s",
-    "elles": "seront tombé(e)s"
+    "ils": "seront tombés",
+    "elles": "seront tombées"
     },
     "passé_simple_indicatif": {
     "je": "tombai",
@@ -13614,12 +13614,12 @@
     "passé_antérieur_indicatif": {
     "je": "fus tombé(e)",
     "tu": "fus tombé(e)",
-    "il": "fut tombé(e)",
-    "elle": "fut tombé(e)",
+    "il": "fut tombé",
+    "elle": "fut tombée",
     "nous": "fûmes tombé(e)s",
     "vous": "fûtes tombé(e)(s)",
-    "ils": "furent tombé(e)s",
-    "elles": "furent tombé(e)s"
+    "ils": "furent tombés",
+    "elles": "furent tombées"
     },
     "présent_conditionnel": {
     "je": "tomberais",
@@ -13634,12 +13634,12 @@
     "passé_conditionnel": {
     "je": "serais tombé(e)",
     "tu": "serais tombé(e)",
-    "il": "serait tombé(e)",
-    "elle": "serait tombé(e)",
+    "il": "serait tombé",
+    "elle": "serait tombée",
     "nous": "serions tombé(e)s",
     "vous": "seriez tombé(e)(s)",
-    "ils": "seraient tombé(e)s",
-    "elles": "seraient tombé(e)s"
+    "ils": "seraient tombés",
+    "elles": "seraient tombées"
     },
     "imperatif": {
     "tu": "tombe",
