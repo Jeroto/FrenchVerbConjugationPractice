@@ -36,10 +36,10 @@ button {
 }
 
 .incorrect_answer {
-  color:rgba(200, 175, 175, 1)
+  color:rgba(240, 160, 160, 1)
 }
 .correct_answer {
-  color:rgba(175, 200, 175, 1)
+  color:rgba(175, 220, 175, 1)
 }
 
 #verbix_input {

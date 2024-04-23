@@ -106,7 +106,7 @@ function get_next_question() {
         question_word_string= `<b>${person_key}</b> "<b>${question_verb.infinitif}</b>"`
     }
 
-    question_string = `Enter the ${ question_tense.replaceAll("_", " ") } for ${question_word_string} (${question_verb.anglais})`
+    question_string = `Enter the <u>${ question_tense.replaceAll("_", " ") }</u> for ${question_word_string} (${question_verb.anglais})`
 
     update_ui()
 }
