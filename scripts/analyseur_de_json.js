@@ -69,6 +69,36 @@ export function filter_verbs(verb_json, tenses = ["all"], groups = ["all"]) {
 }
 
 /**
+ * @param {Verb[]} verb_json 
+ */
+export function debug_print_verb_counts(verb_json) {
+    let values = Object.values(verb_json)
+    let er_standard = values.filter( verb => does_verb_match_group_filters(verb, ["er_standard"]) ).length
+    let ir_standard = values.filter( verb => does_verb_match_group_filters(verb, ["ir_standard"]) ).length
+
+    let er_non_standard = values.filter( verb => does_verb_match_group_filters(verb, ["er_non_standard"]) ).length
+    let ir_non_standard = values.filter( verb => does_verb_match_group_filters(verb, ["ir_non_standard"]) ).length
+    let re_non_standard = values.filter( verb => does_verb_match_group_filters(verb, ["re_non_standard"]) ).length
+
+    // this should always be 0, but this way we can find if a verb is somehow not categorized properly
+    let other = values.length - (er_standard + ir_standard + er_non_standard + ir_non_standard + re_non_standard)
+
+    let log_message = 
+        `
+        standard er verbs: ${ er_standard }
+        standard ir verbs: ${ ir_standard }
+
+        non-standard er verbs: ${ er_non_standard }
+        non-standard ir verbs: ${ ir_non_standard }
+        non-standard re verbs: ${ re_non_standard }
+
+        other verbs (should be 0): ${ other }
+        `
+
+    console.log( log_message.trim().replaceAll("    ", "") )
+}
+
+/**
  * 
  * @param {Verb} verb 
  * @param {String[]} groups 

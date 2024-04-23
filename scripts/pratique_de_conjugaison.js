@@ -62,6 +62,8 @@ async function parse_and_filter_json() {
     selected_verb_tenses = searchParams.get("temps").split(",")
     selected_verb_groups = searchParams.get("groupes").split(",")
 
+    //JsonParser.debug_print_verb_counts(loaded_json)
+
     loaded_json = JsonParser.filter_verbs(loaded_json, selected_verb_tenses, selected_verb_groups)
     return loaded_json
 }
