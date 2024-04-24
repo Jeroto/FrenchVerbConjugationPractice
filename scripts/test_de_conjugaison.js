@@ -4,7 +4,7 @@ import * as Constants from "./constants.js"
 
 const CONJUGATION_PAGE = "./conjugaison.html"
 
-const MIN_QUESTIONS = 10
+const MIN_QUESTIONS = 1
 
 /** @type {import("./analyseur_de_json.js").Verb[]} */
 let loaded_json = null
