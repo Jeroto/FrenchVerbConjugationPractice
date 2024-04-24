@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Conjugaison</title>
+    <link rel="stylesheet" href="../css/basic.css"> 
+    <script type="module" src="../scripts/sélection_de_conjugaison.js"></script>
+  </head>
+  <body onload="init_page()">
+    <h1>Le Conjugaison des Verbes</h1>
+    <button class="medium_button" id="begin_practice" onclick="go_to_conjugation_practice()">-= Commencer Pratique =-</button>
+    <br>
+    <h2><i>Temps des Verbes</i></h2>
+    <button class="medium_button" id="tous_temps" onclick="include_all_tenses()">Tous</button>
+    <button class="medium_button" id="aucun_temps" onclick="remove_all_tenses()">Aucun</button>
+    <br>
+    <button class="medium_button" id="présent_indicatif" onclick="toggle_tense('présent_indicatif')">Présent Indicatif</button>
+    <button class="medium_button" id="passé_composé_indicatif" onclick="toggle_tense('passé_composé_indicatif')">Passé Composé Indicatif</button>
+    <button class="medium_button" id="imparfait_indicatif" onclick="toggle_tense('imparfait_indicatif')">Imparfait Indicatif</button>
+    <button class="medium_button" id="plus_que_parfait_indicatif" onclick="toggle_tense('plus_que_parfait_indicatif')">Plus que Parfait Indicatif</button>
+    <br>
+    <button class="medium_button" id="futur_simple_indicatif" onclick="toggle_tense('futur_simple_indicatif')">Futur Simple Indicatif</button>
+    <button class="medium_button" id="futur_antérieur_indicatif" onclick="toggle_tense('futur_antérieur_indicatif')">Futur Antérieur Indicatif</button>
+    <button class="medium_button" id="passé_simple_indicatif" onclick="toggle_tense('passé_simple_indicatif')">Passé Simple Indicatif</button>
+    <button class="medium_button" id="passé_antérieur_indicatif" onclick="toggle_tense('passé_antérieur_indicatif')">Passé Antérieur Indicatif</button>
+    <br>
+    <button class="medium_button" id="présent_conditionnel" onclick="toggle_tense('présent_conditionnel')">Présent Conditionnel</button>
+    <button class="medium_button" id="passé_conditionnel" onclick="toggle_tense('passé_conditionnel')">Passé Conditionnel</button>
+    <button class="medium_button" id="imperatif" onclick="toggle_tense('imperatif')">Imperatif</button>
+    <br>
+    <button class="medium_button" id="participe_présent" onclick="toggle_tense('participe_présent')">Participe Présent</button>
+    <button class="medium_button" id="participe_passé" onclick="toggle_tense('participe_passé')">Participe Passé</button>
+
+
+    <h2><i>Groupes des Verbes</i></h2>
+    <button class="medium_button" id="tous_groupes" onclick="include_all_groups()">Tous</button>
+    <button class="medium_button" id="aucun_groupes" onclick="remove_all_groups()">Aucun</button>
+    <br>
+    <button class="medium_button" id="er_standard" onclick="toggle_group('er_standard')">'er' Standards</button>
+    <button class="medium_button" id="ir_standard" onclick="toggle_group('ir_standard')">'ir' Standards</button>
+    <br>
+    <button class="medium_button" id="er_non_standard" onclick="toggle_group('er_non_standard')">'er' Non Standards</button>
+    <button class="medium_button" id="ir_non_standard" onclick="toggle_group('ir_non_standard')">'ir' Non Standards</button>
+    <button class="medium_button" id="re_non_standard" onclick="toggle_group('re_non_standard')">'re' Non Standards</button>
+    <br>
+    <button class="medium_button" id="most_common (additive)" onclick="toggle_group('most_common (additive)')">Les plus Courants (Additif)</button>
+    <button class="medium_button" id="most_common (filter)" onclick="toggle_group('most_common (filter)')">Les plus Courants (Filtre)</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="medium_button" onclick="location.href='../index.html'">Retourner</button>
+  </body>
+</html>

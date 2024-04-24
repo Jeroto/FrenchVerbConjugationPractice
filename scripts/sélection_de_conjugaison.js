@@ -1,3 +1,5 @@
+import * as Constants from "./constants.js"
+
 const PRACTICE_CONJUGATION_PAGE = "pratique_de_conjugaison.html"
 
 const ENABLED_MARK = "✔"
@@ -6,24 +8,23 @@ const DISABLED_MARK = "✕"
 let verb_tenses = []
 let verb_groups = []
 
-const ALL_VERB_TENSES = [
-    "présent_indicatif",    "passé_composé_indicatif",
-    "imparfait_indicatif",  "plus_que_parfait_indicatif",
-    "futur_simple_indicatif",  "futur_antérieur_indicatif",
-    "passé_simple_indicatif",  "passé_antérieur_indicatif",
 
-    "présent_conditionnel",  "passé_conditionnel",
-    "imperatif",
-    "participe_présent", "participe_passé",
-]
+// this will be run when the script is loaded
+add_functions_to_page()
 
-const ALL_VERB_GROUPS = [
-    "most_common (additive)", "most_common (filter)", 
+function add_functions_to_page() {
+    window.init_page = init_page
+    window.go_to_conjugation_practice = go_to_conjugation_practice
 
-    "er_standard",    "er_non_standard",
-    "ir_standard",  "ir_non_standard",
-    "re_non_standard",
-]
+    window.remove_all_tenses = remove_all_tenses
+    window.remove_all_groups = remove_all_groups
+
+    window.include_all_tenses = include_all_tenses
+    window.include_all_groups = include_all_groups
+
+    window.toggle_tense = toggle_tense
+    window.toggle_group = toggle_group
+}
 
 function init_page() {
     try_reload_prev_params()
@@ -72,11 +73,11 @@ function remove_all_groups() {
 }
 
 function include_all_tenses() { 
-    verb_tenses = ALL_VERB_TENSES.slice()
+    verb_tenses = Constants.ALL_VERB_TENSES.slice()
     update_buttons()
 }
 function include_all_groups() { 
-    verb_groups = ALL_VERB_GROUPS.slice()
+    verb_groups = Constants.ALL_VERB_GROUPS.slice()
     // we want to include all groups, except the 'most common' two since they will either add nothing or limit some
     verb_groups.splice( verb_groups.indexOf("most_common (additive)"), 1 )
     verb_groups.splice( verb_groups.indexOf("most_common (filter)"), 1 )
@@ -100,9 +101,9 @@ function toggle_group(group) {
 }
 
 function are_all_tenses_enabled() {
-    for(let i = 0; i < ALL_VERB_TENSES.length; ++i)
+    for(let i = 0; i < Constants.ALL_VERB_TENSES.length; ++i)
     {
-        if( !verb_tenses.includes(ALL_VERB_TENSES[i]) )
+        if( !verb_tenses.includes(Constants.ALL_VERB_TENSES[i]) )
             return false
     }
     return true
@@ -112,15 +113,15 @@ function are_all_tenses_disabled() {
 }
 
 function are_all_groups_enabled() {
-    for(let i = 0; i < ALL_VERB_GROUPS.length; ++i)
+    for(let i = 0; i < Constants.ALL_VERB_GROUPS.length; ++i)
     {
-        switch( ALL_VERB_GROUPS[i] ) {
+        switch( Constants.ALL_VERB_GROUPS[i] ) {
             case "most_common (additive)":
             case "most_common (filter)":
                 continue
         }
 
-        if( !verb_groups.includes(ALL_VERB_GROUPS[i]) )
+        if( !verb_groups.includes(Constants.ALL_VERB_GROUPS[i]) )
             return false
     }
     return true
@@ -134,7 +135,16 @@ function set_button_display(element_id = "", button_text = "", enabled = false) 
     let buttonElement = document.getElementById(element_id)
 
     buttonElement.innerHTML = `${button_text} ${ enabled ? ENABLED_MARK : DISABLED_MARK }`
-    buttonElement.className = enabled ? "enabled_button" : "disabled_button"
+    if(enabled)
+    {
+        buttonElement.classList.add("enabled_button")
+        buttonElement.classList.remove("disabled_button")
+    }
+    else
+    {
+        buttonElement.classList.add("disabled_button")
+        buttonElement.classList.remove("enabled_button")
+    }
 }
 
 function update_buttons() {

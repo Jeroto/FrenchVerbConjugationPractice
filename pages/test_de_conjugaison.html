@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Test de Conjugaison</title>
+    <link rel="stylesheet" href="../css/basic.css"> 
+    <script type="module" src="../scripts/test_de_conjugaison.js"></script>
+  </head>
+  <body onload="init_page()">
+    <h1>Test de Conjugaison</h1>
+    <br>
+    <br>
+    <div id="test_setup_controls">
+      <input id="test_setup_max_questions" type="number" value="100" min="1" max="1000">
+      <t>Nombre Maximum de Questions</t>
+      <br>
+      <button class="medium_button" id="start_test_button" onclick="start_test()">Commencer le Test</button>
+    </div>
+    <div id="main_test_controls" class="hidden">
+      <p id="word_display">No word to display.</p>
+      <input id="answer_input" placeholder="réponse" value="" type="text" autocomplete="off">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="medium_button" onclick="location.href='../index.html'">Retourner</button> 
+    <button id="finish_test_button" onclick="finish_test()" class="medium_button hidden">Terminer Maintenant</button>
+    <br>
+    <p id="percentage_score"></p>
+    <div class="row">
+      <div class="half_column">
+        <p id="correct_responses_display" class="correct_answer"></p>
+      </div>
+      <div class="half_column">
+        <p id="incorrect_responses_display" class="incorrect_answer"></p>
+      </div>
+    </div>
+  </body>
+</html>

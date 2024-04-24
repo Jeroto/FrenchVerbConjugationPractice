@@ -24,7 +24,7 @@ const MOST_COMMON_VERBS = [
  * @property {String} participe_présent
  * @property {String} participe_passé
  * 
- * @property {Record<String, Record<String, String>>} tenses
+ * @property {Record<String, Record<String, String>>} temps
  */
 
 /**
@@ -54,8 +54,6 @@ export function filter_verbs(verb_json, tenses = ["all"], groups = ["all"]) {
 
     let i
     for(i = verb_json.length - 1; i >= 0; --i) {
-
-
         // if this verb isn't in the group, remove it and go to the next
         if(!does_verb_match_group_filters(verb_json[i], groups)) {
             verb_json.splice(i, 1)
