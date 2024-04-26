@@ -78,9 +78,10 @@ function include_all_tenses() {
 }
 function include_all_groups() { 
     verb_groups = Constants.ALL_VERB_GROUPS.slice()
-    // we want to include all groups, except the 'most common' two since they will either add nothing or limit some
+    // we want to include all groups, except additives and filters, since they will either add nothing or limit some
     verb_groups.splice( verb_groups.indexOf("most_common (additive)"), 1 )
     verb_groups.splice( verb_groups.indexOf("most_common (filter)"), 1 )
+    verb_groups.splice( verb_groups.indexOf("etre_and_avoir (additive)"), 1 )
     update_buttons()
 }
 
@@ -118,6 +119,7 @@ function are_all_groups_enabled() {
         switch( Constants.ALL_VERB_GROUPS[i] ) {
             case "most_common (additive)":
             case "most_common (filter)":
+            case "etre_and_avoir (additive)":
                 continue
         }
 
@@ -180,4 +182,5 @@ function update_buttons() {
 
     set_button_display("most_common (additive)", "Les plus Courants (Additif)", verb_groups.includes("most_common (additive)"))
     set_button_display("most_common (filter)", "Les plus Courants (Filtre)", verb_groups.includes("most_common (filter)"))
+    set_button_display("etre_and_avoir (additive)", "Être et Avoir (Additif)", verb_groups.includes("etre_and_avoir (additive)"))
 }

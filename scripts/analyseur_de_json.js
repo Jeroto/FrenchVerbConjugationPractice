@@ -116,6 +116,11 @@ function does_verb_match_group_filters(verb, groups = ["all"]) {
         }
 
         switch(groups[g]) {
+            case "etre_and_avoir (additive)":
+                if(verb.infinitif == "être" || verb.infinitif == "avoir")
+                    return true
+                break
+
             case "most_common (additive)":
                 if( MOST_COMMON_VERBS.includes(verb.infinitif) )
                     return true

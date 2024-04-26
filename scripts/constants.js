@@ -21,6 +21,7 @@ export const ALL_VERB_TENSES = [
 
 export const ALL_VERB_GROUPS = [
     "most_common (additive)", "most_common (filter)", 
+    "etre_and_avoir (additive)",
 
     "er_standard",  "er_non_standard",
     "ir_standard",  "ir_non_standard",
